@@ -7,13 +7,24 @@
       margin: $m-4per 0 $m-2_5per 0;
       width: $w-100per;
       position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: end;
+      align-content: end;
 
       .first-part {
+        &__image-container{
+          flex-basis: 40%;
+          display: flex;
+          justify-content: right;
+          padding-right: 7%;
+        }
+
         &__image {
           width: auto;
           max-height: $maxh-400px;
           border-radius: $br-7px;
-          margin: 0 0 0 $m-10per;
           position: relative;
           z-index: $zi-2;
 
@@ -22,8 +33,6 @@
             z-index: $zi-1;
             max-width: $maxw-200px;
             height: auto;
-            margin-left: calc(100vw / 5.5);
-            margin-right: calc(100vw / 5.5);
           }
         }
       }
@@ -31,6 +40,7 @@
 
     &__middle-part {
       position: absolute;
+      border: 1px solid red;
       left: $left-26per;
       top: $top-8per;
       display: block;

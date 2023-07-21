@@ -26,24 +26,25 @@ form{
 }
 
 .general{
-  margin: auto;
+  // margin: auto;
+  width: 100%;
 
   > p{
-    max-width: $maxw-50per;
+    // max-width: $maxw-50per;
     color: $c-hemp;
     font-family: $f-work-sans;
 
-    @include media-size($ds-laptop){max-width: $maxw-900px;}
-    @include media-size($ds-tablet){max-width: $maxw-700px;}
-    @include media-size($ds-phone){max-width: $maxw-490px;}
+    // @include media-size($ds-laptop){max-width: $maxw-900px;}
+    // @include media-size($ds-tablet){max-width: $maxw-700px;}
+    // @include media-size($ds-phone){max-width: $maxw-490px;}
   }
 
-  @include media-size($ds-desktop){width: $ss-desktop;}
-  @include media-size($ds-large-laptop){width: $ss-large-laptop;}
-  @include media-size($ds-laptop){width: $ss-laptop;}
-  @include media-size($ds-tablet){width: $ss-tablet;}
-  @include media-size($ds-large-phone){width: $ss-large-phone;}
-  @include media-size($ds-phone){width: $ss-phone;}
+  // @include media-size($ds-desktop){width: $ss-desktop;}
+  // @include media-size($ds-large-laptop){width: $ss-large-laptop;}
+  // @include media-size($ds-laptop){width: $ss-laptop;}
+  // @include media-size($ds-tablet){width: $ss-tablet;}
+  // @include media-size($ds-large-phone){width: $ss-large-phone;}
+  // @include media-size($ds-phone){width: $ss-phone;}
 }
 
 .rotate{

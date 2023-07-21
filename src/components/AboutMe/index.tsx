@@ -31,20 +31,24 @@ const AboutMe = () => {
         <div className="main-wrapper__about-me about-me" onMouseOver={middlePart}>
             <div className="general">
                 <div className="about-me__first-part first-part">
-                    <img className="first-part__image" alt='Icon Main' src={MainImage} />
-
+                    <div className='first-part__image-container'>
+                        <img className="first-part__image" alt='Icon Main' src={MainImage} />
+                    </div>
+                    
                     <Circle class="about-me__container-circle-1" classImg="about-me__circle-1 circle" src={Circle_01} />
                     <Circle class="about-me__container-circle-2" classImg="about-me__circle-2 circle" src={Circle_02} />
 
                     {/* Shows the component if showMiddlePart === true */}
                     { showMiddlePart ? <MiddlePart /> : null}
 
-                    <div className="first-part__freelancer freelancer">
-                        <Print component='h2' class='freelancer__main-header margin-zero main-header' text='//I am a freelancer' />
-                        <Print component='p' class='standard-color-and-font' text='Contact me if you want to work with me' />
-                        <div className="freelancer__container-button">
-                            <Print component='div' class='freelancer__hire-me' text='Hire me' />
-                            <Print component='div' class='freelancer__download-cv' text='Download CV' />
+                    <div className='first-part__freelancer-main-container'>
+                        <div className="first-part__freelancer freelancer">
+                            <Print component='h2' class='freelancer__main-header margin-zero main-header' text='//I am a freelancer' />
+                            <Print component='p' class='standard-color-and-font' text='Contact me if you want to work with me' />
+                            <div className="freelancer__container-button">
+                                <Print component='div' class='freelancer__hire-me' text='Hire me' />
+                                <Print component='div' class='freelancer__download-cv' text='Download CV' />
+                            </div>
                         </div>
                     </div>
                     

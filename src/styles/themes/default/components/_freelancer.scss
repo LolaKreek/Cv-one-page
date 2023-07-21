@@ -1,10 +1,15 @@
 // STYLES FOR THE "ABOUT ME" -> "FREELANCER" PART
 .first-part {
+  &__freelancer-main-container{
+    flex-basis: 60%;
+    z-index: 3;
+  }
+
   &__freelancer {
     min-width: $minw-400px;
-    position: absolute;
-    top: $top-55per;
-    left: $left-48per;
+    max-width: 300px;
+    margin: 0 auto 5% auto;
+    color: black;
 
     > p{
       text-align: center;
