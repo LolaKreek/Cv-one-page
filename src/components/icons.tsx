@@ -5,7 +5,7 @@ import Circle_02 from "../icons/circle_02.png";
 import Circle_03 from "../icons/circle_03.png";
 import Circle_05 from "../icons/circle_01.png";
 import PercentageLine from "../icons/percentage_line_100.png";
-import TwitterIcon from "../icons/twitter_icon.png";
+import GitHub from "../icons/github.png";
 import FacebookIcon from "../icons/facebook_icon.png";
 import LinkedinIcon from "../icons/linkedin_icon.png";
 import KontaktIkona from "../icons/kontakt_ikona.png";
@@ -36,13 +36,13 @@ const icons = {
     Circle_03,
     Circle_05,
     PercentageLine,
-    TwitterIcon,
     FacebookIcon,
     LinkedinIcon,
     KontaktIkona,
     TheLast,
     BitBucketIcon,
     DevIcon,
+    GitHub,
     PortfolioCase_01,
     PortfolioCase_02,
     PortfolioCase_03,

@@ -6,7 +6,7 @@ const Menu = () => {
     //Import of required components
     const {Print, List} = components;
     //Import of required icons
-    const {PercentageLine, TwitterIcon, FacebookIcon, LinkedinIcon} = icons;
+    const {PercentageLine, GitHub, FacebookIcon, LinkedinIcon} = icons;
 
     const menuList = [
         {id: 1, href: '#aboutMe', text: 'About me'},
@@ -18,9 +18,9 @@ const Menu = () => {
 
     const iconList = [
         {id: 1, class: 'list-icon__icon rotate', src: PercentageLine},
-        {id: 2, class: 'list-icon__icon', src: TwitterIcon},
-        {id: 3, class: 'list-icon__icon', src: FacebookIcon},
-        {id: 4, class: 'list-icon__icon', src: LinkedinIcon}
+        {id: 4, class: 'list-icon__icon', src: LinkedinIcon},
+        {id: 4, class: 'list-icon__icon git-hub__icon', src: GitHub},
+        {id: 3, class: 'list-icon__icon', src: FacebookIcon}
     ]
 
     return(
