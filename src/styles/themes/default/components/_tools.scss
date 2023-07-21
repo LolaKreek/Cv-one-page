@@ -1,0 +1,55 @@
+// STYLES FOR THE "TOOLS" PART
+.main-wrapper__tools {
+  margin: $m-30px 0;
+  padding: $p-2per 0 $p-3per $p-7per;
+  position: relative;
+  @include background($c-peach-cream, $c-brandy);
+
+  .tools {
+    &__main-icons-wrapper {
+      @include inlineFlex();
+      @include justifyContent(left);
+      @include flexWrap(nowrap);
+      width: $w-100per;
+
+      .icon{
+        @include transition(all 1s);
+        @include transform(rotateY(0deg));
+      
+        &:hover{
+          @include transition(all 1s);
+          @include transform(rotateY(360deg));
+        }
+      }
+
+      @include media-size($ds-large-phone){max-width: $maxw-450px;  @include flexWrap(wrap);}
+      @include media-size($ds-phone){max-width: $maxw-90vw;}
+    }
+
+    &__container-icons {
+      @include flexBasis($fbs-06);
+      background-color: $c-white;
+      border-radius: $br-7px;
+      margin: $m-20px $m-15px 0 0;
+      cursor: pointer;
+      @include boxShadow($boxsh-5px-10px $c-silver-chalice);
+
+      @include media-size($ds-phone){min-width: $minw-40vw;}
+    }
+
+    &__icons {
+      max-width: $maxw-65px;
+      display: block;
+      height: $h-50px;
+      margin: 0 auto;
+    }
+
+    &__inscription {
+      color: $c-hemp;
+      font-family: $f-work-sans;
+      margin: 0;
+      text-align: center;
+      font-size: pxToRem($font-10px);
+    }
+  }
+}

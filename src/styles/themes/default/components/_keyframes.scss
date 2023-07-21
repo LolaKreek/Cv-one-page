@@ -1,0 +1,76 @@
+// STYLES FOR ALL ANIMATIONS KEYFRAMES
+@-webkit-keyframes showBlock {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes showBlock {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes showSkills {
+  from {
+    width: 0;
+  }
+  to {
+    width: 1;
+  }
+}
+
+@keyframes showSkills {
+  from {
+    width: 0;
+  }
+  to {
+    width: 1;
+  }
+}
+
+@-webkit-keyframes showPosts {
+  from {
+    width: 0;
+  }
+  to {
+    width: 1;
+  }
+}
+
+@keyframes showPosts {
+  from {
+    width: 0;
+  }
+  to {
+    width: 1;
+  }
+}
+
+@-webkit-keyframes showNewWork {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+  to {
+    width: 1;
+    opacity: 1;
+  }
+}
+
+@keyframes showNewWork {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+  to {
+    width: 1;
+    opacity: 1;
+  }
+}

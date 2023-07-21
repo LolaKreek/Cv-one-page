@@ -1,0 +1,18 @@
+// Main scss file with all the necessary imports
+//Import global scss files
+@import "../../variables";
+@import "../../mixins";
+@import "../../fonts";
+@import "../../global";
+
+//Import components styles
+@import "./components/freelancer";
+@import "./components/circle";
+@import "./components/skills";
+@import "./components/aboutMe";
+@import "./components/tools";
+@import "./components/works";
+@import "./components/blogs";
+@import "./components/contactMe";
+@import "./components/menu";
+@import "./components/keyframes";

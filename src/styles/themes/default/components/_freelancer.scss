@@ -1,0 +1,53 @@
+// STYLES FOR THE "ABOUT ME" -> "FREELANCER" PART
+.first-part {
+  &__freelancer {
+    min-width: $minw-400px;
+    position: absolute;
+    top: $top-55per;
+    left: $left-48per;
+
+    > p{
+      text-align: center;
+
+      @include media-size($ds-phone){max-width: $maxw-100vw; text-align: center;}
+    }
+
+    @include media-size($ds-laptop){top: $top-55per;  left: $left-32per;}
+    @include media-size($ds-tablet){top: $top-10per;  left: $left-30per;}
+    @include media-size($ds-large-phone){
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+  }
+
+  .freelancer{
+    &__main-header{
+      text-align: center;
+
+      @include media-size($ds-large-phone){ text-align: left; margin-left: $m-4per;}
+      @include media-size($ds-phone){max-width: $maxw-100vw; text-align: left;}
+    }
+
+    &__container-button{
+      @include inlineFlex();
+      @include justifyContent(space-evenly);
+      font-family: $f-quicksand;
+      @include flexWrap(nowrap);
+      width: $w-100per;
+
+      @include media-size($ds-phone){@include flex(); max-width: $maxw-100vw;}
+    }
+
+    &__hire-me,
+    &__download-cv{
+      @include flexBasis($fbs-30);
+      color: $c-white;
+      text-align: center;
+      border-radius: $br-5px;
+      padding: $p-10px $p-10px;
+      @include boxShadow($boxsh-5px $c-silver-chalice);
+      @include background($c-corvette, $c-brandy);
+    }
+  }
+}

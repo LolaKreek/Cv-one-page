@@ -1,0 +1,77 @@
+// STYLES FOR THE "WORKS" PART
+.main-wrapper__my-works {
+  padding: $p-2per 0 0 $p-7per;
+  position: relative;
+
+  .my-works {
+    &__work {
+      @include flexBasis($fbs-30);
+      border-radius: $br-7px;
+      @include boxShadow($boxsh-5px-10px $c-silver-chalice);
+      position: relative;
+      margin: $m-3per 0 $m-20px;
+      z-index: $zi-2;
+      background-color: $c-white;
+      
+      > img{
+        max-height: $maxh-200px;
+        width: auto;
+        display: block;
+        margin: $m-3per auto 0;
+      }
+
+      @include media-size($ds-phone){@include flexBasis($fbs-90vw);}
+    }
+
+    &__container-works {
+      @include flex();
+      @include flexWrap(wrap);
+      @include justifyContent(space-around);
+      width: $w-90per;
+
+      @include media-size($ds-laptop){max-width: $maxw-900px; @include flexWrap(wrap);}
+      @include media-size($ds-tablet){max-width: $maxw-700px;}
+      @include media-size($ds-large-phone){max-width: $maxw-300px;}
+      @include media-size($ds-phone){max-width: $maxw-90vw;}
+    }
+
+    &__new-work{
+      display: block;
+      position: absolute;
+      width: $w-100per;
+      height: $h-100per;
+      text-align: center;
+      border-radius: $br-7px;
+      font-family: $f-poppins;
+      @include animation(showNewWork 0.5s ease-out forwards);
+      background-color: $c-brandy-opacity-75;
+
+      > h2{
+        margin: $m-50px 0 0 0;
+      }
+    }
+
+    &__new-description{
+      margin: 0;
+      color: $c-white;
+    }
+
+    &__new-paragraph{
+      margin: 0 0 $m-20px 0;
+      color: $c-white;
+    }
+
+    &__container-icons{
+      display: block;
+      float: right;
+      margin: 0 $m-3per;
+    }
+
+    &__icons{
+      height: $h-40px;
+      width: auto;
+    }
+  }
+
+  @include media-size($ds-phone){padding: 0 0 0 $p-20px;}
+}
