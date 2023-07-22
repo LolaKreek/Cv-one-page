@@ -27,3 +27,8 @@
     padding-right: 1%;
     cursor: pointer;
 }
+
+.menu-content__items{
+    font-family: 'Quicksand', sans-serif!important;
+    font-weight: 100!important;
+}

@@ -33,10 +33,13 @@
 .about-me-buttons-part__main-header{
     color: black;
     margin: 0;
+    font-family: 'Asap Condensed', sans-serif;
+    line-height: 1;
 }
 
 .about-me-buttons-part__text{
     color: #8a7474;
+    line-height: 1.4;
     margin: 1% 0 2% 0;
 }
 

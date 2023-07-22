@@ -14,11 +14,11 @@ const Menu = () => {
 
             <div className="menu-content__main-container">
                 <Box sx={{ display: 'flex', alignItems: 'center', textAlign: 'center' }}>
-                    <Typography sx={{ minWidth: 100 }}>About me</Typography>
-                    <Typography sx={{ minWidth: 100 }}>Skills</Typography>
-                    <Typography sx={{ minWidth: 100 }}>Portfolio</Typography>
-                    <Typography sx={{ minWidth: 100 }}>Blog</Typography>
-                    <Typography sx={{ minWidth: 100 }}>Contact me</Typography>
+                    <Typography className="menu-content__items" sx={{ minWidth: 100 }}>About me</Typography>
+                    <Typography className="menu-content__items" sx={{ minWidth: 100 }}>Skills</Typography>
+                    <Typography className="menu-content__items" sx={{ minWidth: 100 }}>Portfolio</Typography>
+                    <Typography className="menu-content__items" sx={{ minWidth: 100 }}>Blog</Typography>
+                    <Typography className="menu-content__items" sx={{ minWidth: 100 }}>Contact me</Typography>
                     <HorizontalRuleIcon sx={{ transform: `rotate(90deg)` }} />
                     <Tooltip className="menu-main-container__icon" title="LinkedIn">
                         <LinkedInIcon />

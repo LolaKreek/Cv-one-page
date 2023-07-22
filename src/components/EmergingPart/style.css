@@ -11,15 +11,20 @@
 .emerging-part__main-header{
     color: black;
     margin: 2% 0 0 3%;
+    font-family: 'Asap Condensed', sans-serif;
+    line-height: 1;
 }
 
 .emerging-part__second-header{
     color: #dbb594;
     margin: 0 0 0 3%;
+    line-height: 1.1;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .emerging-part__text-content{
     color: #8a7474;
+    line-height: 1.4;
     margin: 0 0 0 3%;
 }
 
