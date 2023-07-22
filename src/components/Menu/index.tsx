@@ -20,13 +20,13 @@ const Menu = () => {
                     <Typography sx={{ minWidth: 100 }}>Blog</Typography>
                     <Typography sx={{ minWidth: 100 }}>Contact me</Typography>
                     <HorizontalRuleIcon sx={{ transform: `rotate(90deg)` }} />
-                    <Tooltip title="LinkedIn">
+                    <Tooltip className="menu-main-container__icon" title="LinkedIn">
                         <LinkedInIcon />
                     </Tooltip>
-                    <Tooltip title="GitHub">
+                    <Tooltip className="menu-main-container__icon" title="GitHub">
                         <GitHubIcon />
                     </Tooltip>
-                    <Tooltip title="Instagram">
+                    <Tooltip className="menu-main-container__icon" title="Instagram">
                         <InstagramIcon />
                     </Tooltip>
                 </Box>
