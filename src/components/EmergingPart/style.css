@@ -1,0 +1,48 @@
+.emerging-part__main-container{
+    position: absolute;
+    min-width: 600px;
+    top: 25%;
+    left: 33%;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.emerging-part__main-header{
+    color: black;
+    margin: 2% 0 0 3%;
+}
+
+.emerging-part__second-header{
+    color: #dbb594;
+    margin: 0 0 0 3%;
+}
+
+.emerging-part__text-content{
+    color: #8a7474;
+    margin: 0 0 0 3%;
+}
+
+.emerging-part__buttons-container{
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+}
+
+.emerging-part-buttons__text-content{
+    color: #8a7474;
+    margin: 2% 6%;
+}
+
+.emerging-part-buttons__buttons-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-right: 8%;
+}
+
+.emerging-part-buttons__item{
+    margin-right: 15%;
+}

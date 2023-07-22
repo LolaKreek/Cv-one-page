@@ -1,0 +1,49 @@
+.about-me__main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    padding-top: 5%;
+    position: relative;
+}
+
+.about-me-image__main-container{
+    flex-basis: 40%;
+    display: flex;
+    justify-content: right;
+}
+
+.about-me-image__image-item{
+    max-height: 500px;
+    border-radius: 8px;
+    margin-right: 8%;
+}
+
+.about-me-buttons-part__main-container{
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-bottom: 8%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.about-me-buttons-part__main-header{
+    color: black;
+    margin: 0;
+}
+
+.about-me-buttons-part__text{
+    color: #8a7474;
+    margin: 1% 0 2% 0;
+}
+
+.buttons-part-content__buttons-container{
+    display: flex;
+    min-width: 430px;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
