@@ -1,0 +1,71 @@
+.description__main-container{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+
+.description-about-me__main-container{
+    flex-basis: 40%;
+}
+
+.description-about-me__main-header{
+    color: black;
+    font-family: 'Asap Condensed', sans-serif;
+    line-height: 1;
+    margin: 0;
+}
+
+.description-about-me__second-header{
+    color: #dbb594;
+    line-height: 1.1;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+
+.description-skills__main-container{
+    flex-basis: 40%;
+    border: 1px solid blue;
+}
+
+.description-about-me__text-content{
+    color: #8a7474;
+    line-height: 1.4;
+}
+
+.description-about-me__list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.description-about-me__list-item{
+    color: #8a7474;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.description-list-item__span{
+    padding-left: 10%;
+}
+
+.description-courses__main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.description-courses__text-content{
+    color: #8a7474;
+    font-weight: bold;
+    padding-right: 3%;
+}
+
+.description-courses__easy-icon{
+    height: 70px;
+}
