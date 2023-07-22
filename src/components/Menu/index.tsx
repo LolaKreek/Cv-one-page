@@ -1,42 +1,38 @@
-import components from '../index';
-import icons from '../icons';
+import { Box, Tooltip, Typography } from "@mui/material";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import HorizontalRuleIcon from '@mui/icons-material/HorizontalRule';
+import "./style.css"
 
-//Creating a part "Menu"
 const Menu = () => {
-    //Import of required components
-    const {Print, List} = components;
-    //Import of required icons
-    const {PercentageLine, GitHub, FacebookIcon, LinkedinIcon} = icons;
-
-    const menuList = [
-        {id: 1, href: '#aboutMe', text: 'About me'},
-        {id: 2, href: '#skills', text: 'Skills'},
-        {id: 3, href: '#portfolio', text: 'Portfolio'},
-        {id: 4, href: '#blogs', text: 'Blog'},
-        {id: 5, href: '#contactMe', text: 'Contact me'}
-    ]
-
-    const iconList = [
-        {id: 1, class: 'list-icon__icon rotate', src: PercentageLine},
-        {id: 4, class: 'list-icon__icon', src: LinkedinIcon},
-        {id: 4, class: 'list-icon__icon git-hub__icon', src: GitHub},
-        {id: 3, class: 'list-icon__icon', src: FacebookIcon}
-    ]
-
     return(
-        <nav className="main-wrapper__menu menu">
-            <div className="menu__general">
-                <div className="menu__container-initials">
-                    <Print component='p' class='menu__initials' text='L.K.' />
-                </div>
-
-                <div className="menu__container-list">
-                    <List class='menu__list list' element='a' lists={menuList} />
-                    <List class='menu__list-icon list list-icon' element='img' lists={iconList} />
-                </div>
+        <div className="menu__main-container">
+            <div className="menu-initials__main-container">
+                <h1>L.K.</h1>
             </div>
-        </nav>
-    );
+
+            <div className="menu-content__main-container">
+                <Box sx={{ display: 'flex', alignItems: 'center', textAlign: 'center' }}>
+                    <Typography sx={{ minWidth: 100 }}>About me</Typography>
+                    <Typography sx={{ minWidth: 100 }}>Skills</Typography>
+                    <Typography sx={{ minWidth: 100 }}>Portfolio</Typography>
+                    <Typography sx={{ minWidth: 100 }}>Blog</Typography>
+                    <Typography sx={{ minWidth: 100 }}>Contact me</Typography>
+                    <HorizontalRuleIcon sx={{ transform: `rotate(90deg)` }} />
+                    <Tooltip title="LinkedIn">
+                        <LinkedInIcon />
+                    </Tooltip>
+                    <Tooltip title="GitHub">
+                        <GitHubIcon />
+                    </Tooltip>
+                    <Tooltip title="Instagram">
+                        <InstagramIcon />
+                    </Tooltip>
+                </Box>
+            </div>
+        </div>
+    )
 }
 
 export default Menu;

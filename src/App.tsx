@@ -1,12 +1,11 @@
 import './App.css';
-import Homepage from './pages/Homepage';
-import './styles/themes/default/theme.scss';
+import Dashboard from './pages/Dashboard';
 
 function App() {
 
   return (
     <>
-      <Homepage />
+      <Dashboard />
     </>
   )
 }

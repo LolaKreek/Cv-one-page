@@ -1,0 +1,15 @@
+.menu__main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.menu-initials__main-container{
+    border: 1px solid blue;
+}
+
+.menu-content__main-container{
+    border: 1px solid yellow;
+}
