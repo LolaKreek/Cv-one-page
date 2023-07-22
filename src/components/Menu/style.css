@@ -8,8 +8,11 @@
 }
 
 .menu-initials__main-container{
-    border: 1px solid blue;
     color: #aaaaaa;
+}
+
+.menu-initials__text-content{
+    margin: 15% 0;
 }
 
 .menu-content__main-container{

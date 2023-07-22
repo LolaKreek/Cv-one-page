@@ -9,7 +9,7 @@ const Menu = () => {
     return(
         <div className="menu__main-container">
             <div className="menu-initials__main-container">
-                <h1>L.K.</h1>
+                <h1 className="menu-initials__text-content">L.K.</h1>
             </div>
 
             <div className="menu-content__main-container">
