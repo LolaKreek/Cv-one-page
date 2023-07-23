@@ -1,6 +1,7 @@
 import AboutMe from "../../components/AboutMe";
 import Description from "../../components/Description";
 import Menu from "../../components/Menu";
+import Tools from "../../components/Tools";
 import "./style.css"
 
 const Dashboard = () => {
@@ -9,6 +10,7 @@ const Dashboard = () => {
             <Menu />
             <AboutMe />
             <Description />
+            <Tools />
         </div>
     )
 }
