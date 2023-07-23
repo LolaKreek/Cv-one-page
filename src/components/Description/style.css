@@ -7,7 +7,7 @@
 }
 
 .description-about-me__main-container{
-    flex-basis: 40%;
+    flex-basis: 45%;
 }
 
 .description-about-me__main-header{
@@ -25,8 +25,9 @@
 }
 
 .description-skills__main-container{
-    flex-basis: 40%;
-    border: 1px solid blue;
+    flex-basis: 45%;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px #aaa;
 }
 
 .description-about-me__text-content{
@@ -56,8 +57,6 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    align-content: center;
 }
 
 .description-courses__text-content{
@@ -68,4 +67,42 @@
 
 .description-courses__easy-icon{
     height: 70px;
+}
+
+.skills__container-ability{
+    flex-basis: 10%;
+    max-width: 90%;
+    margin: 0 0 20px 3.5%;
+    border-radius: 7px;
+    background-color: #ededed;
+}
+
+/* mixins add */
+.column-10{
+    width: 100%;
+}
+
+.column-9{
+    width: 90%;
+}
+
+.column-8{
+    width: 80%;
+}
+
+.column-7{
+    width: 70%;
+}
+
+.column{
+    height: 100%;
+    box-shadow: 5px 5px 5px #aaa;
+    border-radius: 7px;
+    background: linear-gradient(to right, #f8cda7, #dbb594);
+}
+
+.column > p {
+    padding: 10px;
+    margin: 0;
+    text-align: right;
 }
