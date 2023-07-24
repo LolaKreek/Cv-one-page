@@ -1,4 +1,5 @@
 import AboutMe from "../../components/AboutMe";
+import BlogPosts from "../../components/BlogPosts";
 import Description from "../../components/Description";
 import Menu from "../../components/Menu";
 import MyWorks from "../../components/MyWorks";
@@ -13,6 +14,7 @@ const Dashboard = () => {
             <Description />
             <Tools />
             <MyWorks />
+            <BlogPosts />
         </div>
     )
 }
