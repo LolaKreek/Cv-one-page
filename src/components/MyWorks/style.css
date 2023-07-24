@@ -1,0 +1,46 @@
+.my-works__main-container{
+    background-color: white;
+    padding: 5% 2% 0 2%;
+    color: black;
+}
+
+.my-works__main-header{
+    color: black;
+    font-family: 'Asap Condensed', sans-serif;
+    line-height: 1;
+    margin: 0;
+}
+
+.my-works__second-header{
+    color: #dbb594;
+    line-height: 1.1;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+
+.my-works__text-content{
+    color: #8a7474;
+    line-height: 1.4;
+}
+
+.my-works__container-works{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.my-works__work{
+    flex-basis: 30%;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px #a68e8e;
+    position: relative;
+    margin: 2% 0 2% 0;
+    z-index: 2;
+    background-color: white;
+}
+
+.my-work__main-image{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
