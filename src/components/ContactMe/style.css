@@ -1,0 +1,111 @@
+.main-wrapper__contact-me{
+    padding: 5% 0 0;
+    width: 100%;
+    background: linear-gradient(to right, #fff1df, #dbb594);
+}
+
+.contact-me__relative-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+.contact-me__content-wrapper{
+    flex-basis: 50%;
+}
+
+.contact-me__image-wrapper{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-me__middle-part{
+    position: absolute;
+    top: 38%;
+    right: 35%;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 5px 5px 5px #aaa;
+    display: flex;
+    flex-direction: row;
+    padding: 1% 2%;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.contact-me__main-image{
+    width: 70%;
+    border-radius: 8px;
+}
+
+.contact-me__main-image-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact-me__text-container{
+    text-align: right;
+    margin: 3% 5% 5% 0;
+}
+
+.contact-me__main-header{
+    color: black;
+    margin: 2% 0 0 3%;
+    font-family: 'Asap Condensed', sans-serif;
+    line-height: 1;
+}
+
+.standard-color-and-font{
+    color: #8a7474;
+    line-height: 1.4;
+    margin: 0 0 0 3%;
+}
+
+.contact-me__form{
+    margin-left: 3%;
+}
+
+.contact-me__input{
+    font-size: 15px;
+    padding: 2% 0 2% 3%;
+    margin: 2% 0 0;
+    width: 65%;
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 5px 5px 5px #aaa;
+}
+
+.contac-me__submit-wrapper{
+    width: 66%;
+}
+
+.contact-me__submit-container{
+    width: 120px;
+    border-radius: 8px;
+    margin: 2% auto;
+    background: linear-gradient(45deg, #f8cda7 30%, #dbb594 90%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.contact-me__submit{
+    color: white;
+    border: none;
+    padding: 10% 5%;
+    font-size: 19px;
+    background: none;
+    cursor: pointer;
+}
+
+.contact-me__contact-icon{
+    height: 55px;
+}
