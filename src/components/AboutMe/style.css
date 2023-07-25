@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-around;
     background-color: white;
-    padding-top: 5%;
+    padding-top: 150px;
     position: relative;
 }
 
@@ -54,11 +54,4 @@
 
 .about-me__arrows-cantainer{
     cursor: pointer;
-}
-
-.ex{
-    border: 1px solid red;
-    color: black;
-    /* background-color: blueviolet; */
-    max-width: 100px;
 }

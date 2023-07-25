@@ -1,3 +1,8 @@
+.tools__margin-wrapper{
+    padding-top: 82px;
+    background-color: white;
+}
+
 .tools__main-container{
     background: linear-gradient(90deg,#fff1df,#dbb594);
     padding: 3% 2% 3% 2%;

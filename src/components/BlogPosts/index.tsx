@@ -3,7 +3,7 @@ import "./style.css"
 
 const BlogPosts = () => {
     return(
-        <div id="blogs" className="main-wrapper__blog-posts blog-posts">
+        <div id="blog" className="main-wrapper__blog-posts blog-posts">
             <div className="general">
                 <h2 className='blog-posts__main-header margin-zero main-header'>//Blog posts</h2>
                 <h2 className='blog-posts__second-header second-header margin-zero'>Hints and tips</h2>

@@ -9,7 +9,7 @@ import Skills from "../Skills";
 
 const Description = () => {
     return(
-        <div className="description__main-container">
+        <div id="skills" className="description__main-container">
             <div className="description-about-me__main-container">
                 <div className="description-about-me__content-container">
                     <h2 className="description-about-me__main-header">//About me</h2>
