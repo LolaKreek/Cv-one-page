@@ -11,12 +11,13 @@
     flex-basis: 40%;
     display: flex;
     justify-content: right;
+    align-items: center;
+    align-content: center;
 }
 
 .about-me-image__image-item{
     max-height: 500px;
     border-radius: 8px;
-    margin-right: 8%;
 }
 
 .about-me-buttons-part__main-container{
@@ -49,4 +50,15 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: nowrap;
+}
+
+.about-me__arrows-cantainer{
+    cursor: pointer;
+}
+
+.ex{
+    border: 1px solid red;
+    color: black;
+    /* background-color: blueviolet; */
+    max-width: 100px;
 }
