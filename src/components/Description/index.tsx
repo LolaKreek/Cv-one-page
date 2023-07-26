@@ -13,7 +13,7 @@ const Description = () => {
             <div className="description-about-me__main-container">
                 <div className="description-about-me__content-container">
                     <h2 className="description-about-me__main-header">//About me</h2>
-                    <h2 className="description-about-me__second-header">All about Techy</h2>
+                    <h2 className="description-about-me__second-header">All about my life</h2>
 
                     <p className="description-about-me__text-content">Lorem ipsum dolor sit amet,</p>
                     <p className="description-about-me__text-content">consectetur adipiscing edit, sed do eiusmod tempor 
@@ -42,7 +42,7 @@ const Description = () => {
                         </Typography>
                         <Typography className="description-about-me__list-item" sx={{ minWidth: 150 }}>
                             <CodeIcon  className="description-list-item__icon" />
-                            <span className="description-list-item__span">programming</span>
+                            <span className="description-list-item__span">programming (yes, my work is my hobby, I really enjoy it)</span>
                         </Typography>
                     </Box>
                 </div>

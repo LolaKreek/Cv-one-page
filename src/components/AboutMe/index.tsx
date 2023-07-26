@@ -42,7 +42,7 @@ const AboutMe = () => {
 
             <div className="about-me-buttons-part__main-container">
                 <div className="about-me-buttons-part__content-container">
-                    <h2 className="about-me-buttons-part__main-header">//I am a freelancer</h2>
+                    <h2 className="about-me-buttons-part__main-header">On a mission to build better digital worlds XD </h2>
                     <p className="about-me-buttons-part__text">Contact me if you want to work with me</p>
 
                     <div className="buttons-part-content__buttons-container">

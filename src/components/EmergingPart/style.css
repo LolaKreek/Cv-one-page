@@ -1,11 +1,12 @@
 .emerging-part__main-container{
     position: absolute;
     min-width: 600px;
-    top: 35%;
-    left: 33%;
+    top: 30%;
+    left: 34%;
     border-radius: 8px;
     box-shadow: 5px 5px 5px #aaaaaa;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.8);
+    animation: showBlock 1.8s ease-in forwards;
 }
 
 .emerging-part__main-header{
@@ -50,4 +51,28 @@
 
 .emerging-part-buttons__item{
     margin-right: 15%;
+    cursor: pointer;
+}
+
+.emerging-part-buttons__item:hover{
+    color: #8a7474;
+    transition: all .5s;
+}
+
+@-webkit-keyframes showBlock {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+  
+@keyframes showBlock {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }

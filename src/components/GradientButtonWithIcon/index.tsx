@@ -1,6 +1,6 @@
 import { Button, Tooltip, styled } from "@mui/material";
-import { ComponentsTypes } from "./types";
 import "./style.css";
+import { ComponentsTypes } from "../types";
 
 const GradientButton = styled(Button)`
   background: linear-gradient(45deg, #f8cda7 30%, #dbb594 90%);

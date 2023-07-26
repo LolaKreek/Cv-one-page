@@ -1,6 +1,6 @@
-import { ToolsItemPropsType } from "./types";
+import { ComponentsTypes } from "../types";
 
-const ToolItem = (props: ToolsItemPropsType) => {
+const ToolItem = (props: ComponentsTypes.ToolsItemPropsType) => {
     return(
         <div className={'tools__container-icons ' + props.wrapper}>
             <img alt='Tools icon' className='tools__icons' src={props.src} />

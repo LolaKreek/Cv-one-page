@@ -1,6 +1,6 @@
-import { SkillsTypes } from "./type";
+import { ComponentsTypes } from "../types";
 
-const Skills = (props: SkillsTypes.SkillsPropsType) => {
+const Skills = (props: ComponentsTypes.SkillsPropsType) => {
     return(
         <div className={props.class}>
             <p>{props.text}</p>
