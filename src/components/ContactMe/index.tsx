@@ -3,6 +3,8 @@ import ContactMainImg from '../../assets/contact_me.jpg';
 import SendIcon from '@mui/icons-material/Send';
 import "./style.css"
 import { Tooltip } from "@mui/material";
+import Circles from "../Circles";
+import Circle_01 from "../../assets/circle_03.png";
 
 const ContactMe = () => {
     return(
@@ -52,6 +54,8 @@ const ContactMe = () => {
                             <p className="contact-me__description margin-zero standard-color-and-font">url:github.com/lalitaKlimchuk</p>
                         </div>
                     </div> 
+
+                    <Circles class="contact-me__container-circle-1" classImg="contact-me__circle-1 circle" src={Circle_01} />
                 </div>
             </div>
         </div>

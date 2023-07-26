@@ -29,4 +29,10 @@ export namespace ComponentsTypes {
         thirdText: string,
         fourthText: string
     }
+
+    export type CirclePropsType = {
+        class: string,
+        classImg: string,
+        src: string
+    }
 }

@@ -39,10 +39,12 @@
     padding: 2% 0 2% 2%;
     margin: 0 2% 3% 0;
     border-radius: 8px;
+    z-index: 1;
 }
 
 .blog-posts__container-posts:hover{
-    background-color: rgba(236, 188, 133, .3);
+    background-color: rgba(248, 231, 213, .7);
+    z-index: 1;
 }
 
 .posts__main-image{
@@ -83,4 +85,28 @@
 .blog-posts__author{
     color: #dbb594;
     margin: 0;
+}
+
+.blog-posts__container-circle-1,
+.blog-posts__container-circle-2{
+    position: absolute;
+    z-index: 0;
+}
+
+.blog-posts__container-circle-1{
+    top: 38%;
+    left: 0;
+}
+
+.blog-posts__circle-1{
+    width: 400px;
+}
+
+.blog-posts__container-circle-2{
+    top: 35%;
+    right: 20%;
+}
+
+.blog-posts__circle-2{
+    width: 250px;
 }

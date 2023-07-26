@@ -10,6 +10,9 @@ import { Tooltip } from "@mui/material";
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import { useEffect, useState } from "react";
+import Circles from "../Circles";
+import Circle_01 from "../../assets/circle_01.png";
+import Circle_02 from "../../assets/circle_02.png";
 
 const AboutMe = () => {
     const imageArray = [MainFirstImage, MainSecondImage, MainThierdImage];
@@ -29,6 +32,7 @@ const AboutMe = () => {
     return(
         <div id="aboutMe" className="about-me__main-container">
             <div className="about-me-image__main-container">
+                <Circles class="about-me__container-circle-2" classImg="about-me__circle-2 circle" src={Circle_02} />
                 <Tooltip className="about-me__arrows-cantainer" title="Go left" onClick={() => setCurrentImage(currentImage - 1)}>
                     <ChevronLeftIcon sx={{color: "#dbb594", fontSize: 40}}/>
                 </Tooltip>
@@ -38,6 +42,8 @@ const AboutMe = () => {
                 </Tooltip>
             </div>
 
+            <Circles class="about-me__container-circle-3" classImg="about-me__circle-3 circle" src={Circle_01} />
+            <Circles class="about-me__container-circle-1" classImg="about-me__circle-1 circle" src={Circle_01} />
             <EmergingPart />
 
             <div className="about-me-buttons-part__main-container">

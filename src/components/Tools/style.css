@@ -6,6 +6,7 @@
 .tools__main-container{
     background: linear-gradient(90deg,#fff1df,#dbb594);
     padding: 3% 2% 3% 2%;
+    position: relative;
 }
 
 .tools__main-header{
@@ -52,8 +53,20 @@
 .icon{
     background: white;
     border-radius: 8px;
+    z-index: 1;
 }
 
 .tools__icons{
     width: 70px;
+}
+
+.tools__container-circle-1{
+    position: absolute;
+    bottom: -40%;
+    right: 10%;
+    z-index: 0;
+}
+
+.tools__circle-1{
+    width: 200px;
 }

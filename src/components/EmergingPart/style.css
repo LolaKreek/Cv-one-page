@@ -1,12 +1,14 @@
 .emerging-part__main-container{
     position: absolute;
-    min-width: 600px;
+    min-width: 500px;
     top: 30%;
     left: 34%;
+    margin-right: 2%;
     border-radius: 8px;
     box-shadow: 5px 5px 5px #aaaaaa;
     background-color: rgba(255, 255, 255, 0.8);
     animation: showBlock 1.8s ease-in forwards;
+    z-index: 3;
 }
 
 .emerging-part__main-header{

@@ -13,11 +13,14 @@
     justify-content: right;
     align-items: center;
     align-content: center;
+    z-index: 1;
+    position: relative;
 }
 
 .about-me-image__image-item{
     max-height: 500px;
     border-radius: 8px;
+    z-index: 1;
 }
 
 .about-me-buttons-part__main-container{
@@ -25,10 +28,11 @@
     display: flex;
     flex-direction: column;
     justify-content: end;
-    margin-bottom: 8%;
+    margin-bottom: 5%;
     align-items: center;
     align-content: center;
     text-align: center;
+    z-index: 1;
 }
 
 .about-me-buttons-part__main-header{
@@ -46,7 +50,8 @@
 
 .buttons-part-content__buttons-container{
     display: flex;
-    min-width: 430px;
+    min-width: 380px;
+    padding-right: 3%;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: nowrap;
@@ -54,4 +59,40 @@
 
 .about-me__arrows-cantainer{
     cursor: pointer;
+}
+
+.about-me__container-circle-1,
+.about-me__container-circle-2,
+.about-me__container-circle-3{
+    position: absolute;
+    z-index: 0;
+}
+
+.about-me__container-circle-1{
+    bottom: -10%;
+    right: 0;
+}
+
+.about-me__circle-1{
+    width: 400px;
+    z-index: 0;
+}
+
+.about-me__container-circle-2{
+    bottom: -25%;
+    right: -11%;
+}
+
+.about-me__circle-2{
+    width: 250px;
+    z-index: 0;
+}
+
+.about-me__container-circle-3{
+    left: 0;
+    top: 0;
+}
+
+.about-me__circle-3{
+    width: 280px;
 }

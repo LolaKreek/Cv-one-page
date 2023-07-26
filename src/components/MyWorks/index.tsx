@@ -3,6 +3,8 @@ import "./style.css"
 import Work from "../Work";
 import PortfolioCaseIcon from "../../assets/portfolio_case_01.png"
 import PortfolioIcons from "../PortfolioIcons";
+import Circles from "../Circles";
+import Circle_01 from "../../assets/circle_01.png"
 
 const MyWorks = () => {
     const [firstWork, setFirstWork] = useState(false);
@@ -23,6 +25,8 @@ const MyWorks = () => {
                 dolore eu fugiat nulla pariatur.</p>
 
             <div className="my-works__container-works">
+                <Circles class="my-works__container-circle-1" classImg="my-works__circle-1 circle" src={Circle_01} />
+
                 <div className="my-works__work work-1">
                     <div onMouseOver={() => setFirstWork(true)} onMouseLeave={() => setFirstWork(false)}>
                         {/* If firstWork === true (the mouse is on the element) -> show the component, otherwise do not show */}

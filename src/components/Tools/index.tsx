@@ -1,6 +1,8 @@
 import ToolItem from "../ToolItem";
 import ProgramIcon from "../../assets/tool_program_icon.png";
 import "./style.css";
+import Circles from "../Circles";
+import Circle_01 from "../../assets/circle_01.png"
 
 const Tools = () => {
     return(
@@ -8,6 +10,8 @@ const Tools = () => {
             <div className="tools__main-container">
                 <h2 className="tools__main-header">//Tools</h2>
                 <h2 className="tools__second-header">My essentials</h2>
+
+                <Circles class="tools__container-circle-1" classImg="tools__circle-1 circle" src={Circle_01} />
 
                 <div className="tools__content-container">
                     <ToolItem wrapper='icon-1 icon' src={ProgramIcon} firstText='React' secondText='16.6.3' />
