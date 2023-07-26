@@ -1,27 +1,33 @@
-# React + TypeScript + Vite
+# Project is using:
+    React - https://pl.reactjs.org/
+    Type Script - https://www.typescriptlang.org/
+    Scss - https://sass-lang.com
+    Vite - https://vitejs.dev
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Getting Started
 
-Currently, two official plugins are available:
+## Installation process
+- Install any IDE of your choice
+- Install node verion 18.14.2 or use nvm(Node version manager)
+- Clone repository 
+- Install node modules by npm install
+- Start project npm run dev
+- Now the project is running press 'o' to open browser with app
+- Press 'q' to close app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Build and Test
+Clone the repository and use npm install command to download and install all required node modules
+After instalation is completed type 
+- npm run build for build
+- npm run dev to start project
 
-## Expanding the ESLint configuration
+## Description
+This is a project that I decided to create to showcase my skills as a programmer, as well as to make it easier to send resumes to different companies for job hunting :)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## file structure
+1. assets => 
+   All images, styles, icons or fonts and others that are not related to the code go here
+2. components => 
+   Directories for sets of components, e.g. under the `Menu` directory, will have the implementation of the interface and functionality for the page menu
+3. pages => 
+   I store all pages here. Each page is a combination of all elements/components into a whole that is to be displayed to the user
