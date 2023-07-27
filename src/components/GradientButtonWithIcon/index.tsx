@@ -9,14 +9,14 @@ const GradientButton = styled(Button)`
   color: white;
   height: 40px;
   padding: 10px 20px;
-  box-shadow: 0 3px 5px 2px #aaaaaa;
   display: flex;
   align-items: center;
   gap: 8px;
   text-transform: none;
 
   &:hover {
-    box-shadow: 0 6px 10px 4px rgba(33, 150, 243, 0.3);
+    box-shadow: 0 6px 10px 4px #aaa;
+    transition: all .5s;
   }
 `;
 

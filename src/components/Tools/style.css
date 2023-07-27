@@ -38,7 +38,12 @@
     flex-direction: column;
     justify-content: center;
     cursor: pointer;
+    transition: all .5s;
+}
+
+.tools__container-icons:hover{
     box-shadow: 5px 5px 5px #aaa;
+    transition: all .5s;
 }
 
 .tools__inscription{
@@ -53,6 +58,7 @@
 .icon{
     background: white;
     border-radius: 8px;
+    cursor: pointer;
     z-index: 1;
 }
 

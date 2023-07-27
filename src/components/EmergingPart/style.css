@@ -8,7 +8,7 @@
     box-shadow: 5px 5px 5px #aaaaaa;
     background-color: rgba(255, 255, 255, 0.8);
     animation: showBlock 1.8s ease-in forwards;
-    z-index: 3;
+    z-index: 2;
 }
 
 .emerging-part__main-header{

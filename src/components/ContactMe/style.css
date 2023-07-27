@@ -97,6 +97,12 @@
     justify-content: center;
     align-items: center;
     align-content: center;
+    transition: all .5s;
+}
+
+.contact-me__submit-container:hover{
+    box-shadow: 5px 6px 6px #aaa;
+    transition: all .5s;
 }
 
 .contact-me__submit{
@@ -114,7 +120,7 @@
 
 .contact-me__container-circle-1{
     position: absolute;
-    bottom: -5%;
+    bottom: 0;
     left: 50%;
     z-index: 0;
 }

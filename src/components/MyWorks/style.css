@@ -55,3 +55,55 @@
 .my-works__circle-1{
     width: 60%;
 }
+
+.show-wrapper{
+    animation: showNewWorkIn 0.5s ease-out forwards;
+}
+
+.hidden-wrapper{
+    animation: showNewWorkOut 0.5s ease-out forwards;
+}
+
+@-webkit-keyframes showNewWorkIn {
+    from {
+      width: 0;
+      opacity: 0;
+    }
+    to {
+      width: 1;
+      opacity: 1;
+    }
+}
+  
+@keyframes showNewWorkIn {
+    from {
+      width: 0;
+      opacity: 0;
+    }
+    to {
+      width: 1;
+      opacity: 1;
+    }
+}
+
+@-webkit-keyframes showNewWorkOut {
+    from {
+      width: 1;
+      opacity: 1;
+    }
+    to {
+      width: 0;
+      opacity: 0;
+    }
+  }
+  
+  @keyframes showNewWorkOut {
+    from {
+      width: 1;
+      opacity: 1;
+    }
+    to {
+      width: 0;
+      opacity: 0;
+    }
+  }

@@ -40,11 +40,14 @@
     margin: 0 2% 3% 0;
     border-radius: 8px;
     z-index: 1;
+    transition: all .5s;
 }
 
 .blog-posts__container-posts:hover{
     background-color: rgba(248, 231, 213, .7);
+    box-shadow: 5px 5px 5px #aaa;
     z-index: 1;
+    transition: all .5s;
 }
 
 .posts__main-image{

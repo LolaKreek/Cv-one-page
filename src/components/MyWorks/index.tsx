@@ -30,7 +30,7 @@ const MyWorks = () => {
                 <div className="my-works__work work-1">
                     <div onMouseOver={() => setFirstWork(true)} onMouseLeave={() => setFirstWork(false)}>
                         {/* If firstWork === true (the mouse is on the element) -> show the component, otherwise do not show */}
-                        { firstWork ? <Work wrapper='new-work-1' firstText='Office software' secondText='- delicious sushi' thirdText='Tools:React/Redux/' fourthText='Program 01:/Flexbox'/> : null}
+                        <Work wrapper={firstWork ? 'show-wrapper' : 'hidden-wrapper'} firstText='Office software' secondText='- delicious sushi' thirdText='Tools:React/Redux/' fourthText='Program 01:/Flexbox'/>
                         <img className="my-work__main-image" alt='Visualization of work' id="img-1" src={PortfolioCaseIcon} />
                     </div>
                     
@@ -40,7 +40,7 @@ const MyWorks = () => {
                 <div className="my-works__work work-1">
                     <div onMouseOver={() => setSecondWork(true)} onMouseLeave={() => setSecondWork(false)}>
                         {/* If firstWork === true (the mouse is on the element) -> show the component, otherwise do not show */}
-                        { secondWork ? <Work wrapper='new-work-1' firstText='Office software' secondText='- delicious sushi' thirdText='Tools:React/Redux/' fourthText='Program 01:/Flexbox'/> : null}
+                        <Work wrapper={secondWork ? 'show-wrapper' : 'hidden-wrapper'} firstText='Office software' secondText='- delicious sushi' thirdText='Tools:React/Redux/' fourthText='Program 01:/Flexbox'/>
                         <img className="my-work__main-image" alt='Visualization of work' id="img-2" src={PortfolioCaseIcon} />
                     </div>
 
@@ -50,7 +50,7 @@ const MyWorks = () => {
                 <div className="my-works__work work-1">
                     <div onMouseOver={() => setThirdWork(true)} onMouseLeave={() => setThirdWork(false)}>
                         {/* If firstWork === true (the mouse is on the element) -> show the component, otherwise do not show */}
-                        { thirdWork ? <Work wrapper='new-work-1' firstText='Office software' secondText='- delicious sushi' thirdText='Tools:React/Redux/' fourthText='Program 01:/Flexbox'/> : null}
+                        <Work wrapper={thirdWork ? 'show-wrapper' : 'hidden-wrapper'} firstText='Office software' secondText='- delicious sushi' thirdText='Tools:React/Redux/' fourthText='Program 01:/Flexbox'/>
                         <img className="my-work__main-image" alt='Visualization of work' id="img-3" src={PortfolioCaseIcon} />
                     </div>
 
@@ -60,7 +60,7 @@ const MyWorks = () => {
                 <div className="my-works__work work-1">
                     <div onMouseOver={() => setFourthWork(true)} onMouseLeave={() => setFourthWork(false)}>
                         {/* If firstWork === true (the mouse is on the element) -> show the component, otherwise do not show */}
-                        { fourthWork ? <Work wrapper='new-work-1' firstText='Office software' secondText='- delicious sushi' thirdText='Tools:React/Redux/' fourthText='Program 01:/Flexbox'/> : null}
+                        <Work wrapper={fourthWork ? 'show-wrapper' : 'hidden-wrapper'} firstText='Office software' secondText='- delicious sushi' thirdText='Tools:React/Redux/' fourthText='Program 01:/Flexbox'/>
                         <img className="my-work__main-image" alt='Visualization of work' id="img-4" src={PortfolioCaseIcon} />
                     </div>
 
@@ -70,7 +70,7 @@ const MyWorks = () => {
                 <div className="my-works__work work-1">
                     <div onMouseOver={() => setFifthWork(true)} onMouseLeave={() => setFifthWork(false)}>
                         {/* If firstWork === true (the mouse is on the element) -> show the component, otherwise do not show */}
-                        { fifthWork ? <Work wrapper='new-work-1' firstText='Office software' secondText='- delicious sushi' thirdText='Tools:React/Redux/' fourthText='Program 01:/Flexbox'/> : null}
+                        <Work wrapper={fifthWork ? 'show-wrapper' : 'hidden-wrapper'} firstText='Office software' secondText='- delicious sushi' thirdText='Tools:React/Redux/' fourthText='Program 01:/Flexbox'/>
                         <img className="my-work__main-image" alt='Visualization of work' id="img-4" src={PortfolioCaseIcon} />
                     </div>
                     
@@ -80,7 +80,7 @@ const MyWorks = () => {
                 <div className="my-works__work work-1">
                     <div onMouseOver={() => setSixthWork(true)} onMouseLeave={() => setSixthWork(false)}>
                         {/* If firstWork === true (the mouse is on the element) -> show the component, otherwise do not show */}
-                        { sixthWork ? <Work wrapper='new-work-1' firstText='Office software' secondText='- delicious sushi' thirdText='Tools:React/Redux/' fourthText='Program 01:/Flexbox'/> : null}
+                        <Work wrapper={sixthWork ? 'show-wrapper' : 'hidden-wrapper'} firstText='Office software' secondText='- delicious sushi' thirdText='Tools:React/Redux/' fourthText='Program 01:/Flexbox'/>
                         <img className="my-work__main-image" alt='Visualization of work' id="img-4" src={PortfolioCaseIcon} />
                     </div>
                     

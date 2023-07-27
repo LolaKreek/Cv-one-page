@@ -6,8 +6,6 @@
     text-align: center;
     margin: 0 auto;
     border-radius: 8px 8px 0 0 ;
-    /* font-family: $f-poppins; */
-    /* @include animation(showNewWork 0.5s ease-out forwards); */
     background-color: rgba(219, 181, 148, 0.75);
 }
 

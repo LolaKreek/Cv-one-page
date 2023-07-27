@@ -1,7 +1,7 @@
-import { WorkPropstype } from "./types";
+import { ComponentsTypes } from "../types";
 import "./style.css"
 
-const Work = (props: WorkPropstype) => {
+const Work = (props: ComponentsTypes.WorkPropstype) => {
     return(
         <div className={"my-works__new-work " + props.wrapper}>
             <div className="my-works__content-container">
