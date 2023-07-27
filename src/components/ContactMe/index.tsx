@@ -14,12 +14,12 @@ const ContactMe = () => {
                     <div className="contact-me__content-wrapper">
                         <h2 className="contact-me__main-header margin-zero main-header">//Contact me</h2>
                         <p className="standard-color-and-font">If you are willing to work with me, contact me. 
-                            I can join your cenference to serve you with my engeneering experience</p>
+                            I can join your team to serve you with my engeneering experience</p>
 
                         <form className='contact-me__form'>
                             <input className="contact-me__input" type="text" placeholder="Your e-mail" /><br></br>
                             <input className="contact-me__input" type="text" placeholder="Your name" /><br></br>
-                            <textarea className="contact-me__input" rows={7} placeholder="Please, put here your massage/request."></textarea>
+                            <textarea className="contact-me__input" rows={7} placeholder="Please, put here your message"></textarea>
                             <div className="contac-me__submit-wrapper">
                                 <div className="contact-me__submit-container">
                                     <input className="contact-me__submit" type="submit" value="Send"></input>
@@ -46,12 +46,12 @@ const ContactMe = () => {
                         </div>
 
                         <div className='contact-me__text-container'>
-                            <p className="contact-me__description margin-zero standard-color-and-font">author:Lalita Klimchuk</p>
-                            <p className="contact-me__description margin-zero standard-color-and-font">username:@LalitaKlimchuk</p>
-                            <p className="contact-me__description margin-zero standard-color-and-font">description:University Graduate | Software Engineer</p>
-                            <p className="contact-me__description margin-zero standard-color-and-font">homepage:lalitaKlimchuk.pl</p>
-                            <p className="contact-me__description margin-zero standard-color-and-font">repository type:Open-source</p>
-                            <p className="contact-me__description margin-zero standard-color-and-font">url:github.com/lalitaKlimchuk</p>
+                            <p className="contact-me__description margin-zero standard-color-and-font">author: Lalita Klimchuk</p>
+                            <p className="contact-me__description margin-zero standard-color-and-font">username: @LolaKreek</p>
+                            <p className="contact-me__description margin-zero standard-color-and-font">description: Student</p>
+                            <p className="contact-me__description margin-zero standard-color-and-font">occupation: Front-End Developer</p>
+                            <p className="contact-me__description margin-zero standard-color-and-font">repository type: Open-source</p>
+                            <p className="contact-me__description margin-zero standard-color-and-font">gitHub: https://github.com/LolaKreek</p>
                         </div>
                     </div> 
 
