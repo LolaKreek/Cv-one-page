@@ -24,6 +24,10 @@
     margin: 0;
 }
 
+.description-about-me__second-header.education{
+    margin-top: 2%;
+}
+
 .description-skills__main-container{
     flex-basis: 45%;
 }
@@ -98,6 +102,10 @@
     width: 70%;
 }
 
+.column-5{
+    width: 50%;
+}
+
 .column{
     height: 100%;
     box-shadow: 5px 5px 5px #aaa;
@@ -136,8 +144,12 @@
 }
 
 .secondary-school-container__school-text{
-    flex-basis: 80%;
+    flex-basis: 70%;
     margin-left: 2%;
+}
+
+.secondary-school-container__icon{
+    flex-basis: 10%;
 }
 
 @-webkit-keyframes showSkills {

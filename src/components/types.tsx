@@ -12,7 +12,8 @@ export namespace ComponentsTypes {
 
     export type SkillsPropsType = {
         class: string,
-        text: string
+        text: string,
+        tooltipTitle: string
     }
 
     export type ToolsItemPropsType = {

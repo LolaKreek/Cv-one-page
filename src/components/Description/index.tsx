@@ -1,6 +1,8 @@
 import { Box, Typography } from "@mui/material";
 import AutoStoriesIcon from '@mui/icons-material/AutoStories';
-import CourseIcon from "../../assets/easy_code_button_gray.png";
+import SchoolIcon from '@mui/icons-material/School';
+import HistoryEduIcon from '@mui/icons-material/HistoryEdu';
+import BlindIcon from '@mui/icons-material/Blind';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import VideocamIcon from '@mui/icons-material/Videocam';
 import TravelExploreIcon from '@mui/icons-material/TravelExplore';
@@ -59,34 +61,30 @@ const Description = () => {
                     </Box>
                 </div>
 
-                <div className="description-courses__main-container">
-                    <p className="description-courses__text-content">Ukończyłam kurs Easy Code</p>
-                    <img className="description-courses__easy-icon" src={CourseIcon} alt="Easy code icon" />
-                </div>
-            </div>
-
-            <div className="description-skills__main-container">
                 <div className="description-skills__education-container">
-                    <h2 className="description-about-me__second-header">Education</h2>
+                    <h2 className="description-about-me__second-header education">Education</h2>
                     <p className="description-about-me__text-content">Until the age of 17, I lived in Belarus, so I received my secondary 
                         general education there.</p>
                     <div className="description-about-me__secondary-school-container">
+                        <HistoryEduIcon className="secondary-school-container__icon" />
                         <p className="secondary-school-container__years-text">2006 - 2017</p>
                         <p className="secondary-school-container__school-text">Secondary school in Brest</p>
                     </div>
                     <p className="description-about-me__text-content">At the university, I'm studing a little longer than expected due to 
                     personal circumstances. I'm studing at the computer science faculty.</p>
                     <div className="description-about-me__secondary-school-container">
+                        <SchoolIcon className="secondary-school-container__icon" />
                         <p className="secondary-school-container__years-text">2019 - now</p>
                         <p className="secondary-school-container__school-text">Siedlce University of Natural Sciences and Humanities</p>
                     </div>
                     <p className="description-about-me__secondary-school-container">While studying at the university, I had the opportunity to take a free course "Information technology supporting people 
                         with visual impairment", which was organized by the university.</p>
                     <div className="description-about-me__secondary-school-container">
+                        <BlindIcon className="secondary-school-container__icon" />
                         <p className="secondary-school-container__years-text">03/2020 - 06/2020</p>
                         <p className="secondary-school-container__school-text">Course "Information technology supporting people 
                         with visual impairment"</p>
-                    </div>  
+                    </div>
                     <p className="description-about-me__secondary-school-container">A year later, I realized that the university does not provide enough narrow knowledge to be able to get a job in the 
                         future, so I bought courses in ReactJS. But during this course, I also greatly improved my knowledge in js, 
                         css and scss.</p>
@@ -101,6 +99,16 @@ const Description = () => {
                         <p className="secondary-school-container__years-text">04/2022 - 08/2022</p>
                         <p className="secondary-school-container__school-text">Hochschule Trier – Trier University of Applied Sciences</p>
                     </div>
+                </div>
+
+                {/* <div className="description-courses__main-container">
+                    <p className="description-courses__text-content">Ukończyłam kurs Easy Code</p>
+                    <img className="description-courses__easy-icon" src={CourseIcon} alt="Easy code icon" />
+                </div> */}
+            </div>
+
+            <div className="description-skills__main-container">
+                <div className="description-skills__education-container">
                     <p className="description-about-me__secondary-school-container">Also, while studying in Germany, I managed to do an internship in a private company in Trier</p>
                     <div className="description-about-me__secondary-school-container">
                         <p className="secondary-school-container__years-text">06/2022 - 10/2022</p>
@@ -115,25 +123,25 @@ const Description = () => {
                     description of my proficiency level in each:</p>
 
                     <div className="skills__container-ability">
-                        <Skills class='column-10 column' text='HTML 100%' />
+                        <Skills class='column-10 column' text='HTML 100%' tooltipTitle="Highly skilled in HTML" />
                     </div>
                     <div className="skills__container-ability">
-                        <Skills class='column-10 column' text='CSS 100%' />
+                        <Skills class='column-10 column' text='CSS 100%' tooltipTitle="The confident and capable coder" />
                     </div>
                     <div className="skills__container-ability">
-                        <Skills class='column-10 column' text='JS 100%' />
+                        <Skills class='column-10 column' text='JS 100%' tooltipTitle="Confident in JavaScript" />
                     </div>
                     <div className="skills__container-ability">
-                        <Skills class='column-8 column' text='TypeScript 80%' />
+                        <Skills class='column-8 column' text='TypeScript 80%' tooltipTitle="80% knowledgeable programmer XD" />
                     </div>
                     <div className="skills__container-ability">
-                        <Skills class='column-7 column' text='ReactJS 70%' />
+                        <Skills class='column-7 column' text='ReactJS 70%' tooltipTitle="Aspiring to the heights ;)" />
                     </div>
                     <div className="skills__container-ability">
-                        <Skills class='column-9 column' text='Scss 90%' />
+                        <Skills class='column-9 column' text='Scss 90%' tooltipTitle="Skillful in SCSS" />
                     </div>
                     <div className="skills__container-ability">
-                        <Skills class='column-9 column' text='D3.js 90%' />
+                        <Skills class='column-5 column' text='D3.js 50%' tooltipTitle="Style-savvy coder :) At least I try to be XD" />
                     </div>
                 </div>
                 <p className="description-about-me__text-content">Below you can find the tools and libraries that I managed to work with ;)</p>
