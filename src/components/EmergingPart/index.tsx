@@ -1,4 +1,4 @@
-import { Tooltip } from "@mui/material";
+import { Link, Tooltip } from "@mui/material";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LogoDevIcon from '@mui/icons-material/LogoDev';
 import "./style.css"
@@ -15,10 +15,14 @@ const EmergingPart = () => {
 
                 <div className="emerging-part-buttons__buttons-content">
                     <Tooltip className="emerging-part-buttons__item" title="GitHub">
-                        <GitHubIcon sx={{color: "#c8c8c7", fontSize: 35}} />
+                        <Link className="emerging-part-buttons__git-hub-link" href="https://github.com/LolaKreek" target="_blank">
+                            <GitHubIcon sx={{color: "#c8c8c7", fontSize: 35}} />
+                        </Link>
                     </Tooltip>
                     <Tooltip className="emerging-part-buttons__item" title="Code of this page">
-                        <LogoDevIcon sx={{color: "#c8c8c7", fontSize: 40 }} />
+                        <Link className="emerging-part-buttons__logo-dev-link" href="https://github.com/LolaKreek/Cv-one-page" target="_blank">
+                            <LogoDevIcon sx={{color: "#c8c8c7", fontSize: 40 }} />
+                        </Link>
                     </Tooltip>
                 </div>
             </div>

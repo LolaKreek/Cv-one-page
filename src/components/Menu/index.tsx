@@ -1,4 +1,4 @@
-import { Box, Tooltip, Typography } from "@mui/material";
+import { Box, Link, Tooltip, Typography } from "@mui/material";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -21,14 +21,21 @@ const Menu = () => {
                         <Typography className="menu-content__items" sx={{ minWidth: 100 }}><a className="menu-content__links" href="#blog">Blog</a></Typography>
                         <Typography className="menu-content__items" sx={{ minWidth: 100 }}><a className="menu-content__links" href="#contactMe">Contact me</a></Typography>
                         <HorizontalRuleIcon sx={{ transform: `rotate(90deg)` }} />
+                        
                         <Tooltip className="menu-main-container__icon" title="LinkedIn">
-                            <LinkedInIcon />
+                            <Link className="menu__linked-in-link" href="https://www.linkedin.com/in/lalita-klimchuk-137b28227/" target="_blank">
+                                <LinkedInIcon />
+                            </Link>
                         </Tooltip>
                         <Tooltip className="menu-main-container__icon" title="GitHub">
-                            <GitHubIcon />
+                            <Link className="menu__git-hub-link" href="https://github.com/LolaKreek" target="_blank">
+                                <GitHubIcon />
+                            </Link>
                         </Tooltip>
                         <Tooltip className="menu-main-container__icon" title="Instagram">
-                            <InstagramIcon />
+                            <Link className="menu__instagram-link" href="https://www.instagram.com/lolakreek/" target="_blank">
+                                <InstagramIcon />
+                            </Link>
                         </Tooltip>
                     </Box>
                 </div>

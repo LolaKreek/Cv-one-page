@@ -56,7 +56,8 @@
     cursor: pointer;
 }
 
-.emerging-part-buttons__item:hover{
+.emerging-part-buttons__git-hub-link > svg:hover,
+.emerging-part-buttons__logo-dev-link > svg:hover{
     color: #8a7474;
     transition: all .5s;
 }

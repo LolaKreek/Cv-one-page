@@ -26,8 +26,6 @@
 
 .description-skills__main-container{
     flex-basis: 45%;
-    border-radius: 8px;
-    box-shadow: 5px 5px 5px #aaa;
 }
 
 .description-about-me__text-content{
@@ -47,10 +45,11 @@
     display: flex;
     flex-direction: row;
     justify-content: start;
+    flex-shrink: 0;
 }
 
 .description-list-item__span{
-    padding-left: 10%;
+    padding-left: 20px;
 }
 
 .description-courses__main-container{
@@ -59,8 +58,13 @@
     justify-content: center;
 }
 
+.description-skills__ability-wrapper{
+    border-radius: 8px;
+    padding-bottom: 20px;
+    box-shadow: 5px 5px 5px #aaa;
+}
+
 .description-courses__text-content{
-    color: #8a7474;
     font-weight: bold;
     padding-right: 3%;
 }
@@ -106,6 +110,34 @@
     padding: 10px;
     margin: 0;
     text-align: right;
+}
+
+.description-skills__education-container{
+    margin-bottom: 5%;
+}
+
+.description-about-me__secondary-school-container{
+    color: #8a7474;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.secondary-school-container__years-text,
+.secondary-school-container__school-text{
+    margin: 0;
+}
+
+.secondary-school-container__years-text{
+    flex-basis: 20%;
+    font-weight: 700;
+}
+
+.secondary-school-container__school-text{
+    flex-basis: 80%;
+    margin-left: 2%;
 }
 
 @-webkit-keyframes showSkills {

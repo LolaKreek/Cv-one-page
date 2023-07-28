@@ -52,7 +52,7 @@ const AboutMe = () => {
                     <p className="about-me-buttons-part__text">Contact me if you want to work with me</p>
 
                     <div className="buttons-part-content__buttons-container">
-                        <GradientButton icon={<EngineeringIcon />} title="Hire me now" />
+                        <a className="menu-content__links" href="#contactMe"><GradientButton icon={<EngineeringIcon />} title="Hire me now" /></a>
                         <GradientButton icon={<ArrowCircleDownIcon />} title="Download CV" />
                     </div>
                 </div>
