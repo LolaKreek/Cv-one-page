@@ -35,6 +35,7 @@
 .description-about-me__text-content{
     color: #8a7474;
     line-height: 1.4;
+    margin-left: 1%;
 }
 
 .description-about-me__list{
@@ -64,7 +65,7 @@
 
 .description-skills__ability-wrapper{
     border-radius: 8px;
-    padding-bottom: 20px;
+    padding: 1%;
     box-shadow: 5px 5px 5px #aaa;
 }
 
@@ -150,6 +151,18 @@
 
 .secondary-school-container__icon{
     flex-basis: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.description-about-me__work-experience{
+    margin-bottom: 4%;
+}
+
+.description-about-me__education-icons{
+    width: 20px;
 }
 
 @-webkit-keyframes showSkills {

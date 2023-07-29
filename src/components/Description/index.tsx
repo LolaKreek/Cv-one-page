@@ -6,6 +6,9 @@ import BlindIcon from '@mui/icons-material/Blind';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import VideocamIcon from '@mui/icons-material/Videocam';
 import TravelExploreIcon from '@mui/icons-material/TravelExplore';
+import ExchangeStudent from "../../assets/exchange-student.png";
+import FrontEnd from '../../assets/front-end.png';
+import Practice from '../../assets/practice.png'
 import "./style.css"
 import Skills from "../Skills";
 
@@ -68,7 +71,7 @@ const Description = () => {
                     <div className="description-about-me__secondary-school-container">
                         <HistoryEduIcon className="secondary-school-container__icon" />
                         <p className="secondary-school-container__years-text">2006 - 2017</p>
-                        <p className="secondary-school-container__school-text">Secondary school in Brest</p>
+                        <p className="secondary-school-container__school-text">Secondary school in Brest, Belarus</p>
                     </div>
                     <p className="description-about-me__text-content">At the university, I'm studing a little longer than expected due to 
                     personal circumstances. I'm studing at the computer science faculty.</p>
@@ -77,44 +80,98 @@ const Description = () => {
                         <p className="secondary-school-container__years-text">2019 - now</p>
                         <p className="secondary-school-container__school-text">Siedlce University of Natural Sciences and Humanities</p>
                     </div>
-                    <p className="description-about-me__secondary-school-container">While studying at the university, I had the opportunity to take a free course "Information technology supporting people 
+                    <p className="description-about-me__text-content">While studying at the university, I had the opportunity to take a free course "Information technology supporting people 
                         with visual impairment", which was organized by the university.</p>
                     <div className="description-about-me__secondary-school-container">
                         <BlindIcon className="secondary-school-container__icon" />
                         <p className="secondary-school-container__years-text">03/2020 - 06/2020</p>
-                        <p className="secondary-school-container__school-text">Course "Information technology supporting people 
-                        with visual impairment"</p>
+                        <p className="secondary-school-container__school-text">The course "Internet Content Accessibility Tester"</p>
                     </div>
-                    <p className="description-about-me__secondary-school-container">A year later, I realized that the university does not provide enough narrow knowledge to be able to get a job in the 
+                    <p className="description-about-me__text-content">A year later, I realized that the university does not provide enough narrow knowledge to be able to get a job in the 
                         future, so I bought courses in ReactJS. But during this course, I also greatly improved my knowledge in js, 
                         css and scss.</p>
                     <div className="description-about-me__secondary-school-container">
+                        <div className="secondary-school-container__icon">
+                            <img src={FrontEnd} width={23}/>
+                        </div>
                         <p className="secondary-school-container__years-text">04/2021 - 10/2021</p>
-                        <p className="secondary-school-container__school-text">Course "Dev Hero: Remote course Front End"</p>
+                        <p className="secondary-school-container__school-text">The course "Dev Hero: Remote course Front End"</p>
                     </div> 
-                    <p className="description-about-me__secondary-school-container">A couple of months later completing these courses, I was able to get a job :)</p>
-                    <p className="description-about-me__secondary-school-container">After I got a remote job, I went to Germany for one semester as an exchange student to study. I studied in the 
+                    <p className="description-about-me__text-content">A couple of months later completing these courses, I was able to get a job :)</p>
+                    <p className="description-about-me__text-content">After I got a remote job, I went to Germany for one semester as an exchange student to study. I studied in the 
                     city of Trier at the Faculty of Computer Science.</p>
                     <div className="description-about-me__secondary-school-container">
+                        <div className="secondary-school-container__icon">
+                            <img src={ExchangeStudent} width={23}/>
+                        </div>
                         <p className="secondary-school-container__years-text">04/2022 - 08/2022</p>
                         <p className="secondary-school-container__school-text">Hochschule Trier – Trier University of Applied Sciences</p>
                     </div>
-                </div>
-
-                {/* <div className="description-courses__main-container">
-                    <p className="description-courses__text-content">Ukończyłam kurs Easy Code</p>
-                    <img className="description-courses__easy-icon" src={CourseIcon} alt="Easy code icon" />
-                </div> */}
-            </div>
-
-            <div className="description-skills__main-container">
-                <div className="description-skills__education-container">
-                    <p className="description-about-me__secondary-school-container">Also, while studying in Germany, I managed to do an internship in a private company in Trier</p>
+                    <p className="description-about-me__text-content">Also, while studying in Germany, I managed to do an internship in a private company in Trier</p>
                     <div className="description-about-me__secondary-school-container">
+                        <div className="secondary-school-container__icon">
+                            <img src={Practice} width={25}/>
+                        </div>
                         <p className="secondary-school-container__years-text">06/2022 - 10/2022</p>
                         <p className="secondary-school-container__school-text">Practice at the firm meetingmasters.de e.K.</p>
                     </div>
-                    <p className="description-about-me__secondary-school-container">I had to do part of the practice work remotely, as my German visa was expiring</p>
+                    <p className="description-about-me__text-content">I had to do part of the practice work remotely, as my German visa was expiring ;)</p>
+                </div>
+            </div>
+
+            <div className="description-skills__main-container">
+                <div className="description-about-me__work-experience">
+                    <h2 className="description-about-me__second-header">Work Experience</h2>
+                    <div className="description-about-me__secondary-school-container">
+                        <p className="secondary-school-container__years-text">2017 - 2018</p>
+                        <p className="secondary-school-container__school-text">Sushi Bar in Siedlce, waitress</p>
+                    </div>
+                    <div className="description-about-me__secondary-school-container">
+                        <p className="secondary-school-container__years-text">2018 - 2019</p>
+                        <p className="secondary-school-container__school-text">Printing House "Iwonex", assistant</p>
+                    </div>
+                    <p className="description-about-me__text-content">I decided to add job experiences that are not related to my specialty to show that 
+                    I am a person who can work long and hard :)</p>
+                    <div className="description-about-me__secondary-school-container">
+                        <p className="secondary-school-container__years-text">03/2020 - 06/2020</p>
+                        <p className="secondary-school-container__school-text">The course "Internet Content Accessibility Tester"</p>
+                    </div>
+                    <p className="description-about-me__text-content">The next thing that happened to me was my first practice where 
+                    my task was "Make a website with a database on the subject of "Project Tracking System" (Used HTML, CSS, JS, jQuery, PHP and SQL)</p>
+                    <div className="description-about-me__secondary-school-container">
+                        <p className="secondary-school-container__years-text">07/2020 - 08/2020</p>
+                        <p className="secondary-school-container__school-text">Internship at the University of Natural Sciences and Humanities in Siedlce</p>
+                    </div>
+                    <p className="description-about-me__text-content">The next course I took will help me to get a job in Poland and get a good practice in Germany in the future</p>
+                    <div className="description-about-me__secondary-school-container">
+                        <p className="secondary-school-container__years-text">04/2021 - 10/2021</p>
+                        <p className="secondary-school-container__school-text">The course "Dev Hero: Remote course Front End"</p>
+                    </div>
+                    <p className="description-about-me__text-content">It was my first internship at the firm, I learned a lot in these three months :)</p>
+                    <div className="description-about-me__secondary-school-container">
+                        <p className="secondary-school-container__years-text">07/2021 - 10/2021</p>
+                        <p className="secondary-school-container__school-text">Practice in a private company in Siedlce, working on commercial 
+                        projects as a Junior Front-End Developer</p>
+                    </div>
+                    <p className="description-about-me__text-content">During almost all my studies, I constantly worked part-time somewhere, 
+                        because I lived on my own</p>
+                    <div className="description-about-me__secondary-school-container">
+                        <p className="secondary-school-container__years-text">01/2019 - 03/2022</p>
+                        <p className="secondary-school-container__school-text">RGIS, inventory worker in the retail area</p>
+                    </div>
+                    <p className="description-about-me__text-content">The next practice was not limited by time frames (for example, 320 hours), 
+                        I worked for the company until I did the tasks indicated at the very beginning</p>
+                    <div className="description-about-me__secondary-school-container">
+                        <p className="secondary-school-container__years-text">06/2022 - 10/2022</p>
+                        <p className="secondary-school-container__school-text">Practice at the private company "meetingmasters.de e.K." 
+                        in Germany, Trier, working on commercial projects as Junior Front-End Developer</p>
+                    </div>
+                    <p className="description-about-me__text-content">At the next company, I worked remotely. At first I worked part-time, 
+                        and then I started working full-time</p>
+                    <div className="description-about-me__secondary-school-container">
+                        <p className="secondary-school-container__years-text">03/2022 - 04/2023</p>
+                        <p className="secondary-school-container__school-text">Blunovation Sp. z o.o, Junior front-end developer</p>
+                    </div>
                 </div>
 
                 <div className="description-skills__ability-wrapper">

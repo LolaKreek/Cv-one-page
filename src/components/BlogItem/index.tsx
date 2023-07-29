@@ -16,7 +16,7 @@ const BlogItem = (props: ComponentsTypes.BlogItemPropsType) => {
 
                 <div className="blog-posts__content-read-more">
                     <p className="blog-posts__read-more margin-zero">Read more</p>
-                    <Tooltip title="Read more">
+                    <Tooltip title="Read more" className="blog-posts__read-more-arrow">
                         <ArrowForwardIcon />
                     </Tooltip>
                 </div>

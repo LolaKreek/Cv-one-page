@@ -21,14 +21,14 @@
 .blog-posts__paragraph{
     color: #8a7474;
     line-height: 1.4;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .blog-posts__content-main-container{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-top: 2%;
+    margin-top: 1%;
 }
 
 .blog-posts__container-posts{
@@ -76,6 +76,11 @@
 
 .blog-posts__read-more{
     margin-right: 2%;
+    cursor: pointer;
+}
+
+.blog-posts__read-more-arrow{
+    cursor: pointer;
 }
 
 .blog-posts__authot-container{
