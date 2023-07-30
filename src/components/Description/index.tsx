@@ -197,9 +197,6 @@ const Description = () => {
                     <div className="skills__container-ability">
                         <Skills class='column-9 column' text='Scss 90%' tooltipTitle="Skillful in SCSS" />
                     </div>
-                    <div className="skills__container-ability">
-                        <Skills class='column-5 column' text='D3.js 50%' tooltipTitle="Style-savvy coder :) At least I try to be XD" />
-                    </div>
                 </div>
                 <p className="description-about-me__text-content">Below you can find the tools and libraries that I managed to work with ;)</p>
             </div>
