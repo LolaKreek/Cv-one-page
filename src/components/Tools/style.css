@@ -33,12 +33,15 @@
 }
 
 .tools__container-icons{
-    flex-basis: 6%;
+    flex-basis: 8%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    align-content: center;
     cursor: pointer;
     transition: all .5s;
+    grid-auto-rows: 1fr;
 }
 
 .tools__container-icons:hover{
@@ -47,10 +50,11 @@
 }
 
 .tools__inscription{
-    flex-wrap: wrap;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     color: #8a7474;
     font-family: "Work Sans",sans-serif;
-    margin: 0;
+    margin: 0 1% 1% 1%;
     text-align: center;
     font-size: .625rem;
 }
@@ -64,6 +68,8 @@
 
 .tools__icons{
     width: 70px;
+    padding: 10%;
+    height: 70px;
 }
 
 .tools__container-circle-1{
