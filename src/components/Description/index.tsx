@@ -21,7 +21,7 @@ const Description = () => {
                     <h2 className="description-about-me__second-header">All about my life</h2>
 
                     <p className="description-about-me__text-content">I can talk about my life for a long time. At my age, I have a little 
-                        experience that I could share</p>
+                        experience that I could share.</p>
 
                     <p className="description-about-me__text-content">If life were a colorful tapestry, 
                     mine would be a vibrant mosaic, woven with diverse experiences and cherished moments. 
@@ -107,7 +107,7 @@ const Description = () => {
                         <p className="secondary-school-container__years-text">04/2022 - 08/2022</p>
                         <p className="secondary-school-container__school-text">Hochschule Trier – Trier University of Applied Sciences</p>
                     </div>
-                    <p className="description-about-me__text-content">Also, while studying in Germany, I managed to do an internship in a private company in Trier</p>
+                    <p className="description-about-me__text-content">Also, while studying in Germany, I managed to do an internship in a private company in Trier.</p>
                     <div className="description-about-me__secondary-school-container">
                         <div className="secondary-school-container__icon">
                             <img src={Practice} width={25}/>
@@ -137,12 +137,12 @@ const Description = () => {
                         <p className="secondary-school-container__school-text">The course "Internet Content Accessibility Tester"</p>
                     </div>
                     <p className="description-about-me__text-content">The next thing that happened to me was my first practice where 
-                    my task was "Make a website with a database on the subject of "Project Tracking System" (Used HTML, CSS, JS, jQuery, PHP and SQL)</p>
+                    my task was "Make a website with a database on the subject of "Project Tracking System" (Used HTML, CSS, JS, jQuery, PHP and SQL).</p>
                     <div className="description-about-me__secondary-school-container">
                         <p className="secondary-school-container__years-text">07/2020 - 08/2020</p>
                         <p className="secondary-school-container__school-text">Internship at the University of Natural Sciences and Humanities in Siedlce</p>
                     </div>
-                    <p className="description-about-me__text-content">The next course I took will help me to get a job in Poland and get a good practice in Germany in the future</p>
+                    <p className="description-about-me__text-content">The next course I took will help me to get a job in Poland and get a good practice in Germany in the future.</p>
                     <div className="description-about-me__secondary-school-container">
                         <p className="secondary-school-container__years-text">04/2021 - 10/2021</p>
                         <p className="secondary-school-container__school-text">The course "Dev Hero: Remote course Front End"</p>
@@ -154,20 +154,20 @@ const Description = () => {
                         projects as a Junior Front-End Developer</p>
                     </div>
                     <p className="description-about-me__text-content">During almost all my studies, I constantly worked part-time somewhere, 
-                        because I lived on my own</p>
+                        because I lived on my own.</p>
                     <div className="description-about-me__secondary-school-container">
                         <p className="secondary-school-container__years-text">01/2019 - 03/2022</p>
                         <p className="secondary-school-container__school-text">RGIS, inventory worker in the retail area</p>
                     </div>
                     <p className="description-about-me__text-content">The next practice was not limited by time frames (for example, 320 hours), 
-                        I worked for the company until I did the tasks indicated at the very beginning</p>
+                        I worked for the company until I did the tasks indicated at the very beginning.</p>
                     <div className="description-about-me__secondary-school-container">
                         <p className="secondary-school-container__years-text">06/2022 - 10/2022</p>
                         <p className="secondary-school-container__school-text">Practice at the private company "meetingmasters.de e.K." 
                         in Germany, Trier, working on commercial projects as Junior Front-End Developer</p>
                     </div>
                     <p className="description-about-me__text-content">At the next company, I worked remotely. At first I worked part-time, 
-                        and then I started working full-time</p>
+                        and then I started working full-time.</p>
                     <div className="description-about-me__secondary-school-container">
                         <p className="secondary-school-container__years-text">03/2022 - 04/2023</p>
                         <p className="secondary-school-container__school-text">Blunovation Sp. z o.o, Junior front-end developer</p>

@@ -1,7 +1,9 @@
 import { useState } from "react";
 import "./style.css"
 import Work from "../Work";
-import PortfolioCaseIcon from "../../assets/portfolio_case_01.png"
+import Map from '../../assets/project-map.png';
+import Genshin from '../../assets/project-genshin.png';
+import UnderConstruction from '../../assets/under-construction.png';
 import PortfolioIcons from "../PortfolioIcons";
 import Circles from "../Circles";
 import Circle_01 from "../../assets/circle_01.png"
@@ -10,19 +12,19 @@ const MyWorks = () => {
     const [firstWork, setFirstWork] = useState(false);
     const [secondWork, setSecondWork] = useState(false);
     const [thirdWork, setThirdWork] = useState(false);
-    const [fourthWork, setFourthWork] = useState(false);
-    const [fifthWork, setFifthWork] = useState(false);
-    const [sixthWork, setSixthWork] = useState(false);
 
     return(
         <div className="my-works__main-container">
             <h2 className="my-works__main-header">//My works</h2>
             <h2 className="my-works__second-header">Portfolio</h2>
 
-            <p className="my-works__text-content">Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
-                irure dolor in reprehenderit in voluptate velit esse cillum 
-                dolore eu fugiat nulla pariatur.</p>
+            <p className="my-works__text-content">Welcome to my evolving portfolio of programming projects, where quality 
+            reigns supreme over quantity. While my collection may not be extensive, rest assured that each project is imbued 
+            with soul, passion, and unwavering commitment. With every line of code written, I embark on a journey of continuous 
+            improvement, determined to hone my skills and create software solutions that leave a lasting impression. As the years 
+            pass, my portfolio will undoubtedly grow in both scope and sophistication, becoming a true reflection of my dedication 
+            to the craft and my relentless pursuit of excellence. So, join me on this dynamic journey, where every project tells 
+            a unique story of growth, learning, and the unwavering desire to make a difference through the power of programming.</p>
 
             <div className="my-works__container-works">
                 <Circles class="my-works__container-circle-1" classImg="my-works__circle-1 circle" src={Circle_01} />
@@ -30,8 +32,8 @@ const MyWorks = () => {
                 <div className="my-works__work work-1">
                     <div onMouseOver={() => setFirstWork(true)} onMouseLeave={() => setFirstWork(false)}>
                         {/* If firstWork === true (the mouse is on the element) -> show the component, otherwise do not show */}
-                        <Work wrapper={firstWork ? 'show-wrapper' : 'hidden-wrapper'} firstText='Office software' secondText='- delicious sushi' thirdText='Tools:React/Redux/' fourthText='Program 01:/Flexbox'/>
-                        <img className="my-work__main-image" alt='Visualization of work' id="img-1" src={PortfolioCaseIcon} />
+                        <Work wrapper={firstWork ? 'show-wrapper' : 'hidden-wrapper'} firstText='Interactive world map' secondText='Contains information about the location of containers and the status of documents for these containers' thirdText='Skills: ReactJS/TypeScript/CSS/HTML/JSX' fourthText='Tools: d3-geo/geojson/Mui/Vite.js'/>
+                        <img className="my-work__main-image" alt='Visualization of map project' id="img-1" src={Map} />
                     </div>
                     
                     <PortfolioIcons />
@@ -40,8 +42,8 @@ const MyWorks = () => {
                 <div className="my-works__work work-1">
                     <div onMouseOver={() => setSecondWork(true)} onMouseLeave={() => setSecondWork(false)}>
                         {/* If firstWork === true (the mouse is on the element) -> show the component, otherwise do not show */}
-                        <Work wrapper={secondWork ? 'show-wrapper' : 'hidden-wrapper'} firstText='Office software' secondText='- delicious sushi' thirdText='Tools:React/Redux/' fourthText='Program 01:/Flexbox'/>
-                        <img className="my-work__main-image" alt='Visualization of work' id="img-2" src={PortfolioCaseIcon} />
+                        <Work wrapper={secondWork ? 'show-wrapper' : 'hidden-wrapper'} firstText='Forum for the game Genshin Impact' secondText='These are ordinary static pages with text. The project was made to defend one of the subjects at the university' thirdText='Skills: ReactJS/JS/CSS/HTML' fourthText='Tools: Google firebase/Styled Components'/>
+                        <img className="my-work__main-image" alt='Visualization of Genshin project' id="img-2" src={Genshin} />
                     </div>
 
                     <PortfolioIcons />
@@ -50,40 +52,10 @@ const MyWorks = () => {
                 <div className="my-works__work work-1">
                     <div onMouseOver={() => setThirdWork(true)} onMouseLeave={() => setThirdWork(false)}>
                         {/* If firstWork === true (the mouse is on the element) -> show the component, otherwise do not show */}
-                        <Work wrapper={thirdWork ? 'show-wrapper' : 'hidden-wrapper'} firstText='Office software' secondText='- delicious sushi' thirdText='Tools:React/Redux/' fourthText='Program 01:/Flexbox'/>
-                        <img className="my-work__main-image" alt='Visualization of work' id="img-3" src={PortfolioCaseIcon} />
+                        <Work wrapper={thirdWork ? 'show-wrapper' : 'hidden-wrapper'} firstText='Graduate work' secondText='Work is currently underway on this project. The project will be added to the portfolio when it is fully completed. But you can follow the development of this project on github :)' thirdText='Skills: ReactJS/TypeScript/CSS/HTML and etc' fourthText='Tools: Mui/Redux toolkit/Formik docs/Vite.js and etc'/>
+                        <img className="my-work__main-image" alt='Visualization of Graduate project' id="img-3" src={UnderConstruction} />
                     </div>
 
-                    <PortfolioIcons />
-                </div>
-
-                <div className="my-works__work work-1">
-                    <div onMouseOver={() => setFourthWork(true)} onMouseLeave={() => setFourthWork(false)}>
-                        {/* If firstWork === true (the mouse is on the element) -> show the component, otherwise do not show */}
-                        <Work wrapper={fourthWork ? 'show-wrapper' : 'hidden-wrapper'} firstText='Office software' secondText='- delicious sushi' thirdText='Tools:React/Redux/' fourthText='Program 01:/Flexbox'/>
-                        <img className="my-work__main-image" alt='Visualization of work' id="img-4" src={PortfolioCaseIcon} />
-                    </div>
-
-                    <PortfolioIcons />
-                </div>
-
-                <div className="my-works__work work-1">
-                    <div onMouseOver={() => setFifthWork(true)} onMouseLeave={() => setFifthWork(false)}>
-                        {/* If firstWork === true (the mouse is on the element) -> show the component, otherwise do not show */}
-                        <Work wrapper={fifthWork ? 'show-wrapper' : 'hidden-wrapper'} firstText='Office software' secondText='- delicious sushi' thirdText='Tools:React/Redux/' fourthText='Program 01:/Flexbox'/>
-                        <img className="my-work__main-image" alt='Visualization of work' id="img-4" src={PortfolioCaseIcon} />
-                    </div>
-                    
-                    <PortfolioIcons />
-                </div>
-
-                <div className="my-works__work work-1">
-                    <div onMouseOver={() => setSixthWork(true)} onMouseLeave={() => setSixthWork(false)}>
-                        {/* If firstWork === true (the mouse is on the element) -> show the component, otherwise do not show */}
-                        <Work wrapper={sixthWork ? 'show-wrapper' : 'hidden-wrapper'} firstText='Office software' secondText='- delicious sushi' thirdText='Tools:React/Redux/' fourthText='Program 01:/Flexbox'/>
-                        <img className="my-work__main-image" alt='Visualization of work' id="img-4" src={PortfolioCaseIcon} />
-                    </div>
-                    
                     <PortfolioIcons />
                 </div>
             </div>

@@ -34,9 +34,9 @@
 .my-works__work{
     flex-basis: 30%;
     border-radius: 8px;
+    min-width: 370px;
     box-shadow: 5px 5px 5px #aaa;
     position: relative;
-    margin: 2% 0 2% 0;
     z-index: 2;
     background-color: white;
 }

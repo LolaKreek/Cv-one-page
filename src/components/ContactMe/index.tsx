@@ -13,8 +13,12 @@ const ContactMe = () => {
                 <div className="contact-me__relative-wrapper">
                     <div className="contact-me__content-wrapper">
                         <h2 className="contact-me__main-header margin-zero main-header">//Contact me</h2>
-                        <p className="standard-color-and-font">If you are willing to work with me, contact me. 
-                            I can join your team to serve you with my engeneering experience</p>
+                        <h2 className="contact-me__second-header margin-zero main-header">Let's connect!</h2>
+                        <p className="standard-color-and-font">I am thrilled to be available for contact and excitedly looking forward 
+                        to connecting with you! Whether it's regarding career prospects, collaboration opportunities, or simply sharing 
+                        ideas, don't hesitate to reach out using the information provided below. As a dedicated and enthusiastic individual, 
+                        I'm eager to explore new possibilities and engage in meaningful conversations that can lead to mutual growth and success. 
+                        So, let's connect and embark on a journey of innovation and excellence together!</p>
 
                         <form className='contact-me__form'>
                             <input className="contact-me__input" type="text" placeholder="Your e-mail" /><br></br>
