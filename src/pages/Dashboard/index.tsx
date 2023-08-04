@@ -2,6 +2,7 @@ import AboutMe from "../../components/AboutMe";
 import BlogPosts from "../../components/BlogPosts";
 import ContactMe from "../../components/ContactMe";
 import Description from "../../components/Description";
+import FinalPart from "../../components/FinalPart";
 import Menu from "../../components/Menu";
 import MyWorks from "../../components/MyWorks";
 import Tools from "../../components/Tools";
@@ -16,6 +17,7 @@ const Dashboard = () => {
             <Tools />
             <MyWorks />
             <BlogPosts />
+            <FinalPart />
             <ContactMe />
         </div>
     )

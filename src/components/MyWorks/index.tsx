@@ -36,7 +36,7 @@ const MyWorks = () => {
                         <img className="my-work__main-image" alt='Visualization of map project' id="img-1" src={Map} />
                     </div>
                     
-                    <PortfolioIcons />
+                    <PortfolioIcons href="https://github.com/LolaKreek/Map-with-d3.js" />
                 </div>
 
                 <div className="my-works__work work-1">
@@ -46,7 +46,7 @@ const MyWorks = () => {
                         <img className="my-work__main-image" alt='Visualization of Genshin project' id="img-2" src={Genshin} />
                     </div>
 
-                    <PortfolioIcons />
+                    <PortfolioIcons href="https://github.com/LolaKreek/GenshinForum" />
                 </div>
 
                 <div className="my-works__work work-1">
@@ -56,7 +56,7 @@ const MyWorks = () => {
                         <img className="my-work__main-image" alt='Visualization of Graduate project' id="img-3" src={UnderConstruction} />
                     </div>
 
-                    <PortfolioIcons />
+                    <PortfolioIcons href="https://github.com/LolaKreek/graduateWork" />
                 </div>
             </div>
         </div>

@@ -37,4 +37,8 @@ export namespace ComponentsTypes {
         classImg: string,
         src: string
     }
+
+    export type PortfolioIconsType = {
+        href: string
+    }
 }

@@ -10,7 +10,7 @@
     cursor: pointer;
 }
 
-.my-works__icon-item:hover{
+.my-works__icon-item > svg:hover{
     color: #8a7474;
     transition: all .5s;
 }
