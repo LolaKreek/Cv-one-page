@@ -20,6 +20,7 @@ export namespace ComponentsTypes {
         wrapper: string,
         src: string,
         secondText: string,
+        href: string,
         firstText?: string
     }
 

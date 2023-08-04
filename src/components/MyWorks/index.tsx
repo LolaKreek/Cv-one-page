@@ -32,7 +32,7 @@ const MyWorks = () => {
                 <div className="my-works__work work-1">
                     <div onMouseOver={() => setFirstWork(true)} onMouseLeave={() => setFirstWork(false)}>
                         {/* If firstWork === true (the mouse is on the element) -> show the component, otherwise do not show */}
-                        <Work wrapper={firstWork ? 'show-wrapper' : 'hidden-wrapper'} firstText='Interactive world map' secondText='Contains information about the location of containers and the status of documents for these containers' thirdText='Skills: ReactJS/TypeScript/CSS/HTML/JSX' fourthText='Tools: d3-geo/geojson/Mui/Vite.js'/>
+                        {firstWork ? <Work wrapper={firstWork ? 'show-wrapper' : 'hidden-wrapper'} firstText='Interactive world map' secondText='Contains information about the location of containers and the status of documents for these containers' thirdText='Skills: ReactJS/TypeScript/CSS/HTML/JSX' fourthText='Tools: d3-geo/geojson/Mui/Vite.js'/> : <></>}
                         <img className="my-work__main-image" alt='Visualization of map project' id="img-1" src={Map} />
                     </div>
                     
@@ -42,7 +42,7 @@ const MyWorks = () => {
                 <div className="my-works__work work-1">
                     <div onMouseOver={() => setSecondWork(true)} onMouseLeave={() => setSecondWork(false)}>
                         {/* If firstWork === true (the mouse is on the element) -> show the component, otherwise do not show */}
-                        <Work wrapper={secondWork ? 'show-wrapper' : 'hidden-wrapper'} firstText='Forum for the game Genshin Impact' secondText='These are ordinary static pages with text. The project was made to defend one of the subjects at the university' thirdText='Skills: ReactJS/JS/CSS/HTML' fourthText='Tools: Google firebase/Styled Components'/>
+                        {secondWork ? <Work wrapper='show-wrapper' firstText='Forum for the game Genshin Impact' secondText='These are ordinary static pages with text. The project was made to defend one of the subjects at the university' thirdText='Skills: ReactJS/JS/CSS/HTML' fourthText='Tools: Google firebase/Styled Components'/> : <></>}
                         <img className="my-work__main-image" alt='Visualization of Genshin project' id="img-2" src={Genshin} />
                     </div>
 
@@ -52,7 +52,7 @@ const MyWorks = () => {
                 <div className="my-works__work work-1">
                     <div onMouseOver={() => setThirdWork(true)} onMouseLeave={() => setThirdWork(false)}>
                         {/* If firstWork === true (the mouse is on the element) -> show the component, otherwise do not show */}
-                        <Work wrapper={thirdWork ? 'show-wrapper' : 'hidden-wrapper'} firstText='Graduate work' secondText='Work is currently underway on this project. The project will be added to the portfolio when it is fully completed. But you can follow the development of this project on github :)' thirdText='Skills: ReactJS/TypeScript/CSS/HTML and etc' fourthText='Tools: Mui/Redux toolkit/Formik docs/Vite.js and etc'/>
+                        {thirdWork ? <Work wrapper='show-wrapper' firstText='Graduate work' secondText='Work is currently underway on this project. The project will be added to the portfolio when it is fully completed. But you can follow the development of this project on github :)' thirdText='Skills: ReactJS/TypeScript/CSS/HTML and etc' fourthText='Tools: Mui/Redux toolkit/Formik docs/Vite.js and etc'/> : <></>}
                         <img className="my-work__main-image" alt='Visualization of Graduate project' id="img-3" src={UnderConstruction} />
                     </div>
 
