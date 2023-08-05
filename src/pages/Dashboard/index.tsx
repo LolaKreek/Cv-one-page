@@ -16,8 +16,8 @@ const Dashboard = () => {
             <Description />
             <Tools />
             <MyWorks />
-            <BlogPosts />
             <FinalPart />
+            <BlogPosts />
             <ContactMe />
         </div>
     )

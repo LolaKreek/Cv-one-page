@@ -1,0 +1,138 @@
+.final-part__main-wrapper{
+    width: 100%;
+    background-color: #c8c8c7;
+    margin: 6% 0 0 0;
+    padding: 4% 0 3% 0;
+}
+
+.final-part__main-header{
+    color: black;
+    font-family: 'Asap Condensed', sans-serif;
+    line-height: 1;
+    padding: 3% 0 0 2%;
+    margin: 0;
+}
+
+.final-part__second-header,
+.language-skills__second-header,
+.communication-skills__second-header{
+    color: #dbb594;
+    line-height: 1.1;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0 0 3% 2%;
+    margin: 0;
+}
+
+.language-skills__second-header{
+    padding: 2% 0 2% 2%;
+}
+
+.final-part__main-flex-container{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.final-part__right-part{
+    flex-basis: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.final-part__language-skills,
+.final-part__final-thoughts{
+    box-shadow: 5px 5px 5px #aaa;
+    border-radius: 8px;
+    color: #8a7474;
+    padding-bottom: 3%;
+    background-color: rgba(255, 255, 255, .8);
+}
+
+.language-skills__skills-wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.language-skills__language-container{
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.language-skills__language-icon{
+    width: 50px;
+}
+
+.language-skills__language-icon-wrapper{
+    flex-direction: 20%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.language-skill__language-and-level-wrapper{
+    flex-basis: 85%;
+}
+
+.language-skill__language{
+    font-weight: bolder;
+    margin: 0;
+}
+
+.language-skill__level{
+    margin: 0;
+}
+
+.final-part__communication-skills{
+    flex-basis: 47%;
+    border-radius: 8px;
+    padding-bottom: 2%;
+    background: linear-gradient(to right, #fff1df, #dbb594);
+}
+
+.communication-skills__second-header{
+    margin: 2% 0 1% 1%;
+}
+
+.communication-skill__wrapper{
+    width: 90%;
+    margin: 2% auto;
+    color: #8a7474;
+}
+
+.communication-skill__main-header{
+    margin: 0;
+    font-weight: bolder;
+}
+
+.communication-skill__description{
+    margin: 0 5%;
+}
+
+.final-thoughts__second-header{
+    color: #dbb594;
+    line-height: 1.1;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0 0 0 2%;
+    margin: 0;
+}
+
+.final-thoughts__text{
+    color: #8a7474;
+    margin: 3%;
+}
+
+.final-part__final-thoughts{
+    padding-top: 3%;
+}
+
+.language-skills__miltiple-icon{
+    width: 70px;
+}
