@@ -4,24 +4,35 @@
     background-color: white;
 }
 
-.blog-posts__main-header{
+.blog-posts__main-header,
+.blog-posts__main-post-header{
     color: black;
     font-family: 'Asap Condensed', sans-serif;
     line-height: 1;
     margin: 0;
 }
 
-.blog-posts__second-header{
+.blog-posts__main-post-header{
+    padding: 0 0 0 3%;
+}
+
+.blog-posts__second-header,
+.blog-posts__second-post-header{
     color: #dbb594;
     line-height: 1.1;
     font-family: 'Quicksand', sans-serif;
     margin: 0;
 }
 
+.blog-posts__second-post-header{
+    padding: 0 0 0 3%
+}
+
 .blog-posts__paragraph{
     color: #8a7474;
     line-height: 1.4;
     margin: 0;
+    padding-right: 3%;
 }
 
 .blog-posts__content-main-container{
