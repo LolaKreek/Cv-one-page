@@ -2,6 +2,9 @@ import './style.css';
 import Polish from '../../assets/poland.png';
 import Russian from '../../assets/russia.png';
 import British from "../../assets/gbritain.png";
+import Circle_01 from "../../assets/circle_03.png";
+import MultipleLanguage from "../../assets/multiple-language.png";
+import Circles from '../Circles';
 
 const FinalPart = () => {
     return(
@@ -12,42 +15,44 @@ const FinalPart = () => {
                         <h2 className='language-skills__second-header'>Language skills</h2>
 
                         <div className='language-skills__skills-wrapper'>
-                            <div className='language-skills__language-container'>
-                                <div className='language-skills__language-icon-wrapper'>
-                                    <img className='language-skills__language-icon' src={Polish} />
+                            <div className='language-skills__skills-flex-container'>
+                                <div className='language-skills__language-container'>
+                                    <div className='language-skills__language-icon-wrapper'>
+                                        <img className='language-skills__language-icon' src={Polish} />
+                                    </div>
+
+                                    <div className='language-skill__language-and-level-wrapper'>
+                                        <p className='language-skill__language'>Polish</p>
+                                        <p className='language-skill__level'>Advanced [C1]</p>
+                                    </div>
                                 </div>
 
-                                <div className='language-skill__language-and-level-wrapper'>
-                                    <p className='language-skill__language'>Polish</p>
-                                    <p className='language-skill__level'>Advanced [C1]</p>
+                                <div className='language-skills__language-container'>
+                                    <div className='language-skills__language-icon-wrapper'>
+                                        <img className='language-skills__language-icon' src={Russian} />
+                                    </div>
+
+                                    <div className='language-skill__language-and-level-wrapper'>
+                                        <p className='language-skill__language'>Russian</p>
+                                        <p className='language-skill__level'>Native</p>
+                                    </div>
+                                </div>
+
+                                <div className='language-skills__language-container'>
+                                    <div className='language-skills__language-icon-wrapper'>
+                                        <img className='language-skills__language-icon' src={British} />
+                                    </div>
+
+                                    <div className='language-skill__language-and-level-wrapper'>
+                                        <p className='language-skill__language'>English</p>
+                                        <p className='language-skill__level'>Intermediate [B1]</p>
+                                    </div>
                                 </div>
                             </div>
 
-                            <div className='language-skills__language-container'>
-                                <div className='language-skills__language-icon-wrapper'>
-                                    <img className='language-skills__language-icon' src={Russian} />
-                                </div>
-
-                                <div className='language-skill__language-and-level-wrapper'>
-                                    <p className='language-skill__language'>Russian</p>
-                                    <p className='language-skill__level'>Native</p>
-                                </div>
+                            <div className='final-part__language-multiple-icon-wrapper'>
+                                <img className='language-skills__miltiple-icon' src={MultipleLanguage} />
                             </div>
-
-                            <div className='language-skills__language-container'>
-                                <div className='language-skills__language-icon-wrapper'>
-                                    <img className='language-skills__language-icon' src={British} />
-                                </div>
-
-                                <div className='language-skill__language-and-level-wrapper'>
-                                    <p className='language-skill__language'>English</p>
-                                    <p className='language-skill__level'>Intermediate [B1]</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div>
-                            {/* <img className='language-skills__miltiple-icon' src={MultipleLanguageIcon} /> */}
                         </div>
                     </div>
                     
@@ -67,6 +72,8 @@ const FinalPart = () => {
                             on a remarkable journey together :)</p>
                     </div>
                 </div>
+
+                <Circles class="final-part__container-circle-1" classImg="final-part__circle-1 circle" src={Circle_01} />
 
                 <div className='final-part__communication-skills'>
                     <h2 className='communication-skills__second-header'>Communication skills</h2>

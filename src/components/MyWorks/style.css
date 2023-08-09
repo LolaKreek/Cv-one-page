@@ -66,6 +66,10 @@
     animation: showNewWorkOut 0.5s ease-out forwards;
 }
 
+.my-works__circle-1 circle{
+  z-index: 1;
+}
+
 @-webkit-keyframes showNewWorkIn {
     from {
       width: 0;

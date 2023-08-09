@@ -34,6 +34,7 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: nowrap;
+    position: relative;
 }
 
 .final-part__right-part{
@@ -55,6 +56,13 @@
 .language-skills__skills-wrapper{
     width: 90%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.language-skills__skills-flex-container{
+    flex-basis: 65%;
 }
 
 .language-skills__language-container{
@@ -95,6 +103,7 @@
     border-radius: 8px;
     padding-bottom: 2%;
     background: linear-gradient(to right, #fff1df, #dbb594);
+    z-index: 2;
 }
 
 .communication-skills__second-header{
@@ -134,5 +143,23 @@
 }
 
 .language-skills__miltiple-icon{
-    width: 70px;
+    width: 100%;
+}
+
+.final-part__container-circle-1{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.final-part__circle-1{
+    width: 350px;
+    z-index: 5;
+}
+
+.final-part__language-multiple-icon-wrapper{
+    flex-basis: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
 }
