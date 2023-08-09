@@ -4,6 +4,12 @@ import Russian from '../../assets/russia.png';
 import British from "../../assets/gbritain.png";
 import Circle_01 from "../../assets/circle_03.png";
 import MultipleLanguage from "../../assets/multiple-language.png";
+import CollaborativeTeamPlayer from "../../assets/collaborative-team-player.png";
+import ProblemSolvingCommunication from "../../assets/problem-solving-communication.png";
+import ActiveListening from "../../assets/active-listening.png";
+import ConflictResolution from "../../assets/conflict-resolution.png";
+import ClearAndConciseCommunication from "../../assets/clear-and-concise-communication.png";
+import AdaptabilityInCommunication from "../../assets/adaptability-in-communication.png";
 import Circles from '../Circles';
 
 const FinalPart = () => {
@@ -79,34 +85,70 @@ const FinalPart = () => {
                     <h2 className='communication-skills__second-header'>Communication skills</h2>
 
                     <div className='communication-skill__wrapper'>
-                        <p className='communication-skill__main-header'>Collaborative team player</p>
-                        <p className='communication-skill__description'>Proficient in working within diverse teams, actively participating 
+                        <div className='communication-skill__skill-icon-wrapper'>
+                            <img className='communication-skill__skill-icon' src={CollaborativeTeamPlayer} />
+                        </div>
+                        
+                        <div className='communication-skill__content-wrapper'>
+                            <p className='communication-skill__main-header'>Collaborative team player</p>
+                            <p className='communication-skill__description'>Proficient in working within diverse teams, actively participating 
                             in discussions, and contributing constructively to project development.</p>
+                        </div>
                     </div>
                     <div className='communication-skill__wrapper'>
-                        <p className='communication-skill__main-header'>Active Listening</p>
-                        <p className='communication-skill__description'>Demonstrated skill in attentively understanding project requirements 
-                        and user feedback, ensuring accurate implementation and client satisfaction.</p>
+                        <div className='communication-skill__skill-icon-wrapper'>
+                            <img className='communication-skill__skill-icon' src={ActiveListening} />
+                        </div>
+
+                        <div className='communication-skill__content-wrapper'>
+                            <p className='communication-skill__main-header'>Active Listening</p>
+                            <p className='communication-skill__description'>Demonstrated skill in attentively understanding project requirements 
+                            and user feedback, ensuring accurate implementation and client satisfaction.</p>
+                        </div>
                     </div>
                     <div className='communication-skill__wrapper'>
-                        <p className='communication-skill__main-header'>Clear and Concise Communication</p>
-                        <p className='communication-skill__description'>Expressing ideas succinctly, avoiding ambiguity in technical 
-                        discussions and written communications.</p>
+                        <div className='communication-skill__skill-icon-wrapper'>
+                            <img className='communication-skill__skill-icon' src={ClearAndConciseCommunication} />
+                        </div>
+
+                        <div className='communication-skill__content-wrapper'>
+                            <p className='communication-skill__main-header'>Clear and Concise Communication</p>
+                            <p className='communication-skill__description'>Expressing ideas succinctly, avoiding ambiguity in technical 
+                            discussions and written communications.</p>
+                        </div>
                     </div>
                     <div className='communication-skill__wrapper'>
-                        <p className='communication-skill__main-header'>Conflict Resolution</p>
-                        <p className='communication-skill__description'>Skillful in addressing disagreements constructively and 
-                        finding amicable solutions during project development.</p>
+                        <div className='communication-skill__skill-icon-wrapper'>
+                            <img className='communication-skill__skill-icon' src={ConflictResolution} />
+                        </div>
+
+                        <div className='communication-skill__content-wrapper'>
+                            <p className='communication-skill__main-header'>Conflict Resolution</p>
+                            <p className='communication-skill__description'>Skillful in addressing disagreements constructively and 
+                            finding amicable solutions during project development.</p>
+                        </div>
                     </div>
                     <div className='communication-skill__wrapper'>
-                        <p className='communication-skill__main-header'>Problem-Solving Communication</p>
-                        <p className='communication-skill__description'>Communicating solutions to programming challenges with clarity 
-                        and precision, enabling effective troubleshooting and debugging.</p>
+                        <div className='communication-skill__skill-icon-wrapper'>
+                            <img className='communication-skill__skill-icon' src={ProblemSolvingCommunication} />
+                        </div>
+
+                        <div className='communication-skill__content-wrapper'>
+                            <p className='communication-skill__main-header'>Problem-Solving Communication</p>
+                            <p className='communication-skill__description'>Communicating solutions to programming challenges with clarity 
+                            and precision, enabling effective troubleshooting and debugging.</p>
+                        </div>
                     </div>
                     <div className='communication-skill__wrapper'>
-                        <p className='communication-skill__main-header'>Adaptability in Communication</p>
-                        <p className='communication-skill__description'>Tailoring communication style to suit different audiences, 
-                        whether it be fellow programmers, management, or end-users.</p>
+                        <div className='communication-skill__skill-icon-wrapper'>
+                            <img className='communication-skill__skill-icon' src={AdaptabilityInCommunication} />
+                        </div>
+
+                        <div className='communication-skill__content-wrapper'>
+                            <p className='communication-skill__main-header'>Adaptability in Communication</p>
+                            <p className='communication-skill__description'>Tailoring communication style to suit different audiences, 
+                            whether it be fellow programmers, management, or end-users.</p>
+                        </div>
                     </div>
                 </div>
             </div>

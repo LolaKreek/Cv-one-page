@@ -42,6 +42,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    z-index: 2;
 }
 
 .final-part__language-skills,
@@ -79,7 +80,7 @@
 }
 
 .language-skills__language-icon-wrapper{
-    flex-direction: 20%;
+    flex-direction: 15%;
     display: flex;
     align-items: center;
     align-content: center;
@@ -87,6 +88,7 @@
 
 .language-skill__language-and-level-wrapper{
     flex-basis: 85%;
+    padding-left: 2%;
 }
 
 .language-skill__language{
@@ -114,6 +116,11 @@
     width: 90%;
     margin: 2% auto;
     color: #8a7474;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
 }
 
 .communication-skill__main-header{
@@ -122,7 +129,7 @@
 }
 
 .communication-skill__description{
-    margin: 0 5%;
+    margin: 0 5% 0 0;
 }
 
 .final-thoughts__second-header{
@@ -144,12 +151,14 @@
 
 .language-skills__miltiple-icon{
     width: 100%;
+    max-width: 230px;
 }
 
 .final-part__container-circle-1{
     position: absolute;
     top: 30%;
     left: 30%;
+    z-index: 1;
 }
 
 .final-part__circle-1{
@@ -162,4 +171,18 @@
     display: flex;
     align-items: center;
     justify-content: end;
+}
+
+.communication-skill__skill-icon-wrapper{
+    flex-basis: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.communication-skill__skill-icon{
+    width: 50px;
+}
+
+.communication-skill__content-wrapper{
+    flex-basis: 80%;
 }
