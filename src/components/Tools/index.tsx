@@ -6,6 +6,7 @@ import Vite from '../../assets/vite.png';
 import D3 from '../../assets/d3.jpeg';
 import Bitbucket from '../../assets/bitbucket.png';
 import StyledComponents from '../../assets/styled-components.png';
+import AdobePhotoshop from "../../assets/adobe-photoshop.png";
 import "./style.css";
 import Circles from "../Circles";
 import Circle_01 from "../../assets/circle_01.png"
@@ -27,6 +28,7 @@ const Tools = () => {
                     <ToolItem wrapper='icon-5 icon' href="https://d3js.org" src={D3} firstText='D3.js' secondText='4.0.1' />
                     <ToolItem wrapper='icon-6 icon' href="https://bitbucket.org/product/" src={Bitbucket} firstText='Bitbucket' secondText='7.21.0' />
                     <ToolItem wrapper='icon-7 icon' href="https://styled-components.com" src={StyledComponents} firstText='Styled Components' secondText='6.0.5' />
+                    <ToolItem wrapper='icon-8 icon' href="https://www.adobe.com/products/photoshop.html" src={AdobePhotoshop} firstText='Adobe Photoshop' secondText='24.7' />
                 </div>
             </div>
         </div>
