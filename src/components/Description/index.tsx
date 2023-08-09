@@ -14,7 +14,7 @@ import Skills from "../Skills";
 
 const Description = () => {
     return(
-        <div id="skills" className="description__main-container">
+        <div id="aboutMe" className="description__main-container">
             <div className="description-about-me__main-container">
                 <div className="description-about-me__content-container">
                     <h2 className="description-about-me__main-header">//About me</h2>
@@ -166,7 +166,7 @@ const Description = () => {
                         <p className="secondary-school-container__school-text">Practice at the private company "meetingmasters.de e.K." 
                         in Germany, Trier, working on commercial projects as Junior Front-End Developer</p>
                     </div>
-                    <p className="description-about-me__text-content">At the next company, I worked remotely. At first I worked part-time, 
+                    <p id="skills" className="description-about-me__text-content">At the next company, I worked remotely. At first I worked part-time, 
                         and then I started working full-time.</p>
                     <div className="description-about-me__secondary-school-container">
                         <p className="secondary-school-container__years-text">03/2022 - 04/2023</p>

@@ -30,7 +30,7 @@ const AboutMe = () => {
     }, [currentImage])
 
     return(
-        <div id="aboutMe" className="about-me__main-container">
+        <div className="about-me__main-container">
             <div className="about-me-image__main-container">
                 <Circles class="about-me__container-circle-2" classImg="about-me__circle-2 circle" src={Circle_02} />
                 <Tooltip className="about-me__arrows-cantainer" title="Go left" onClick={() => setCurrentImage(currentImage - 1)}>
