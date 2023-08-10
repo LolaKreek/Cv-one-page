@@ -1,5 +1,6 @@
 import LogoDevIcon from '@mui/icons-material/LogoDev';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import WebIcon from '@mui/icons-material/Web';
 import { Tooltip } from '@mui/material';
 import { ComponentsTypes } from '../types';
 import "./style.css";
@@ -18,6 +19,12 @@ const PortfolioIcons = (props: ComponentsTypes.PortfolioIconsType) => {
                     <LogoDevIcon sx={{fontSize: 35, color: "#c8c8c7"}} />
                 </a>
             </Tooltip>
+
+            {props.showWebsite ? <Tooltip title="Open this project">
+                <a className='my-works__icon-item' href={props.showWebsite} target='_blank'>
+                    <WebIcon sx={{fontSize: 39, color: "#c8c8c7"}} />
+                </a>
+            </Tooltip> : <></>}
         </div>
     )
 }

@@ -8,6 +8,9 @@
 
 .my-works__icon-item{
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    align-content: center;
 }
 
 .my-works__icon-item > svg:hover{

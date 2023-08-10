@@ -8,7 +8,6 @@
 
 ## Installation process
 - Install any IDE of your choice
-- Install node verion 18.14.2 or use nvm(Node version manager)
 - Clone repository 
 - Install node modules by npm install
 - Start project npm run dev
@@ -24,7 +23,7 @@ After instalation is completed type
 ## Description
 This is a project that I decided to create to showcase my skills as a programmer, as well as to make it easier to send resumes to different companies for job hunting :)
 
-## file structure
+## File structure
 1. assets => 
    All images, styles, icons or fonts and others that are not related to the code go here
 2. components => 

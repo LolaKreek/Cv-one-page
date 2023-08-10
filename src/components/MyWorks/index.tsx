@@ -36,17 +36,21 @@ const MyWorks = () => {
                         <img className="my-work__main-image" alt='Visualization of map project' id="img-1" src={Map} />
                     </div>
                     
-                    <PortfolioIcons href="https://github.com/LolaKreek/Map-with-d3.js" />
+                    <PortfolioIcons href="https://github.com/LolaKreek/Map-with-d3.js" showWebsite='true' />
                 </div>
 
                 <div className="my-works__work work-1">
                     <div onMouseOver={() => setSecondWork(true)} onMouseLeave={() => setSecondWork(false)}>
                         {/* If firstWork === true (the mouse is on the element) -> show the component, otherwise do not show */}
-                        {secondWork ? <Work wrapper='show-wrapper' firstText='Forum for the game Genshin Impact' secondText='These are ordinary static pages with text. The project was made to defend one of the subjects at the university' thirdText='Skills: ReactJS/JS/CSS/HTML' fourthText='Tools: Google firebase/Styled Components'/> : <></>}
+                        {secondWork ? <Work wrapper='show-wrapper' 
+                            link="https://genshin-impact-lalita-klimchuk.netlify.app" 
+                            firstText='Forum for the game Genshin Impact' 
+                            secondText='These are ordinary static pages with text. The project was made to defend one of the subjects at the university' 
+                            thirdText='Skills: ReactJS/JS/CSS/HTML' fourthText='Tools: Google firebase/Styled Components'/> : <></>}
                         <img className="my-work__main-image" alt='Visualization of Genshin project' id="img-2" src={Genshin} />
                     </div>
 
-                    <PortfolioIcons href="https://github.com/LolaKreek/GenshinForum" />
+                    <PortfolioIcons href="https://github.com/LolaKreek/GenshinForum" showWebsite="https://genshin-impact-lalita-klimchuk.netlify.app" />
                 </div>
 
                 <div className="my-works__work work-1">

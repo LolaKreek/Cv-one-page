@@ -29,7 +29,8 @@ export namespace ComponentsTypes {
         firstText: string,
         secondText: string,
         thirdText: string,
-        fourthText: string
+        fourthText: string,
+        link?: string
     }
 
     export type CirclePropsType = {
@@ -39,6 +40,7 @@ export namespace ComponentsTypes {
     }
 
     export type PortfolioIconsType = {
-        href: string
+        href: string,
+        showWebsite?: string
     }
 }
