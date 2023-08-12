@@ -76,17 +76,16 @@
 }
 
 .contact-me__form{
-    margin-left: 3%;
+    margin: 5% 0 0 3%;
 }
 
 .contact-me__input{
     font-size: 15px;
-    padding: 2% 0 2% 3%;
-    margin: 2% 0 0;
     width: 65%;
     border: none;
     border-radius: 8px;
     background-color: white;
+    color: #8a7474;
     box-shadow: 5px 5px 5px #aaa;
 }
 
