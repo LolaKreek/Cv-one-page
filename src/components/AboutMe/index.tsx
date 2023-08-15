@@ -13,6 +13,7 @@ import { useEffect, useState } from "react";
 import Circles from "../Circles";
 import Circle_01 from "../../assets/circle_01.png";
 import Circle_02 from "../../assets/circle_02.png";
+import PfdFile from "../../data/lalita-klimchuk.pdf";
 
 const AboutMe = () => {
     const imageArray = [MainFirstImage, MainSecondImage, MainThierdImage];
@@ -28,6 +29,36 @@ const AboutMe = () => {
         }
         setImageSetter(imageArray[currentImage]);
     }, [currentImage])
+
+    async function cvDownloadHandle() {
+        console.log("OKKKKKKK")
+        fetch(PfdFile, {
+            method: 'GET',
+            headers: {
+            'Content-Type': 'application/pdf',
+            },
+        })
+        .then((response) => response.blob())
+        .then((blob) => {
+            // Create blob link to download
+            const url = window.URL.createObjectURL(
+            new Blob([blob]),
+            );
+            const link = document.createElement('a');
+            link.href = url;
+            link.setAttribute(
+            'download',
+            `Lalita-Klimchuk-CV.pdf`,
+            );
+
+            // Append to html link element page
+            document.body.appendChild(link);
+            // Start download
+            link.click();
+            // Clean up and remove the link
+            link.remove();
+        });
+    }
 
     return(
         <div className="about-me__main-container">
@@ -53,7 +84,7 @@ const AboutMe = () => {
 
                     <div className="buttons-part-content__buttons-container">
                         <a className="menu-content__links" href="#contactMe"><GradientButton icon={<EngineeringIcon />} title="Hire me now" /></a>
-                        <GradientButton icon={<ArrowCircleDownIcon />} title="Download CV" />
+                        <div onClick={cvDownloadHandle}><GradientButton icon={<ArrowCircleDownIcon />} title="Download CV" /></div>
                     </div>
                 </div>
             </div>
