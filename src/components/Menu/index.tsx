@@ -7,13 +7,13 @@ import "./style.css"
 
 const Menu = () => {
     return(
-        <div className="menu-content__fixed-wrapper">
+        <div className="menu-content__fixed-wrapper menu">
             <div className="menu__main-container">
-                <div className="menu-initials__main-container">
+                <div className="menu-initials__main-container menu-initials">
                     <h1 className="menu-initials__text-content">L.K.</h1>
                 </div>
 
-                <div className="menu-content__main-container">
+                <div className="menu-content__main-container menu-content">
                     <Box sx={{ display: 'flex', alignItems: 'center', textAlign: 'center' }}>
                         <Typography className="menu-content__items" sx={{ minWidth: 100 }}><a className="menu-content__links" href="#aboutMe">About me</a></Typography>
                         <Typography className="menu-content__items" sx={{ minWidth: 100 }}><a className="menu-content__links" href="#skills">Skills</a></Typography>
@@ -22,7 +22,7 @@ const Menu = () => {
                         <Typography className="menu-content__items" sx={{ minWidth: 100 }}><a className="menu-content__links" href="#contactMe">Contact me</a></Typography>
                         <HorizontalRuleIcon sx={{ transform: `rotate(90deg)` }} />
                         
-                        <Tooltip className="menu-main-container__icon" title="LinkedIn">
+                        <Tooltip className="menu-main-container__icon memu-content__icon" title="LinkedIn">
                             <Link className="menu__linked-in-link" href="https://www.linkedin.com/in/lalita-klimchuk-137b28227/" target="_blank">
                                 <LinkedInIcon />
                             </Link>
