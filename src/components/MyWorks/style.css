@@ -11,6 +11,13 @@
   margin: 0;
 }
 
+.main-header__for-my-work,
+.my-works__new-paragraph,
+.my-works__new-description{
+  animation-delay: 1s;
+  animation: showTextContent 1s ease-out forwards;
+}
+
 .my-works__second-header{
   color: #dbb594;
   line-height: 1.1;
@@ -68,6 +75,24 @@
 
 .my-works__circle-1 circle{
   z-index: 1;
+}
+
+@-webkit-keyframes showTextContent {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes showTextContent {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @-webkit-keyframes showNewWorkIn {

@@ -32,7 +32,7 @@ const MyWorks = () => {
                 <div className="my-works__work work-1">
                     <div onMouseOver={() => setFirstWork(true)} onMouseLeave={() => setFirstWork(false)}>
                         {/* If firstWork === true (the mouse is on the element) -> show the component, otherwise do not show */}
-                        {firstWork ? <Work wrapper={firstWork ? 'show-wrapper' : 'hidden-wrapper'} 
+                        {firstWork ? <Work wrapper='show-wrapper'
                             link="https://map-d3js-lalita-klimchuk.netlify.app"
                             firstText='Interactive world map' 
                             secondText='Contains information about the location of containers and the status of documents for these containers' 
