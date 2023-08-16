@@ -3,13 +3,12 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import HorizontalRuleIcon from '@mui/icons-material/HorizontalRule';
-import "./style.css"
 
 const Menu = () => {
     return(
-        <div className="menu-content__fixed-wrapper menu">
+        <div className="menu">
             <div className="menu__main-container">
-                <div className="menu-initials__main-container menu-initials">
+                <div className="menu-initials">
                     <h1 className="menu-initials__text-content">L.K.</h1>
                 </div>
 
@@ -22,17 +21,17 @@ const Menu = () => {
                         <Typography className="menu-content__items" sx={{ minWidth: 100 }}><a className="menu-content__links" href="#contactMe">Contact me</a></Typography>
                         <HorizontalRuleIcon sx={{ transform: `rotate(90deg)` }} />
                         
-                        <Tooltip className="menu-main-container__icon memu-content__icon" title="LinkedIn">
+                        <Tooltip className="memu-content__icon" title="LinkedIn">
                             <Link className="menu__linked-in-link" href="https://www.linkedin.com/in/lalita-klimchuk-137b28227/" target="_blank">
                                 <LinkedInIcon />
                             </Link>
                         </Tooltip>
-                        <Tooltip className="menu-main-container__icon" title="GitHub">
+                        <Tooltip title="GitHub">
                             <Link className="menu__git-hub-link" href="https://github.com/LolaKreek" target="_blank">
                                 <GitHubIcon />
                             </Link>
                         </Tooltip>
-                        <Tooltip className="menu-main-container__icon" title="Instagram">
+                        <Tooltip title="Instagram">
                             <Link className="menu__instagram-link" href="https://www.instagram.com/lolakreek/" target="_blank">
                                 <InstagramIcon />
                             </Link>

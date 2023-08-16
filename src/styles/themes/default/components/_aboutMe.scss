@@ -1,0 +1,106 @@
+.about-me{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    padding-top: 150px;
+    position: relative;
+
+    &__image-main-container{
+        flex-basis: 40%;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        align-content: center;
+        z-index: 1;
+        position: relative;
+    }
+
+    .image-main-container{
+        &__container-about-me-circle-2{
+            position: absolute;
+            z-index: 0;
+        }
+
+        &__container-about-me-circle-2{
+            bottom: -25%;
+            right: -11%;
+        }
+
+        &__about-me-circle-2{
+            width: 250px;
+            z-index: 0;
+        }
+
+        &__arrows-cantainer{
+            cursor: pointer;
+        }
+    }
+
+    &__main-image-item{
+        max-height: 500px;
+        border-radius: 8px;
+        z-index: 1;
+    }
+
+    &__container-circle-1,
+    &__container-circle-3{
+        position: absolute;
+        z-index: 0;
+    }
+
+    &__container-circle-1{
+        bottom: -10%;
+        right: 0;
+    }
+
+    &__container-circle-3{
+        left: 0;
+        top: 0;
+    }
+
+    &__circle-1{
+        width: 400px;
+        z-index: 0;
+    }
+
+    &__circle-3{
+        width: 280px;
+    }
+
+    .about-me-buttons-part{
+        &__main-container{
+            flex-basis: 60%;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            margin-bottom: 5%;
+            align-items: center;
+            align-content: center;
+            text-align: center;
+            z-index: 1;
+        }
+
+        &__main-header{
+            color: #dbb594;
+            margin: 0;
+            font-family: 'Quicksand', sans-serif;
+            line-height: 1;
+        }
+
+        &__text{
+            color: #8a7474;
+            line-height: 1.4;
+            margin: 1% 0 2% 0;
+        }
+    }
+
+    .buttons-part-content__buttons-container{
+        display: flex;
+        min-width: 380px;
+        padding-right: 3%;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+}

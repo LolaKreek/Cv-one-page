@@ -31,7 +31,6 @@ const AboutMe = () => {
     }, [currentImage])
 
     async function cvDownloadHandle() {
-        console.log("OKKKKKKK")
         fetch(PfdFile, {
             method: 'GET',
             headers: {
@@ -61,14 +60,14 @@ const AboutMe = () => {
     }
 
     return(
-        <div className="about-me__main-container">
-            <div className="about-me-image__main-container">
-                <Circles class="about-me__container-circle-2" classImg="about-me__circle-2 circle" src={Circle_02} />
-                <Tooltip className="about-me__arrows-cantainer" title="Go left" onClick={() => setCurrentImage(currentImage - 1)}>
+        <div className="about-me">
+            <div className="about-me__image-main-container">
+                <Circles class="image-main-container__container-about-me-circle-2" classImg="image-main-container__about-me-circle-2 circle" src={Circle_02} />
+                <Tooltip className="image-main-container__arrows-cantainer" title="Go left" onClick={() => setCurrentImage(currentImage - 1)}>
                     <ChevronLeftIcon sx={{color: "#dbb594", fontSize: 40}}/>
                 </Tooltip>
-                {imageSetter ? <img className="about-me-image__image-item" src={imageSetter} alt="Main image" /> : <></>}
-                <Tooltip className="about-me__arrows-cantainer" title="Go right"  onClick={() => setCurrentImage(currentImage + 1)}>
+                {imageSetter ? <img className="about-me__main-image-item" src={imageSetter} alt="Main image" /> : <></>}
+                <Tooltip className="image-main-container__arrows-cantainer" title="Go right"  onClick={() => setCurrentImage(currentImage + 1)}>
                     <ChevronRightIcon sx={{color: "#dbb594", fontSize: 40}} />
                 </Tooltip>
             </div>
