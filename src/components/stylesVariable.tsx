@@ -48,7 +48,7 @@ export const allInputs = {
     }
 }
 
-export const textAreas ={
+export const textAreas = {
     textarea: styleContactMeTextarea, 
     label: styleContactMeTextareaLabels, 
     margin: "0 0 3% 0",

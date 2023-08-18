@@ -1,0 +1,13 @@
+.gradient-button{
+    &__button-item{
+        margin: 2%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+
+        p{
+            width: 115px;
+        }
+    }
+}
