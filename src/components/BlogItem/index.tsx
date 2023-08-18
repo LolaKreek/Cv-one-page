@@ -8,8 +8,8 @@ const BlogItem = (props: ComponentsTypes.BlogItemPropsType) => {
             <img className='blog-posts__main-image' alt='Blogs' src={props.src} />
                     
             <div className="post-content">
-                <h2 className="post-content__main-post-header">{props.title}</h2>
-                <h2 className="post-content__second-post-header">Secondary Title</h2>
+                <h2 className="post-content__main-post-header main-header">{props.title}</h2>
+                <h2 className="post-content__second-post-header second-header">Secondary Title</h2>
                 <p className='post-content__paragraph standard-color-and-font'>Ut enim ad minim veniam, quis nostrud exercitation 
                     ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
                     velit esse cillum dolore eu fugiat nulla pariatur.</p>
