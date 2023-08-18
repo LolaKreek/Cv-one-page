@@ -4,8 +4,9 @@
     background-color: white;
 }
 
-.blog-posts__main-header,
-.blog-posts__main-post-header{
+.blog-posts__main-header
+/* .blog-posts__main-post-header */
+{
     color: black;
     font-family: 'Asap Condensed', sans-serif;
     line-height: 1;
@@ -16,8 +17,9 @@
     padding: 0 0 0 3%;
 }
 
-.blog-posts__second-header,
-.blog-posts__second-post-header{
+.blog-posts__second-header
+/* .blog-posts__second-post-header */
+{
     color: #dbb594;
     line-height: 1.1;
     font-family: 'Quicksand', sans-serif;
@@ -28,12 +30,12 @@
     padding: 0 0 0 3%
 }
 
-.blog-posts__paragraph{
+/* .blog-posts__paragraph{
     color: #8a7474;
     line-height: 1.4;
     margin: 0;
     padding-right: 3%;
-}
+} */
 
 .blog-posts__content-main-container{
     display: flex;
@@ -42,7 +44,7 @@
     margin-top: 1%;
 }
 
-.blog-posts__container-posts{
+/* .blog-posts__container-posts{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -52,29 +54,29 @@
     border-radius: 8px;
     z-index: 1;
     transition: all .5s;
-}
+} */
 
-.blog-posts__container-posts:hover{
+/* .blog-posts__container-posts:hover{
     background-color: rgba(248, 231, 213, .7);
     box-shadow: 5px 5px 5px #aaa;
     z-index: 1;
     transition: all .5s;
-}
+} */
 
-.posts__main-image{
+/* .posts__main-image{
     flex-basis: 30%;
     min-width: 350px;
     border-radius: 8px;
     box-shadow: 5px 5px 5px #aaa;
-}
+} */
 
-.blog-posts__content-wrapper{
+/* .blog-posts__content-wrapper{
     flex-basis: 68%;
     padding-top: 1%;
     position: relative;
-}
+} */
 
-.blog-posts__content-read-more{
+/* .blog-posts__content-read-more{
     display: flex;
     flex-wrap: nowrap;
     justify-content: end;
@@ -83,28 +85,28 @@
     flex-basis: 100%;
     margin-right: 15%;
     color: #dbb594;
-}
+} */
 
-.blog-posts__read-more{
+/* .blog-posts__read-more{
     margin-right: 2%;
     cursor: pointer;
-}
+} */
 
-.blog-posts__read-more-arrow{
+/* .blog-posts__read-more-arrow{
     cursor: pointer;
-}
+} */
 
-.blog-posts__authot-container{
+/* .blog-posts__authot-container{
     position: absolute;
     top: 3%;
     right: 2%;
     font-size: .875rem;
-}
+} */
 
-.blog-posts__author{
+/* .blog-posts__author{
     color: #dbb594;
     margin: 0;
-}
+} */
 
 .blog-posts__container-circle-1,
 .blog-posts__container-circle-2{

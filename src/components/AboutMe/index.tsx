@@ -1,4 +1,3 @@
-import "./style.css";
 import MainFirstImage from "../../assets/main-first-image.jpg";
 import MainSecondImage from "../../assets/main-second-image.jpg";
 import MainThierdImage from "../../assets/main-third-image.jpeg";
