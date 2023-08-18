@@ -1,0 +1,58 @@
+.my-works{
+    background-color: white;
+    padding: 5% 2% 0 2%;
+    color: black;
+
+    .show-wrapper{
+        @include animation(showNewWorkIn .5s ease-out forwards);
+    }
+
+    &__text{
+        margin: 1% 2% 2% 0;
+    }
+
+    &__container-works{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        position: relative;
+
+        @include media-size(1260px){
+            flex-direction: column;
+            width: 70%;
+            margin: 0 auto;
+        }
+    }
+
+    &__container-circle-1{
+        width: 100px;
+        bottom: -50%;
+        right: 10%;
+
+        .circle-1{
+            width: 250px;
+        }
+    }
+
+    &__work{
+        flex-basis: 30%;
+        border-radius: 8px;
+        min-width: 370px;
+        box-shadow: 5px 5px 5px #aaa;
+        position: relative;
+        z-index: 2;
+        background-color: white;
+
+        @include media-size(1260px){
+            margin-bottom: 2%;
+        }
+    }
+
+    .my-work{
+        &__main-image{
+            width: 100%;
+            border-radius: 8px 8px 0 0;
+        }
+    }
+}

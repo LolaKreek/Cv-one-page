@@ -15,3 +15,23 @@
       opacity: 1;
   }
 }
+
+@keyframes showTextContent {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes showNewWorkIn {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+  to {
+    width: 1;
+    opacity: 1;
+  }
+}

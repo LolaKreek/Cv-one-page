@@ -3,3 +3,7 @@
     -webkit-animation: $param;
     animation: $param;
 }
+
+@mixin media-size ($size){
+    @media only screen and (max-width: $size) {@content;}
+}

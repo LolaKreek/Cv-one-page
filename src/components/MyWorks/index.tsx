@@ -14,11 +14,11 @@ const MyWorks = () => {
     const [thirdWork, setThirdWork] = useState(false);
 
     return(
-        <div className="my-works__main-container">
-            <h2 className="my-works__main-header">//My works</h2>
-            <h2 className="my-works__second-header">Portfolio</h2>
+        <div className="my-works">
+            <h2 className="main-header">//My works</h2>
+            <h2 className="second-header">Portfolio</h2>
 
-            <p className="my-works__text-content">Welcome to my evolving portfolio of programming projects, where quality 
+            <p className="standard-color-and-font my-works__text">Welcome to my evolving portfolio of programming projects, where quality 
             reigns supreme over quantity. While my collection may not be extensive, rest assured that each project is imbued 
             with soul, passion, and unwavering commitment. With every line of code written, I embark on a journey of continuous 
             improvement, determined to hone my skills and create software solutions that leave a lasting impression. As the years 
@@ -27,7 +27,7 @@ const MyWorks = () => {
             a unique story of growth, learning, and the unwavering desire to make a difference through the power of programming.</p>
 
             <div className="my-works__container-works">
-                <Circles class="my-works__container-circle-1" classImg="my-works__circle-1 circle" src={Circle_01} />
+                <Circles class="my-works__container-circle-1 circle" classImg="circle-1" src={Circle_01} />
 
                 <div className="my-works__work work-1">
                     <div onMouseOver={() => setFirstWork(true)} onMouseLeave={() => setFirstWork(false)}>
