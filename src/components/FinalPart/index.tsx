@@ -1,4 +1,3 @@
-import './style.css';
 import Polish from '../../assets/poland.png';
 import Russian from '../../assets/russia.png';
 import British from "../../assets/gbritain.png";
@@ -14,11 +13,11 @@ import Circles from '../Circles';
 
 const FinalPart = () => {
     return(
-        <div className="final-part__main-wrapper">
-            <div className='final-part__main-flex-container'>
+        <div className="final-part">
+            <div className='final-part__flex-container'>
                 <div className='final-part__right-part'>
-                    <div className='final-part__language-skills'>
-                        <h2 className='language-skills__second-header'>Language skills</h2>
+                    <div className='right-part__language-skills'>
+                        <h2 className='second-header final-part__second-header'>Language skills</h2>
 
                         <div className='language-skills__skills-wrapper'>
                             <div className='language-skills__skills-flex-container'>
@@ -28,8 +27,8 @@ const FinalPart = () => {
                                     </div>
 
                                     <div className='language-skill__language-and-level-wrapper'>
-                                        <p className='language-skill__language'>Polish</p>
-                                        <p className='language-skill__level'>Advanced [C1]</p>
+                                        <p className='language-skill__language margin-zero'>Polish</p>
+                                        <p className='margin-zero'>Advanced [C1]</p>
                                     </div>
                                 </div>
 
@@ -39,8 +38,8 @@ const FinalPart = () => {
                                     </div>
 
                                     <div className='language-skill__language-and-level-wrapper'>
-                                        <p className='language-skill__language'>Russian</p>
-                                        <p className='language-skill__level'>Native</p>
+                                        <p className='language-skill__language margin-zero'>Russian</p>
+                                        <p className='margin-zero'>Native</p>
                                     </div>
                                 </div>
 
@@ -50,22 +49,22 @@ const FinalPart = () => {
                                     </div>
 
                                     <div className='language-skill__language-and-level-wrapper'>
-                                        <p className='language-skill__language'>English</p>
-                                        <p className='language-skill__level'>Intermediate [B1]</p>
+                                        <p className='language-skill__language margin-zero'>English</p>
+                                        <p className='margin-zero'>Intermediate [B1]</p>
                                     </div>
                                 </div>
                             </div>
 
-                            <div className='final-part__language-multiple-icon-wrapper'>
+                            <div className='language-skills__multiple-icon-wrapper'>
                                 <img className='language-skills__miltiple-icon' src={MultipleLanguage} />
                             </div>
                         </div>
                     </div>
                     
-                    <div className='final-part__final-thoughts'>
-                        <h2 className='final-thoughts__second-header'>Closing thoughts</h2>
+                    <div className='right-part__final-thoughts'>
+                        <h2 className='second-header final-part__second-header'>Closing thoughts</h2>
 
-                        <p className='final-thoughts__text'>In this journey of growth and discovery, my unwavering passion for programming 
+                        <p className='standard-color-and-font'>In this journey of growth and discovery, my unwavering passion for programming 
                             has shaped me into a versatile and innovative developer. As I eagerly embrace 
                             the future, I am committed to making a profound impact in the tech world, 
                             leveraging my skills and determination to create software solutions that 
@@ -79,10 +78,10 @@ const FinalPart = () => {
                     </div>
                 </div>
 
-                <Circles class="final-part__container-circle-1" classImg="final-part__circle-1 circle" src={Circle_01} />
+                <Circles class="final-part__container-circle-1 circle" classImg="circle-1" src={Circle_01} />
 
                 <div className='final-part__communication-skills'>
-                    <h2 className='communication-skills__second-header'>Communication skills</h2>
+                    <h2 className='second-header communication-skills__second-header'>Communication skills</h2>
 
                     <div className='communication-skill__wrapper'>
                         <div className='communication-skill__skill-icon-wrapper'>
@@ -90,8 +89,8 @@ const FinalPart = () => {
                         </div>
                         
                         <div className='communication-skill__content-wrapper'>
-                            <p className='communication-skill__main-header'>Collaborative team player</p>
-                            <p className='communication-skill__description'>Proficient in working within diverse teams, actively participating 
+                            <p className='communication-skill__main-header margin-zero '>Collaborative team player</p>
+                            <p className='standard-color-and-font margin-zero'>Proficient in working within diverse teams, actively participating 
                             in discussions, and contributing constructively to project development.</p>
                         </div>
                     </div>
@@ -101,8 +100,8 @@ const FinalPart = () => {
                         </div>
 
                         <div className='communication-skill__content-wrapper'>
-                            <p className='communication-skill__main-header'>Active Listening</p>
-                            <p className='communication-skill__description'>Demonstrated skill in attentively understanding project requirements 
+                            <p className='communication-skill__main-header margin-zero'>Active Listening</p>
+                            <p className='standard-color-and-font margin-zero'>Demonstrated skill in attentively understanding project requirements 
                             and user feedback, ensuring accurate implementation and client satisfaction.</p>
                         </div>
                     </div>
@@ -112,8 +111,8 @@ const FinalPart = () => {
                         </div>
 
                         <div className='communication-skill__content-wrapper'>
-                            <p className='communication-skill__main-header'>Clear and Concise Communication</p>
-                            <p className='communication-skill__description'>Expressing ideas succinctly, avoiding ambiguity in technical 
+                            <p className='communication-skill__main-header margin-zero'>Clear and Concise Communication</p>
+                            <p className='standard-color-and-font margin-zero'>Expressing ideas succinctly, avoiding ambiguity in technical 
                             discussions and written communications.</p>
                         </div>
                     </div>
@@ -123,8 +122,8 @@ const FinalPart = () => {
                         </div>
 
                         <div className='communication-skill__content-wrapper'>
-                            <p className='communication-skill__main-header'>Conflict Resolution</p>
-                            <p className='communication-skill__description'>Skillful in addressing disagreements constructively and 
+                            <p className='communication-skill__main-header margin-zero'>Conflict Resolution</p>
+                            <p className='standard-color-and-font margin-zero'>Skillful in addressing disagreements constructively and 
                             finding amicable solutions during project development.</p>
                         </div>
                     </div>
@@ -134,8 +133,8 @@ const FinalPart = () => {
                         </div>
 
                         <div className='communication-skill__content-wrapper'>
-                            <p className='communication-skill__main-header'>Problem-Solving Communication</p>
-                            <p className='communication-skill__description'>Communicating solutions to programming challenges with clarity 
+                            <p className='communication-skill__main-header margin-zero'>Problem-Solving Communication</p>
+                            <p className='standard-color-and-font margin-zero'>Communicating solutions to programming challenges with clarity 
                             and precision, enabling effective troubleshooting and debugging.</p>
                         </div>
                     </div>
@@ -145,8 +144,8 @@ const FinalPart = () => {
                         </div>
 
                         <div className='communication-skill__content-wrapper'>
-                            <p className='communication-skill__main-header'>Adaptability in Communication</p>
-                            <p className='communication-skill__description'>Tailoring communication style to suit different audiences, 
+                            <p className='communication-skill__main-header margin-zero'>Adaptability in Communication</p>
+                            <p className='standard-color-and-font margin-zero'>Tailoring communication style to suit different audiences, 
                             whether it be fellow programmers, management, or end-users.</p>
                         </div>
                     </div>
