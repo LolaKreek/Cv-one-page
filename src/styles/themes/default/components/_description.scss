@@ -1,0 +1,129 @@
+.description{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 92px 0 0 0;
+
+    .description-text{
+        margin: 1% 1% 2% 0;
+    }
+
+    .column{
+        height: 100%;
+        box-shadow: 5px 5px 5px #aaa;
+        border-radius: 7px;
+        background: linear-gradient(to right, #f8cda7, #dbb594);
+        @include animation(showSkills 2s ease-in forwards);
+
+        p{
+            padding: 10px;
+            margin: 0;
+            text-align: right;
+        }
+    }
+
+    .column-10{
+        width: 100%;
+    }
+    
+    .column-9{
+        width: 90%;
+    }
+    
+    .column-8{
+        width: 80%;
+    }
+    
+    .column-7{
+        width: 70%;
+    }
+    
+    .column-5{
+        width: 50%;
+    }
+
+    &__my-life-wrapper{
+        flex-basis: 45%;
+    }
+
+    &__list{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .list{
+            &__item{
+                color: #8a7474;
+                padding-bottom: 2%;
+                display: flex;
+                flex-direction: row;
+                justify-content: start;
+                flex-shrink: 0;
+            }
+
+            &__span{
+                padding-left: 20px;
+            }
+        }
+        
+       
+    }
+
+    &__education-container{
+        margin-bottom: 5%;
+    }
+
+    &__secondary-school-container{
+        color: #8a7474;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+        .secondary-school-container{
+            &__icon{
+                flex-basis: 10%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+            }
+
+            &__years-text{
+                flex-basis: 20%;
+                font-weight: 700;
+            }
+
+            &__school-text{
+                flex-basis: 70%;
+                margin-left: 2%;
+            }
+        }
+    }
+
+    &__skills-wrapper{
+        flex-basis: 45%;
+
+        .skills{
+            &__work-experience{
+                margin-bottom: 4%;
+            }
+        }
+    }
+    
+    &__ability-wrapper{
+        border-radius: 8px;
+        padding: 1%;
+        box-shadow: 5px 5px 5px #aaa;
+
+        .skills__container-ability{
+            flex-basis: 10%;
+            max-width: 90%;
+            margin: 0 0 20px 3.5%;
+            border-radius: 7px;
+            background-color: #ededed;
+        }
+    }
+}

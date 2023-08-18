@@ -61,7 +61,7 @@ const AboutMe = () => {
     return(
         <div className="about-me">
             <div className="about-me__image-main-container">
-                <Circles class="image-main-container__container-about-me-circle-2" classImg="image-main-container__about-me-circle-2 circle" src={Circle_02} />
+                <Circles class="image-main-container__container-about-me-circle-2 circle" classImg="image-main-container__about-me-circle-2" src={Circle_02} />
                 <Tooltip className="image-main-container__arrows-cantainer" title="Go left" onClick={() => setCurrentImage(currentImage - 1)}>
                     <ChevronLeftIcon sx={{color: "#dbb594", fontSize: 40}}/>
                 </Tooltip>

@@ -1,0 +1,5 @@
+//Animation for all browsers
+@mixin animation($param) {
+    -webkit-animation: $param;
+    animation: $param;
+}

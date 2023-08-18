@@ -28,7 +28,9 @@ const styleContactMeTextareaLabels = {
 }
 
 export const allInputs = {
-    input: styleContactMeInput, label: styleContactMeLabels, margin: "0 0 2% 0", 
+    input: styleContactMeInput, 
+    label: styleContactMeLabels, 
+    margin: "0 0 2% 0", 
     "& .MuiOutlinedInput-root": {
         "& > fieldset": { borderColor: "white", borderRadius: '8px', transition: 'all .5s' },
     },
@@ -47,7 +49,9 @@ export const allInputs = {
 }
 
 export const textAreas ={
-    textarea: styleContactMeTextarea, label: styleContactMeTextareaLabels, margin: "0 0 3% 0",
+    textarea: styleContactMeTextarea, 
+    label: styleContactMeTextareaLabels, 
+    margin: "0 0 3% 0",
     "& .MuiOutlinedInput-root": {
         "& > fieldset": { borderColor: "white", borderRadius: '8px', transition: 'all .5s' },
     },
