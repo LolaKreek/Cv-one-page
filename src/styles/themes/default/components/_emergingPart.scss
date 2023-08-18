@@ -1,0 +1,59 @@
+.emerging-part{
+    position: absolute;
+    min-width: 500px;
+    top: 30%;
+    left: 34%;
+    margin-right: 2%;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    background-color: rgba(255, 255, 255, 0.8);
+    @include animation(showBlock 1.8s ease-in forwards);
+    z-index: 2;
+
+    &__main-header{
+        margin: 2% 0 0 3%;
+    }
+
+    &__second-header{
+        margin: 0 0 0 3%;
+    }
+
+    &__text-content{
+        margin: 0 0 0 3%;
+    }
+
+    &__buttons-container{
+        display: flex;
+        justify-content: end;
+        flex-direction: row;
+
+        .emerging-part-buttons{
+            &__text-content{
+                color: #8a7474;
+                margin: 2% 6%;
+            }
+
+            &__buttons-content{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                margin-right: 8%;
+            }
+
+            &__item{
+                margin-right: 15%;
+                cursor: pointer;
+            }
+
+            &__git-hub-link,
+            &__logo-dev-link{
+                svg:hover{
+                    color: #8a7474;
+                    transition: all .5s;
+                }
+            }
+        }
+    }
+}

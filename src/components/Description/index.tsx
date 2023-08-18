@@ -8,8 +8,7 @@ import VideocamIcon from '@mui/icons-material/Videocam';
 import TravelExploreIcon from '@mui/icons-material/TravelExplore';
 import ExchangeStudent from "../../assets/exchange-student.png";
 import FrontEnd from '../../assets/front-end.png';
-import Practice from '../../assets/practice.png'
-import "./style.css"
+import Practice from '../../assets/practice.png';
 import Skills from "../Skills";
 
 const Description = () => {

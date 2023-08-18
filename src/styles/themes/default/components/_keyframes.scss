@@ -6,3 +6,12 @@
       width: 1;
     }
 }
+
+@keyframes showBlock {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
