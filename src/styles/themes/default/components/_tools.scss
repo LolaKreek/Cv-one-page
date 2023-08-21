@@ -28,6 +28,14 @@
         padding-top: 1%;
     }
 
+    &__icons-link{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
     &__container-icons{
         flex-basis: 8%;
         display: flex;
