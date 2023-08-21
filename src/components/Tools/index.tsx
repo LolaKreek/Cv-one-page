@@ -7,7 +7,6 @@ import D3 from '../../assets/d3.jpeg';
 import Bitbucket from '../../assets/bitbucket.png';
 import StyledComponents from '../../assets/styled-components.png';
 import AdobePhotoshop from "../../assets/adobe-photoshop.png";
-import "./style.css";
 import Circles from "../Circles";
 import Circle_01 from "../../assets/circle_01.png"
 
@@ -15,10 +14,10 @@ const Tools = () => {
     return(
         <div id="portfolio" className="tools__margin-wrapper">
             <div className="tools__main-container">
-                <h2 className="tools__main-header">//Tools</h2>
-                <h2 className="tools__second-header">Tools and libraries</h2>
+                <h2 className="main-header">//Tools</h2>
+                <h2 className="second-header">Tools and libraries</h2>
 
-                <Circles class="tools__container-circle-1" classImg="tools__circle-1 circle" src={Circle_01} />
+                <Circles class="tools__container-circle-1 circle" classImg="circle-1" src={Circle_01} />
 
                 <div className="tools__content-container">
                     <ToolItem wrapper='icon-1 icon' href="https://mui.com" src={Mui} firstText='Material UI' secondText='v 5.14.2' />
