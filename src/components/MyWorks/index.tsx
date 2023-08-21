@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./style.css"
 import Work from "../Work";
 import Map from '../../assets/project-map.png';
 import Genshin from '../../assets/project-genshin.png';
