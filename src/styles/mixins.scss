@@ -4,6 +4,80 @@
     animation: $param;
 }
 
+//Media for all devises
 @mixin media-size ($size){
     @media only screen and (max-width: $size) {@content;}
+}
+
+//Display: flex for all browsers
+@mixin flex() {
+    $prefixes: (-webkit-box, -webkit-flex, -ms-flexbox, -moz-box, flex);
+    @each $prefix in $prefixes {
+      display: $prefix;
+    }
+}
+
+//Flex-basis for all browsers
+@mixin flexBasis($param) {
+    -ms-flex-preferred-size: $param;
+    flex-basis: $param;
+}
+
+//Flex-direction for all browsers
+@mixin flexDirection($param: row) {
+    @if $param == row-reverse {
+      -webkit-box-direction: reverse;
+      -webkit-box-orient: horizontal;
+      -moz-box-direction: reverse;
+      -moz-box-orient: horizontal;
+    } @else if $param == column {
+      -webkit-box-direction: normal;
+      -webkit-box-orient: vertical;
+      -moz-box-direction: normal;
+      -moz-box-orient: vertical;
+    } @else if $param == column-reverse {
+      -webkit-box-direction: reverse;
+      -webkit-box-orient: vertical;
+      -moz-box-direction: reverse;
+      -moz-box-orient: vertical;
+    } @else {
+      -webkit-box-direction: normal;
+      -webkit-box-orient: horizontal;
+      -moz-box-direction: normal;
+      -moz-box-orient: horizontal;
+    }
+    -webkit-flex-direction: $param;
+    -ms-flex-direction: $param;
+    flex-direction: $param;
+}
+
+//Justify-content for all browsers
+@mixin justifyContent($param: flex-start) {
+    @if $param == flex-start {
+      -webkit-box-pack: start;
+      -moz-box-pack: start;
+      -ms-flex-pack: start;
+    } @else if $param == flex-end {
+      -webkit-box-pack: end;
+      -moz-box-pack: end;
+      -ms-flex-pack: end;
+    } @else if $param == space-between {
+      -webkit-box-pack: justify;
+      -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+    } @else if $param == space-around {
+      -ms-flex-pack: distribute;
+    } @else {
+      -webkit-box-pack: $param;
+      -moz-box-pack: $param;
+      -ms-flex-pack: $param;
+    }
+    -webkit-justify-content: $param;
+    justify-content: $param;
+}
+
+//Flex-wrap for all browsers
+@mixin flexWrap($param) {
+    -ms-flex-wrap: $param;
+    flex-wrap: $param;
 }

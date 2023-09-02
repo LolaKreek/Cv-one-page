@@ -1,30 +1,30 @@
 .about-me{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: white;
-    padding-top: 150px;
+    @include flex();
+    @include flexDirection(row);
+    @include justifyContent(space-around);
+    background-color: $c-white;
+    padding-top: $p-150px;
     position: relative;
 
     &__image-main-container{
-        flex-basis: 40%;
-        display: flex;
-        justify-content: right;
+        @include flexBasis($fb-40per);
+        @include flex();
+        @include justifyContent(right);
         align-items: center;
         align-content: center;
-        z-index: 1;
         position: relative;
+        z-index: $zi-1;
     }
 
     .image-main-container{
         &__container-about-me-circle-2{
-            bottom: -25%;
-            right: -11%;
+            bottom: $bottom-minus-25per;
+            right: $right-minus-11per;
         }
 
         &__about-me-circle-2{
-            width: 250px;
-            z-index: 0;
+            width: $w-250px;
+            z-index: $zi-0;
         }
 
         &__arrows-cantainer{
@@ -33,19 +33,19 @@
     }
 
     &__main-image-item{
-        max-height: 500px;
-        border-radius: 8px;
-        z-index: 1;
+        max-height: $min-h-500px;
+        border-radius: $bor-r-8px;
+        z-index: $zi-1;
     }
 
     &__container-circle-1,
     &__container-circle-3{
         position: absolute;
-        z-index: 0;
+        z-index: $zi-0;
     }
 
     &__container-circle-1{
-        bottom: -10%;
+        bottom: $bottom-minus-10per;
         right: 0;
     }
 
@@ -55,47 +55,47 @@
     }
 
     &__circle-1{
-        width: 400px;
+        width: $w-400px;
         z-index: 0;
     }
 
     &__circle-3{
-        width: 280px;
+        width: $w-280px;
     }
 
     .about-me-buttons-part{
         &__main-container{
-            flex-basis: 60%;
-            display: flex;
-            flex-direction: column;
-            justify-content: end;
-            margin-bottom: 5%;
+            @include flexBasis($fb-60per);
+            @include flex();
+            @include flexDirection(column);
+            @include justifyContent(end);
+            margin-bottom: $mb-5per;
             align-items: center;
             align-content: center;
             text-align: center;
-            z-index: 1;
+            z-index: $zi-1;
         }
 
         &__main-header{
-            color: #dbb594;
+            color: $c-brandy;
+            font-family: $f-quicksand;
+            line-height: $lh-1;
             margin: 0;
-            font-family: 'Quicksand', sans-serif;
-            line-height: 1;
         }
 
         &__text{
-            color: #8a7474;
-            line-height: 1.4;
-            margin: 1% 0 2% 0;
+            color: $c-hemp;
+            line-height: $lh-14;
+            margin: $mb-1per 0 $mb-2per 0;
         }
     }
 
     .buttons-part-content__buttons-container{
-        display: flex;
-        min-width: 380px;
-        padding-right: 3%;
-        flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: nowrap;
+        @include flex();
+        @include flexDirection(row);
+        @include justifyContent(space-between);
+        @include flexWrap(nowrap);
+        min-width: $min-w-300px;
+        padding-right: $pr-3per;
     }
 }
