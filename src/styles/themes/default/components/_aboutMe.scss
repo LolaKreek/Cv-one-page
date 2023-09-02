@@ -95,7 +95,7 @@
         @include flexDirection(row);
         @include justifyContent(space-between);
         @include flexWrap(nowrap);
-        min-width: $min-w-300px;
+        min-width: $min-w-380px;
         padding-right: $pr-3per;
     }
 }

@@ -1,25 +1,44 @@
 //Colors
-$c-white: #ffffff;
-$c-brandy: #dbb594;
-$c-hemp: #8a7474;
+$c-white:               #ffffff;
+$c-brandy:              #dbb594;
+$c-hemp:                #8a7474;
+$c-silver-chalice:      #aaaaaa;
+$c-crayola:             rgba(248, 231, 213, .7);
 
 //Fonts
 $f-quicksand: "Quicksand", sans-serif;
 
 //Padding
 $p-150px: 150px;
+$p-92px: 92px;
+
+$p-2per: 2%;
 
 //Padding right
 $pr-3per: 3%;
+
+//Padding top
+$pt-1per: 1%;
+
+//Margin
+$m-2per: 2%;
+$m-3per: 3%;
 
 //Margin bottom
 $mb-1per: 1%;
 $mb-2per: 2%;
 $mb-5per: 5%;
 
+//Margin right
+$mr-2per: 2%;
+$mr-15per: 15%;
+
 //Flex basis
+$fb-30per: 30%;
 $fb-40per: 40%;
 $fb-60per: 60%;
+$fb-68per: 68%;
+$fb-100per: 100%;
 
 //Z index
 $zi-0: 0;
@@ -32,18 +51,26 @@ $w-280px: 280px;
 $w-400px: 400px;
 
 //Min width
-$min-w-300px: 380px;
+$min-w-350px: 350px;
+$min-w-380px: 380px;
 
 //Min height
 $min-h-500px: 500px;
 
 //Top
+$t-1per: 1%;
+$t-3per: 3%;
+$t-35per: 35%;
+$t-38per: 38%;
 
 //Bottom
 $bottom-minus-10per: -10%;
 $bottom-minus-25per: -25%;
 
 //Right
+$right-2per: 2%;
+$right-20per: 20%;
+
 $right-minus-11per: -11%;
 
 //Border radius
@@ -52,3 +79,12 @@ $bor-r-8px: 8px;
 //Line height
 $lh-1: 1;
 $lh-14: 1.4;
+
+//Box shadow
+$box-sh-5px: 5px 5px 5px;
+
+//Font size
+$fs-0875rem: .875rem;
+
+//Transition time
+$trans-time-05s: .5s;
