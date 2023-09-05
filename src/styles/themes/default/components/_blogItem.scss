@@ -17,7 +17,7 @@
         &:hover{
             @include boxShadow($box-sh-5px $c-silver-chalice);
             @include transition(all $trans-time-05s);
-            background-color: $c-crayola;
+            background-color: $c-crayola-07;
             z-index: $zi-1;
         }
     }

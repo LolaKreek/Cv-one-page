@@ -1,5 +1,6 @@
 //Colors
 $c-white:               #ffffff;
+$c-black:               #000000;
 $c-brandy:              #dbb594;
 $c-hemp:                #8a7474;
 $c-corvette:            #f8cda7;
@@ -8,7 +9,8 @@ $c-peach-cream:         #fff1df;
 $c-gallery:             #ededed;
 $c-gray-nickel:         #c8c8c7;
 
-$c-crayola:             rgba(248, 231, 213, .7);
+$c-crayola-07:             rgba(248, 231, 213, .7);
+$c-brandy-08:           rgba(219, 181, 148, 0.8);
 $c-white-07:            rgba(255, 255, 255, 0.7);
 
 //Fonts
@@ -87,6 +89,9 @@ $fb-80per: 80%;
 $fb-85per: 85%;
 $fb-100per: 100%;
 
+//Flex
+$flex-1: 1;
+
 //Z index
 $zi-0: 0;
 $zi-1: 1;
@@ -96,6 +101,7 @@ $zi-5: 5;
 
 //Width
 $w-50px: 50px;
+$w-100px: 100px;
 $w-115px: 115px;
 $w-120px: 120px;
 $w-250px: 250px;
@@ -122,6 +128,7 @@ $h-100per: 100%;
 
 //Min width
 $min-w-350px: 350px;
+$min-w-370px: 370px;
 $min-w-380px: 380px;
 $min-w-500px: 500px;
 
@@ -145,6 +152,7 @@ $t-40per: 40%;
 //Bottom
 $bottom-minus-10per: -10%;
 $bottom-minus-25per: -25%;
+$bottom-minus-50per: -50%;
 
 $bottom-30per: 30%;
 
@@ -152,6 +160,7 @@ $bottom-30per: 30%;
 $right-350px: 350px;
 
 $right-2per: 2%;
+$right-10per: 10%;
 $right-20per: 20%;
 $right-38per: 38%;
 
@@ -178,6 +187,7 @@ $fs-0875rem: .875rem;
 
 //Font weight
 $fw-100: 100;
+$fw-600: 600;
 $fw-700: 700;
 
 $fs-15px: 15px;
@@ -185,3 +195,4 @@ $fs-19px: 19px;
 
 //Transition time
 $trans-time-05s: .5s;
+$trans-time-1s: 1s;
