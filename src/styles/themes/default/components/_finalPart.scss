@@ -1,101 +1,96 @@
 .final-part{
-    width: 100%;
-    background-color: #c8c8c7;
-    margin: 6% 0 0 0;
-    padding: 4% 0 3% 0;
+    width: $w-100per;
+    background-color: $c-gray-nickel;
+    margin: $m-6per 0 0 0;
+    padding: $p-4per 0 $p-3per 0;
 
     &__second-header{
-        padding: 2% 0 3% 2%;
+        padding: $p-2per 0 $p-3per $p-2per;
     }
 
     &__flex-container{
-        width: 95%;
+        @include flex();
+        @include flexDirection(row);
+        @include justifyContent(space-between);
+        @include flexWrap(nowrap);
+        width: $w-95per;
         margin: 0 auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: nowrap;
         position: relative;
 
         .circle-1{
-            width: 350px;
-            z-index: 5;
+            width: $min-w-350px;
+            z-index: $zi-5;
         }
     }
 
     &__right-part{
-        flex-basis: 47%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        z-index: 2;
+        @include flex();
+        @include flexDirection(column);
+        @include justifyContent(space-between);
+        flex-basis: $fb-47per;
+        z-index: $zi-2;
 
         .right-part{
-            &__final-thoughts{
-                box-shadow: 5px 5px 5px #aaa;
-                border-radius: 8px;
-                color: #8a7474;
-                padding-bottom: 3%;
-                background-color: rgba(255, 255, 255, .8);
+            &__final-thoughts,
+            &__language-skills{
+                @include boxShadow($box-sh-5px $c-silver-chalice);
+                border-radius: $bor-r-8px;
+                color: $c-hemp;
+                padding-bottom: $pb-3per;
+                background-color: $c-white-07;
             }
             
             &__language-skills{
-                box-shadow: 5px 5px 5px #aaa;
-                border-radius: 8px;
-                color: #8a7474;
-                padding-bottom: 3%;
-                background-color: rgba(255, 255, 255, .8);
-
                 .language-skills{
                     &__skills-wrapper{
-                        width: 90%;
+                        @include flex();
+                        @include flexDirection(row);
+                        @include justifyContent(space-between);
+                        width: $w-90per;
                         margin: 0 auto;
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: space-between;
                     }
 
                     &__skills-flex-container{
-                        flex-basis: 65%;
+                        flex-basis: $fb-65per;
                     }
 
                     &__language-container{
-                        margin-bottom: 2%;
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: space-between;
+                        @include flex();
+                        @include flexDirection(row);
+                        @include justifyContent(space-between);
+                        margin-bottom: $mb-2per;
                         align-items: center;
                         align-content: center;
                     }
 
                     &__language-icon-wrapper{
-                        flex-direction: 15%;
-                        display: flex;
+                        @include flex();
+                        flex-basis: $fb-15per;
                         align-items: center;
                         align-content: center;
                     }
 
                     &__language-icon{
-                        width: 50px;
+                        width: $w-50px;
                     }
 
                     &__multiple-icon-wrapper{
-                        flex-basis: 35%;
-                        display: flex;
+                        @include flex();
+                        @include justifyContent(end);
+                        flex-basis: $fb-35per;
                         align-items: center;
-                        justify-content: end;
                     }
 
                     &__miltiple-icon{
-                        width: 100%;
-                        max-width: 230px;
+                        width: $w-100per;
+                        max-width: $max-w-230px;
                     }
                 }
 
                 .language-skill{
                     &__language-and-level-wrapper{
-                        flex-basis: 85%;
-                        padding-left: 2%;
+                        flex-basis: $fb-85per;
+                        padding-left: $pl-2per;
                     }
 
                     &__language{
@@ -108,54 +103,48 @@
 
     &__container-circle-1{
         position: absolute;
-        top: 30%;
-        left: 30%;
-        z-index: 1;
+        top: $t-30per;
+        left: $left-30per;
+        z-index: $zi-1;
     }
 
     &__communication-skills{
-        flex-basis: 47%;
-        border-radius: 8px;
-        padding-bottom: 2%;
-        background: linear-gradient(to right, #fff1df, #dbb594);
-        z-index: 2;
+        @include background($c-peach-cream, $c-brandy);
+        flex-basis: $fb-47per;
+        border-radius: $bor-r-8px;
+        padding-bottom: $pb-2per;
+        z-index: $zi-2;
 
         .communication-skills{
             &__second-header{
-                margin: 2% 0 1% 3%;
+                margin: $m-2per 0 $m-1per $m-3per;
             }
         }
 
         .communication-skill{
             &__wrapper{
-                width: 100%;
-                margin: 2% auto;
-                color: #8a7474;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
+                @include flex();
+                @include flexDirection(row);
+                @include justifyContent(space-between);
+                width: $w-100per;
+                margin: $m-2per auto;
+                color: $c-hemp;
                 align-items: center;
                 align-content: center;
             }
 
             &__skill-icon-wrapper{
-                flex-basis: 20%;
-                display: flex;
-                justify-content: center;
-            }
-
-            &__skill-icon-wrapper{
-                flex-basis: 20%;
-                display: flex;
-                justify-content: center;
+                @include flex();
+                @include justifyContent(center);
+                flex-basis: $fb-20per;
             }
 
             &__skill-icon{
-                width: 50px;
+                width: $w-50px;
             }
 
             &__content-wrapper{
-                flex-basis: 80%;
+                flex-basis: $fb-80per;
             }
 
             &__main-header{

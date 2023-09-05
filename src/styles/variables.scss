@@ -6,6 +6,7 @@ $c-corvette:            #f8cda7;
 $c-silver-chalice:      #aaaaaa;
 $c-peach-cream:         #fff1df;
 $c-gallery:             #ededed;
+$c-gray-nickel:         #c8c8c7;
 
 $c-crayola:             rgba(248, 231, 213, .7);
 $c-white-07:            rgba(255, 255, 255, 0.7);
@@ -20,6 +21,8 @@ $p-150px: 150px;
 
 $p-1per: 1%;
 $p-2per: 2%;
+$p-3per: 3%;
+$p-4per: 4%;
 $p-5per: 5%;
 $p-10per: 10%;
 
@@ -29,11 +32,14 @@ $pr-3per: 3%;
 //Padding left
 $pl-20px: 20px;
 
+$pl-2per: 2%;
+
 //Padding top
 $pt-1per: 1%;
 
 //Padding bottom
 $pb-2per: 2%;
+$pb-3per: 3%;
 
 //Margin
 $m-20px: 20px;
@@ -62,22 +68,30 @@ $ml-4per: 4%;
 
 //Flex basis
 $fb-10per: 10%;
+$fb-15per: 15%;
 $fb-20per: 20%;
 $fb-30per: 30%;
+$fb-35per: 35%;
 $fb-40per: 40%;
 $fb-45per: 45%;
+$fb-47per: 47%;
 $fb-50per: 50%;
 $fb-60per: 60%;
+$fb-65per: 65%;
 $fb-68per: 68%;
 $fb-70per: 70%;
+$fb-80per: 80%;
+$fb-85per: 85%;
 $fb-100per: 100%;
 
 //Z index
 $zi-0: 0;
 $zi-1: 1;
 $zi-2: 2;
+$zi-5: 5;
 
 //Width
+$w-50px: 50px;
 $w-120px: 120px;
 $w-250px: 250px;
 $w-280px: 280px;
@@ -90,6 +104,7 @@ $w-66per: 66%;
 $w-70per: 70%;
 $w-80per: 80%;
 $w-90per: 90%;
+$w-95per: 95%;
 $w-100per: 100%;
 
 //Height
@@ -103,6 +118,8 @@ $min-w-380px: 380px;
 $min-w-500px: 500px;
 
 //Max width
+$max-w-230px: 230px;
+
 $max-w-90per: 90%;
 
 //Min height
@@ -132,6 +149,7 @@ $right-38per: 38%;
 $right-minus-11per: -11%;
 
 //Left
+$left-30per: 30%;
 $left-34per: 34%;
 $left-50per: 50%;
 
