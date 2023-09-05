@@ -100,3 +100,16 @@
 @function pxToRem($pxsize, $rembase: 16) {
     @return ($pxsize / $rembase) + rem;
 }
+
+//Background-image (gradient) for all browsers
+@mixin background($firstColor, $secondColor) {
+    background-image: -o-linear-gradient(left, $firstColor, $secondColor);
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from($firstColor),
+      to($secondColor)
+    );
+    background-image: linear-gradient(to right, $firstColor, $secondColor);
+}  

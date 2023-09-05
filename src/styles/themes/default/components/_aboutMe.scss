@@ -45,8 +45,8 @@
     }
 
     &__container-circle-1{
-        bottom: $bottom-minus-10per;
-        right: 0;
+        bottom: $bottom-30per;
+        right: $right-350px;
     }
 
     &__container-circle-3{
@@ -55,7 +55,7 @@
     }
 
     &__circle-1{
-        width: $w-400px;
+        width: $w-350px;
         z-index: 0;
     }
 

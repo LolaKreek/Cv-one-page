@@ -1,83 +1,83 @@
 .contact-me{
-    padding: 5% 0 0 0;
-    width: 100%;
-    background: linear-gradient(to right, #fff1df, #dbb594);
+    padding: $p-5per 0 0 0;
+    width: $w-100-per;
+    @include background($c-peach-cream, $c-brandy);
 
     &__container-circle-1{
         bottom: 0;
-        left: 50%;
+        left: $left-50per;
         
         .circle-1{
-            width: 400px;
+            width: $w-400px;
         }
     }
 
     &__relative-wrapper{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        @include flex();
+        @include flexDirection(row);
+        @include justifyContent(space-between);
         position: relative;
     }
 
     &__content-wrapper{
-        flex-basis: 50%;
+        flex-basis: $fb-50per;
 
         .contact-wrapper{
             &__main-header{
-                margin: 2% 0 0 4%;
+                margin: $m-2per 0 0 $m-4per;
             }
 
             &__second-header{
-                margin: 0 0 2% 4%;
+                margin: 0 0 $m-2per $m-4per;
             }
 
             &__paragraph{
-                margin-left: 4%;
+                margin-left: $ml-4per;
             }
 
             &__form{
-                margin: 5% 0 0 3%;
+                margin: $m-5per 0 0 $m-3per;
 
                 .form{
                     &__input{
-                        font-size: 15px;
-                        width: 65%;
+                        @include boxShadow($box-sh-5px $c-silver-chalice);
+                        font-size: pxToRem($fs-15px);
+                        width: $w-65-per;
+                        border-radius: $bor-r-8px;
+                        background-color: $c-white;
+                        color: $c-hemp;
                         border: none;
-                        border-radius: 8px;
-                        background-color: white;
-                        color: #8a7474;
-                        box-shadow: 5px 5px 5px #aaa;
                     }
 
                     &__submit-wrapper{
-                        width: 66%;
+                        width: $w-66-per;
 
                         .submit{
                             &__container{
-                                width: 120px;
-                                border-radius: 8px;
-                                margin: 2% auto;
-                                background: linear-gradient(45deg, #f8cda7 30%, #dbb594 90%);
-                                display: flex;
-                                flex-direction: row;
-                                justify-content: center;
+                                @include flex();
+                                @include flexDirection(row);
+                                @include justifyContent(center);
+                                @include background($c-corvette, $c-brandy);
+                                @include transition(all $trans-time-05s);
+                                width: $w-120px;
+                                border-radius: $bor-r-8px;
+                                margin: $m-2per auto;
                                 align-items: center;
                                 align-content: center;
-                                transition: all .5s;
                                 cursor: pointer;
 
                                 &:hover{
-                                    box-shadow: 5px 6px 6px #aaa;
-                                    transition: all .5s;
+                                    @include boxShadow($box-sh-5px-6px-6px $c-silver-chalice);
+                                    @include transition(all $trans-time-05s);
                                 }
                             }
 
                             &__submit-button{
-                                color: white;
-                                border: none;
-                                padding: 10% 5%;
+                                color: $c-white;
+                                padding: $p-10per $p-5per;
                                 font-size: 19px;
                                 background: none;
+                                border: none;
                                 cursor: pointer;
                             }
                         }
@@ -88,50 +88,50 @@
     }
 
     &__middle-part{
+        @include boxShadow($box-sh-5px $c-silver-chalice);
+        @include flex();
+        @include flexDirection(row);
+        @include justifyContent(space-between);
         position: absolute;
-        top: 40%;
-        right: 38%;
-        border-radius: 8px;
-        background-color: rgba(255, 255, 255, 0.7);
-        box-shadow: 5px 5px 5px #aaa;
-        display: flex;
-        flex-direction: row;
-        padding: 1% 2%;
-        justify-content: space-between;
+        top: $t-40per;
+        right: $right-38per;
+        border-radius: $bor-r-8px;
+        background-color: $c-white-07;
+        padding: $p-1per $p-2per;
         align-items: center;
         align-content: center;
-        z-index: 2;
+        z-index: $zi-2;
 
         .contact-middle-part{
             &__contact-icon{
-                height: 55px;
+                height: $h-55px;
             }
 
         }
     }
 
     &__image-wrapper{
-        flex-basis: 50%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        z-index: 1;
+        @include flex();
+        @include flexDirection(column);
+        @include justifyContent(center);
+        flex-basis: $fb-50per;
+        z-index: $zi-1;
 
         .contact-image{
             &__image-container{
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
+                @include flex();
+                @include flexDirection(row);
+                @include justifyContent(center);
             }
 
             &__image{
-                width: 70%;
-                border-radius: 8px;
+                width: $w-70-per;
+                border-radius: $bor-r-8px;
             }
 
             &__text-container{
                 text-align: right;
-                margin: 3% 5% 5% 0;
+                margin: $m-3per $m-5per $m-5per 0;
             }
         }
     }

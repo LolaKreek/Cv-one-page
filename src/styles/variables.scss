@@ -2,8 +2,12 @@
 $c-white:               #ffffff;
 $c-brandy:              #dbb594;
 $c-hemp:                #8a7474;
+$c-corvette:            #f8cda7;
 $c-silver-chalice:      #aaaaaa;
+$c-peach-cream:         #fff1df;
+
 $c-crayola:             rgba(248, 231, 213, .7);
+$c-white-07:            rgba(255, 255, 255, 0.7);
 
 //Fonts
 $f-quicksand: "Quicksand", sans-serif;
@@ -12,7 +16,10 @@ $f-quicksand: "Quicksand", sans-serif;
 $p-150px: 150px;
 $p-92px: 92px;
 
+$p-1per: 1%;
 $p-2per: 2%;
+$p-5per: 5%;
+$p-10per: 10%;
 
 //Padding right
 $pr-3per: 3%;
@@ -23,6 +30,8 @@ $pt-1per: 1%;
 //Margin
 $m-2per: 2%;
 $m-3per: 3%;
+$m-4per: 4%;
+$m-5per: 5%;
 
 //Margin bottom
 $mb-1per: 1%;
@@ -33,9 +42,13 @@ $mb-5per: 5%;
 $mr-2per: 2%;
 $mr-15per: 15%;
 
+//Margin left
+$ml-4per: 4%;
+
 //Flex basis
 $fb-30per: 30%;
 $fb-40per: 40%;
+$fb-50per: 50%;
 $fb-60per: 60%;
 $fb-68per: 68%;
 $fb-100per: 100%;
@@ -46,9 +59,19 @@ $zi-1: 1;
 $zi-2: 2;
 
 //Width
+$w-120px: 120px;
 $w-250px: 250px;
 $w-280px: 280px;
+$w-350px: 350px;
 $w-400px: 400px;
+
+$w-65-per: 65%;
+$w-66-per: 66%;
+$w-70-per: 70%;
+$w-100-per: 100%;
+
+//Height
+$h-55px: 55px;
 
 //Min width
 $min-w-350px: 350px;
@@ -62,16 +85,25 @@ $t-1per: 1%;
 $t-3per: 3%;
 $t-35per: 35%;
 $t-38per: 38%;
+$t-40per: 40%;
 
 //Bottom
 $bottom-minus-10per: -10%;
 $bottom-minus-25per: -25%;
 
+$bottom-30per: 30%;
+
 //Right
+$right-350px: 350px;
+
 $right-2per: 2%;
 $right-20per: 20%;
+$right-38per: 38%;
 
 $right-minus-11per: -11%;
+
+//Left
+$left-50per: 50%;
 
 //Border radius
 $bor-r-8px: 8px;
@@ -82,9 +114,13 @@ $lh-14: 1.4;
 
 //Box shadow
 $box-sh-5px: 5px 5px 5px;
+$box-sh-5px-6px-6px: 5px 6px 6px;
 
 //Font size
 $fs-0875rem: .875rem;
+
+$fs-15px: 15px;
+$fs-19px: 19px;
 
 //Transition time
 $trans-time-05s: .5s;
