@@ -8,7 +8,7 @@
         @include flexDirection(row);
         @include justifyContent(space-between);
         @include flexWrap(nowrap);
-        @include transition(all $trans-time-05s);
+        @include transition();
         padding: $p-2per 0 $p-2per $p-2per;
         margin: 0 $m-2per $m-3per 0;
         border-radius: $bor-r-8px;
@@ -16,7 +16,7 @@
 
         &:hover{
             @include boxShadow($box-sh-5px $c-silver-chalice);
-            @include transition(all $trans-time-05s);
+            @include transition();
             background-color: $c-crayola-07;
             z-index: $zi-1;
         }

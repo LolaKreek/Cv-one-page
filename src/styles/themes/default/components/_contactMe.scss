@@ -58,7 +58,7 @@
                                 @include flexDirection(row);
                                 @include justifyContent(center);
                                 @include background($c-corvette, $c-brandy);
-                                @include transition(all $trans-time-05s);
+                                @include transition();
                                 width: $w-120px;
                                 border-radius: $bor-r-8px;
                                 margin: $m-2per auto;
@@ -68,7 +68,7 @@
 
                                 &:hover{
                                     @include boxShadow($box-sh-5px $c-silver-chalice);
-                                    @include transition(all $trans-time-05s);
+                                    @include transition();
                                 }
                             }
 

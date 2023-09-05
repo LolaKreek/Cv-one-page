@@ -55,7 +55,7 @@
                 color: $c-white;
 
                 &:hover{
-                    @include transition(all $trans-time-05s);
+                    @include transition();
                     color: $c-hemp;
                 }
             }
@@ -77,7 +77,7 @@
             padding: 0;
 
             &:hover{
-                @include transition(all $trans-time-05s);
+                @include transition();
                 color: $c-hemp;
             }
         }

@@ -14,7 +14,7 @@
         align-content: center;
 
         svg:hover{
-            @include transition(all $trans-time-05s);
+            @include transition();
             color: $c-hemp;
         }
     }

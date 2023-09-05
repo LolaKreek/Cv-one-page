@@ -40,7 +40,7 @@
         @include flex();
         @include flexDirection(column);
         @include justifyContent(center);
-        @include transition(all $trans-time-05s);
+        @include transition();
         @include flexBasis($fb-8per);
         align-items: center;
         align-content: center;
@@ -52,7 +52,7 @@
 
         &:hover{
             @include boxShadow($box-sh-5px $c-silver-chalice);
-            @include transition(all $trans-time-05s);
+            @include transition();
         }
 
         .tools{

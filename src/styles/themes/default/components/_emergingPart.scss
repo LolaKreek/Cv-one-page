@@ -50,7 +50,7 @@
             &__git-hub-link,
             &__logo-dev-link{
                 svg:hover{
-                    @include transition(all $trans-time-05s);
+                    @include transition();
                     color: $c-hemp;
                 }
             }

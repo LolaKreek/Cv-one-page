@@ -83,7 +83,7 @@
 }
 
 //Transition for all browsers
-@mixin transition($param) {
+@mixin transition($param: all .5s) {
   -webkit-transition: $param;
   -o-transition: $param;
   transition: $param;
