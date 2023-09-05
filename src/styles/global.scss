@@ -1,20 +1,20 @@
 .standard-color-and-font{
-    color: #8a7474;
-    line-height: 1.4;
-    margin: 0 1% 0 3%;
+    color: $c-hemp;
+    line-height: $lh-14;
+    margin: 0 $m-1per 0 $m-3per;
 }
 
 .main-header{
-    color: black;
-    font-family: 'Asap Condensed', sans-serif;
-    line-height: 1;
+    color: $c-black;
+    font-family: $f-asap-condensed;
+    line-height: $lh-1;
     margin: 0;
 }
 
 .second-header{
     color: #dbb594;
-    line-height: 1.1;
-    font-family: 'Quicksand', sans-serif;
+    line-height: $lh-11;
+    font-family: $f-quicksand;
     margin: 0;
 }
 
@@ -28,5 +28,5 @@
 }
 
 .margin-top-4-per{
-    margin-top: 4%;
+    margin-top: $mt-4per;
 }
