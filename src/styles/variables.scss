@@ -12,12 +12,15 @@ $c-gray-nickel:         #c8c8c7;
 $c-crayola-07:             rgba(248, 231, 213, .7);
 $c-brandy-08:           rgba(219, 181, 148, 0.8);
 $c-white-07:            rgba(255, 255, 255, 0.7);
+$c-white-09:            rgba(255, 255, 255, 0.9);
 
 //Fonts
 $f-quicksand: "Quicksand", sans-serif;
+$f-work-sans: "Work Sans",sans-serif;
 
 //Padding
 $p-10px: 10px;
+$p-62px: 62px;
 $p-92px: 92px;
 $p-150px: 150px;
 
@@ -72,6 +75,7 @@ $ml-2per: 2%;
 $ml-4per: 4%;
 
 //Flex basis
+$fb-8per: 8%;
 $fb-10per: 10%;
 $fb-15per: 15%;
 $fb-20per: 20%;
@@ -101,9 +105,11 @@ $zi-5: 5;
 
 //Width
 $w-50px: 50px;
+$w-70px: 70px;
 $w-100px: 100px;
 $w-115px: 115px;
 $w-120px: 120px;
+$w-200px: 200px;
 $w-250px: 250px;
 $w-280px: 280px;
 $w-350px: 350px;
@@ -122,6 +128,7 @@ $w-100per: 100%;
 //Height
 $h-minus-90px: -90px;
 $h-55px: 55px;
+$h-70px: 70px;
 $h-90px: 90px;
 
 $h-100per: 100%;
@@ -152,6 +159,7 @@ $t-40per: 40%;
 //Bottom
 $bottom-minus-10per: -10%;
 $bottom-minus-25per: -25%;
+$bottom-minus-40per: -40%;
 $bottom-minus-50per: -50%;
 
 $bottom-30per: 30%;
