@@ -1,57 +1,57 @@
 .emerging-part{
-    position: absolute;
-    min-width: 500px;
-    top: 30%;
-    left: 34%;
-    margin-right: 2%;
-    border-radius: 8px;
-    box-shadow: 5px 5px 5px #aaaaaa;
-    background-color: rgba(255, 255, 255, 0.8);
+    @include boxShadow($box-sh-5px $c-silver-chalice);
     @include animation(showBlock 1.8s ease-in forwards);
-    z-index: 2;
+    position: absolute;
+    min-width: $min-w-500px;
+    top: $t-30per;
+    left: $left-34per;
+    margin-right: $mr-2per;
+    border-radius: $bor-r-8px;
+    background-color: $c-white-07;
+    z-index: $zi-2;
 
     &__main-header{
-        margin: 2% 0 0 3%;
+        margin: $m-2per 0 0 $m-3per;
     }
 
     &__second-header{
-        margin: 0 0 0 3%;
+        margin: 0 0 0 $m-3per;
     }
 
     &__text-content{
-        margin: 0 0 0 3%;
+        margin: 0 0 0 $m-3per;
     }
 
     &__buttons-container{
-        display: flex;
-        justify-content: end;
-        flex-direction: row;
+        @include flex();
+        @include flexDirection(row);
+        @include justifyContent(end);
 
         .emerging-part-buttons{
             &__text-content{
-                color: #8a7474;
-                margin: 2% 6%;
+                color: $c-hemp;
+                margin: $m-2per $m-6per;
             }
 
             &__buttons-content{
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
+                @include flex();
+                @include flexDirection(row);
+                @include justifyContent(center);
                 align-items: center;
                 align-content: center;
-                margin-right: 8%;
+                margin-right: $mr-8per;
             }
 
             &__item{
-                margin-right: 15%;
+                margin-right: $mr-15per;
                 cursor: pointer;
             }
 
             &__git-hub-link,
             &__logo-dev-link{
                 svg:hover{
-                    color: #8a7474;
-                    transition: all .5s;
+                    @include transition(all $trans-time-05s);
+                    color: $c-hemp;
                 }
             }
         }
