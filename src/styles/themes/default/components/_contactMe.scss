@@ -32,7 +32,7 @@
             }
 
             &__paragraph{
-                margin-left: $ml-4per;
+                margin: 0 0 0 $m-4per;
             }
 
             &__form{
@@ -67,7 +67,7 @@
                                 cursor: pointer;
 
                                 &:hover{
-                                    @include boxShadow($box-sh-5px-6px-6px $c-silver-chalice);
+                                    @include boxShadow($box-sh-5px $c-silver-chalice);
                                     @include transition(all $trans-time-05s);
                                 }
                             }
@@ -75,7 +75,7 @@
                             &__submit-button{
                                 color: $c-white;
                                 padding: $p-10per $p-5per;
-                                font-size: 19px;
+                                font-size: pxToRem($fs-19px);
                                 background: none;
                                 border: none;
                                 cursor: pointer;

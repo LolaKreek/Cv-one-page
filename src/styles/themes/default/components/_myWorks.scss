@@ -45,7 +45,7 @@
         position: relative;
 
         @include media-size(1260px){
-            margin-bottom: $mb-2per;
+            margin: 0 0 $m-2per 0;
         }
     }
 

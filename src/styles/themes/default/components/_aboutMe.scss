@@ -3,7 +3,7 @@
     @include flexDirection(row);
     @include justifyContent(space-around);
     background-color: $c-white;
-    padding-top: $p-150px;
+    padding: $p-150px 0 0 0;
     position: relative;
 
     &__image-main-container{
@@ -69,7 +69,7 @@
             @include flex();
             @include flexDirection(column);
             @include justifyContent(end);
-            margin-bottom: $mb-5per;
+            margin: 0 0 $m-5per 0;
             align-items: center;
             align-content: center;
             text-align: center;
@@ -86,7 +86,7 @@
         &__text{
             color: $c-hemp;
             line-height: $lh-14;
-            margin: $mb-1per 0 $mb-2per 0;
+            margin: $m-1per 0 $m-2per 0;
         }
     }
 
@@ -96,6 +96,6 @@
         @include justifyContent(space-between);
         @include flexWrap(nowrap);
         min-width: $min-w-380px;
-        padding-right: $pr-3per;
+        padding: 0 $p-3per 0 0;
     }
 }

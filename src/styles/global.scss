@@ -1,3 +1,7 @@
+a{
+    text-decoration: inherit;
+}
+
 .standard-color-and-font{
     color: $c-hemp;
     line-height: $lh-14;
@@ -28,5 +32,5 @@
 }
 
 .margin-top-4-per{
-    margin-top: $mt-4per;
+    margin: $m-4per 0 0 0;
 }

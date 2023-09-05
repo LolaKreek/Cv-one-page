@@ -36,11 +36,11 @@
                 border-radius: $bor-r-8px;
                 min-height: $min-h-50px;
                 width: $w-620px;
-                padding-left: $pl-05per;
+                padding: 0 0 0 $p-05per;
             }
 
             &__icon{
-                padding-right: $pr-1per;
+                padding: 0 $p-1per 0 0;
                 cursor: pointer;
             }
 

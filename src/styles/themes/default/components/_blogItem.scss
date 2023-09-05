@@ -31,7 +31,7 @@
 
     .post-content{
         @include flexBasis($fb-68per);
-        padding-top: $pt-1per;
+        padding: $p-1per 0 0 0;
         position: relative;
 
         &__main-post-header{
@@ -44,7 +44,7 @@
 
         &__paragraph{
             margin: 0 $m-3per 0 $m-2per;
-            padding-right: $pr-3per;
+            padding: 0 $p-3per 0 0;
         }
 
         &__content-read-more{
@@ -52,14 +52,14 @@
             @include flexWrap(nowrap);
             @include justifyContent(end);
             @include flexBasis($fb-100per);
-            margin-right: $mr-15per;
+            margin: 0 $m-15per 0 0;
             color: $c-brandy;
             align-items: center;
             align-content: center;
 
             .content{
                 &__read-more{
-                    margin-right: $mr-2per;
+                    margin: 0 $m-2per 0 0;
                     cursor: pointer;
                 }
 
@@ -73,7 +73,7 @@
             position: absolute;
             top: $t-3per;
             right: $right-2per;
-            font-size: pxToRem($fs-0875rem);
+            font-size: $fs-0875rem;
 
             .author-container__author{
                 color: $c-brandy;
@@ -104,6 +104,6 @@
         @include flex();
         @include flexDirection(column);
         @include justifyContent(space-around);
-        margin-top: $t-1per;
+        margin: $m-1per 0 0 0;
     }
 }

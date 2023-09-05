@@ -36,7 +36,7 @@
                 @include boxShadow($box-sh-5px $c-silver-chalice);
                 border-radius: $bor-r-8px;
                 color: $c-hemp;
-                padding-bottom: $pb-3per;
+                padding: 0 0 $p-3per 0;
                 background-color: $c-white-07;
             }
             
@@ -57,8 +57,8 @@
                     &__language-container{
                         @include flex();
                         @include flexDirection(row);
-                        @include justifyContent(space-between);
-                        margin-bottom: $mb-2per;
+                        @include justifyContent(start);
+                        margin: 0 0 $m-2per 0;
                         align-items: center;
                         align-content: center;
                     }
@@ -90,7 +90,7 @@
                 .language-skill{
                     &__language-and-level-wrapper{
                         @include flexBasis(fb-85per);
-                        padding-left: $pl-2per;
+                        padding: 0 0 0 $p-2per;
                     }
 
                     &__language{
@@ -112,7 +112,7 @@
         @include background($c-peach-cream, $c-brandy);
         @include flexBasis($fb-47per);
         border-radius: $bor-r-8px;
-        padding-bottom: $pb-2per;
+        padding: 0 0 $p-2per 0;
         z-index: $zi-2;
 
         .communication-skills{

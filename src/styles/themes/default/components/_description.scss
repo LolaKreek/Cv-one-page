@@ -38,12 +38,12 @@
                 @include flexDirection(row);
                 @include justifyContent(start);
                 color: $c-hemp;
-                padding-bottom: $pb-2per;
+                padding:  0 0 $p-2per 0;
                 flex-shrink: 0;
             }
 
             &__span{
-                padding-left: $pl-20px;
+                padding: 0 0 0 $p-20px;
             }
         }
         
@@ -51,7 +51,7 @@
     }
 
     &__education-container{
-        margin-bottom: $mb-5per;
+        margin: 0 0 $m-5per 0;
     }
 
     &__secondary-school-container{
@@ -78,7 +78,7 @@
 
             &__school-text{
                 @include flexBasis($fb-70per);
-                margin-left: $ml-2per;
+                margin: 0 0 0 $m-2per;
             }
         }
     }
@@ -88,7 +88,7 @@
 
         .skills{
             &__work-experience{
-                margin-bottom: $mb-4per;
+                margin: 0 0 $m-4per 0;
             }
         }
     }

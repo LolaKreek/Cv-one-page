@@ -21,33 +21,18 @@ $f-asap-condensed: "Asap Condensed", sans-serif;
 
 //Padding
 $p-10px: 10px;
+$p-20px: 20px;
 $p-62px: 62px;
 $p-92px: 92px;
 $p-150px: 150px;
 
+$p-05per: .5%;
 $p-1per: 1%;
 $p-2per: 2%;
 $p-3per: 3%;
 $p-4per: 4%;
 $p-5per: 5%;
 $p-10per: 10%;
-
-//Padding right
-$pr-1per: 1%;
-$pr-3per: 3%;
-
-//Padding left
-$pl-20px: 20px;
-
-$pl-05per: .5%;
-$pl-2per: 2%;
-
-//Padding top
-$pt-1per: 1%;
-
-//Padding bottom
-$pb-2per: 2%;
-$pb-3per: 3%;
 
 //Margin
 $m-20px: 20px;
@@ -58,25 +43,8 @@ $m-3per: 3%;
 $m-4per: 4%;
 $m-5per: 5%;
 $m-6per: 6%;
+$m-8per: 8%;
 $m-15per: 15%;
-
-//Margin bottom
-$mb-1per: 1%;
-$mb-2per: 2%;
-$mb-4per: 4%;
-$mb-5per: 5%;
-
-//Margin top
-$mt-4per: 4%;
-
-//Margin right
-$mr-2per: 2%;
-$mr-8per: 8%;
-$mr-15per: 15%;
-
-//Margin left
-$ml-2per: 2%;
-$ml-4per: 4%;
 
 //Flex basis
 $fb-8per: 8%;
@@ -198,18 +166,18 @@ $lh-14: 1.4;
 
 //Box shadow
 $box-sh-5px: 5px 5px 5px;
-$box-sh-5px-6px-6px: 5px 6px 6px;
 
 //Font size
 $fs-0875rem: .875rem;
+$fs-0625rem: .625rem;
+
+$fs-15px: 15;
+$fs-19px: 19;
 
 //Font weight
 $fw-100: 100;
 $fw-600: 600;
 $fw-700: 700;
-
-$fs-15px: 15px;
-$fs-19px: 19px;
 
 //Transition time
 $trans-time-05s: .5s;
