@@ -120,7 +120,12 @@ $w-350px: 350px;
 $w-400px: 400px;
 $w-620px: 620px;
 
+$w-10per: 10%;
+$w-20per: 20%;
+$w-30per: 30%;
+$w-40per: 40%;
 $w-50per: 50%;
+$w-60per: 60%;
 $w-65per: 65%;
 $w-66per: 66%;
 $w-70per: 70%;
@@ -209,3 +214,6 @@ $fs-19px: 19px;
 //Transition time
 $trans-time-05s: .5s;
 $trans-time-1s: 1s;
+
+//Lists
+$columns: $w-10per, $w-20per, $w-30per, $w-40per, $w-50per, $w-60per, $w-70per, $w-80per, $w-90per, $w-100per;

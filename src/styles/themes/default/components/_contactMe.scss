@@ -20,7 +20,7 @@
     }
 
     &__content-wrapper{
-        flex-basis: $fb-50per;
+        @include flexBasis($fb-50per);
 
         .contact-wrapper{
             &__main-header{
@@ -114,7 +114,7 @@
         @include flex();
         @include flexDirection(column);
         @include justifyContent(center);
-        flex-basis: $fb-50per;
+        @include flexBasis($fb-50per);
         z-index: $zi-1;
 
         .contact-image{

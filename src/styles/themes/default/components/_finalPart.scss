@@ -27,7 +27,7 @@
         @include flex();
         @include flexDirection(column);
         @include justifyContent(space-between);
-        flex-basis: $fb-47per;
+        @include flexBasis($fb-47per);
         z-index: $zi-2;
 
         .right-part{
@@ -51,7 +51,7 @@
                     }
 
                     &__skills-flex-container{
-                        flex-basis: $fb-65per;
+                        @include flexBasis($fb-65per);
                     }
 
                     &__language-container{
@@ -65,7 +65,7 @@
 
                     &__language-icon-wrapper{
                         @include flex();
-                        flex-basis: $fb-15per;
+                        @include flexBasis($fb-15per);
                         align-items: center;
                         align-content: center;
                     }
@@ -77,7 +77,7 @@
                     &__multiple-icon-wrapper{
                         @include flex();
                         @include justifyContent(end);
-                        flex-basis: $fb-35per;
+                        @include flexBasis($fb-35per);
                         align-items: center;
                     }
 
@@ -89,7 +89,7 @@
 
                 .language-skill{
                     &__language-and-level-wrapper{
-                        flex-basis: $fb-85per;
+                        @include flexBasis(fb-85per);
                         padding-left: $pl-2per;
                     }
 
@@ -110,7 +110,7 @@
 
     &__communication-skills{
         @include background($c-peach-cream, $c-brandy);
-        flex-basis: $fb-47per;
+        @include flexBasis($fb-47per);
         border-radius: $bor-r-8px;
         padding-bottom: $pb-2per;
         z-index: $zi-2;
@@ -136,7 +136,7 @@
             &__skill-icon-wrapper{
                 @include flex();
                 @include justifyContent(center);
-                flex-basis: $fb-20per;
+                @include flexBasis($fb-20per);
             }
 
             &__skill-icon{
@@ -144,7 +144,7 @@
             }
 
             &__content-wrapper{
-                flex-basis: $fb-80per;
+                @include flexBasis($fb-80per);
             }
 
             &__main-header{

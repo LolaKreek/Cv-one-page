@@ -23,28 +23,8 @@
         }
     }
 
-    .column-10{
-        width: $w-100per;
-    }
-    
-    .column-9{
-        width: $w-90per;
-    }
-    
-    .column-8{
-        width: $w-80per;
-    }
-    
-    .column-7{
-        width: $w-70per;
-    }
-    
-    .column-5{
-        width: $w-50per;
-    }
-
     &__my-life-wrapper{
-        flex-basis: $fb-45per;
+        @include flexBasis($fb-45per);
     }
 
     &__list{
@@ -86,25 +66,25 @@
             &__icon{
                 @include flex();
                 @include justifyContent(center);
-                flex-basis: $fb-10per;
+                @include flexBasis($fb-10per);
                 align-items: center;
                 align-content: center;
             }
 
             &__years-text{
-                flex-basis: $fb-20per;
+                @include flexBasis($fb-20per);
                 font-weight: $fw-700;
             }
 
             &__school-text{
-                flex-basis: $fb-70per;
+                @include flexBasis($fb-70per);
                 margin-left: $ml-2per;
             }
         }
     }
 
     &__skills-wrapper{
-        flex-basis: $fb-45per;
+        @include flexBasis($fb-45per);
 
         .skills{
             &__work-experience{
@@ -119,7 +99,7 @@
         padding: $p-1per;
 
         .skills__container-ability{
-            flex-basis: $fb-10per;
+            @include flexBasis($fb-10per);
             max-width: $max-w-90per;
             margin: 0 0 $m-20px $m-3per;
             border-radius: $bor-r-8px;
@@ -127,3 +107,5 @@
         }
     }
 }
+
+@include createColumns();

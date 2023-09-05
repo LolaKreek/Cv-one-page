@@ -37,7 +37,7 @@
 
     &__work{
         @include boxShadow($box-sh-5px $c-silver-chalice);
-        flex-basis: $fb-30per;
+        @include flexBasis($fb-30per);
         border-radius: $bor-r-8px;
         min-width: $min-w-370px;
         z-index: $zi-2;

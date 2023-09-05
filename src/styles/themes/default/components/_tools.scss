@@ -41,7 +41,7 @@
         @include flexDirection(column);
         @include justifyContent(center);
         @include transition(all $trans-time-05s);
-        flex-basis: $fb-8per;
+        @include flexBasis($fb-8per);
         align-items: center;
         align-content: center;
         cursor: pointer;

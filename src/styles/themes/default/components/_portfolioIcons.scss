@@ -3,7 +3,7 @@
         @include flex();
         @include flexDirection(row);
         @include justifyContent(flex-end);
-        flex-basis: $fb-30per;
+        @include flexBasis($fb-30per);
         padding: 0 $p-3per $p-1per 0;
     }
 

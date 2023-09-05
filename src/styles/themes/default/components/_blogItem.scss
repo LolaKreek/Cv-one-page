@@ -24,13 +24,13 @@
     
     &__main-image{
         @include boxShadow($box-sh-5px $c-silver-chalice);
-        flex-basis: $fb-30per;
+        @include flexBasis($fb-30per);
         min-width: $min-w-350px;
         border-radius: $bor-r-8px;
     }
 
     .post-content{
-        flex-basis: $fb-68per;
+        @include flexBasis($fb-68per);
         padding-top: $pt-1per;
         position: relative;
 
@@ -51,7 +51,7 @@
             @include flex();
             @include flexWrap(nowrap);
             @include justifyContent(end);
-            flex-basis: $fb-100per;
+            @include flexBasis($fb-100per);
             margin-right: $mr-15per;
             color: $c-brandy;
             align-items: center;
