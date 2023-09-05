@@ -27,11 +27,13 @@ $p-5per: 5%;
 $p-10per: 10%;
 
 //Padding right
+$pr-1per: 1%;
 $pr-3per: 3%;
 
 //Padding left
 $pl-20px: 20px;
 
+$pl-05per: .5%;
 $pl-2per: 2%;
 
 //Padding top
@@ -50,6 +52,7 @@ $m-3per: 3%;
 $m-4per: 4%;
 $m-5per: 5%;
 $m-6per: 6%;
+$m-15per: 15%;
 
 //Margin bottom
 $mb-1per: 1%;
@@ -88,6 +91,7 @@ $fb-100per: 100%;
 $zi-0: 0;
 $zi-1: 1;
 $zi-2: 2;
+$zi-3: 3;
 $zi-5: 5;
 
 //Width
@@ -98,6 +102,7 @@ $w-250px: 250px;
 $w-280px: 280px;
 $w-350px: 350px;
 $w-400px: 400px;
+$w-620px: 620px;
 
 $w-50per: 50%;
 $w-65per: 65%;
@@ -109,7 +114,9 @@ $w-95per: 95%;
 $w-100per: 100%;
 
 //Height
+$h-minus-90px: -90px;
 $h-55px: 55px;
+$h-90px: 90px;
 
 $h-100per: 100%;
 
@@ -124,6 +131,7 @@ $max-w-230px: 230px;
 $max-w-90per: 90%;
 
 //Min height
+$min-h-50px: 50px;
 $min-h-500px: 500px;
 
 //Top
@@ -169,6 +177,7 @@ $box-sh-5px-6px-6px: 5px 6px 6px;
 $fs-0875rem: .875rem;
 
 //Font weight
+$fw-100: 100;
 $fw-700: 700;
 
 $fs-15px: 15px;
