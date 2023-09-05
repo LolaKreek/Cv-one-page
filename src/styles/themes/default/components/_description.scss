@@ -1,69 +1,69 @@
 .description{
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 92px 0 0 0;
+    @include flex();
+    @include flexDirection(row);
+    @include justifyContent(space-around);
+    background-color: $c-white;
+    padding: $p-92px 0 0 0;
 
     .description-text{
-        margin: 1% 1% 2% 0;
+        margin: $m-1per $m-1per $m-2per 0;
     }
 
     .column{
-        height: 100%;
-        box-shadow: 5px 5px 5px #aaa;
-        border-radius: 7px;
-        background: linear-gradient(to right, #f8cda7, #dbb594);
+        @include boxShadow($box-sh-5px $c-silver-chalice);
+        @include background($c-corvette, $c-brandy);
         @include animation(showSkills 2s ease-in forwards);
+        height: $h-100per;
+        border-radius: $bor-r-8px;
 
         p{
-            padding: 10px;
+            padding: $p-10px;
             margin: 0;
             text-align: right;
         }
     }
 
     .column-10{
-        width: 100%;
+        width: $w-100per;
     }
     
     .column-9{
-        width: 90%;
+        width: $w-90per;
     }
     
     .column-8{
-        width: 80%;
+        width: $w-80per;
     }
     
     .column-7{
-        width: 70%;
+        width: $w-70per;
     }
     
     .column-5{
-        width: 50%;
+        width: $w-50per;
     }
 
     &__my-life-wrapper{
-        flex-basis: 45%;
+        flex-basis: $fb-45per;
     }
 
     &__list{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        @include flex();
+        @include flexDirection(row);
+        @include justifyContent(space-between);
 
         .list{
             &__item{
-                color: #8a7474;
-                padding-bottom: 2%;
-                display: flex;
-                flex-direction: row;
-                justify-content: start;
+                @include flex();
+                @include flexDirection(row);
+                @include justifyContent(start);
+                color: $c-hemp;
+                padding-bottom: $pb-2per;
                 flex-shrink: 0;
             }
 
             &__span{
-                padding-left: 20px;
+                padding-left: $pl-20px;
             }
         }
         
@@ -71,59 +71,59 @@
     }
 
     &__education-container{
-        margin-bottom: 5%;
+        margin-bottom: $mb-5per;
     }
 
     &__secondary-school-container{
-        color: #8a7474;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+        @include flex();
+        @include flexDirection(row);
+        @include justifyContent(center);
+        color: $c-hemp;
         align-items: center;
         align-content: center;
 
         .secondary-school-container{
             &__icon{
-                flex-basis: 10%;
-                display: flex;
-                justify-content: center;
+                @include flex();
+                @include justifyContent(center);
+                flex-basis: $fb-10per;
                 align-items: center;
                 align-content: center;
             }
 
             &__years-text{
-                flex-basis: 20%;
-                font-weight: 700;
+                flex-basis: $fb-20per;
+                font-weight: $fw-700;
             }
 
             &__school-text{
-                flex-basis: 70%;
-                margin-left: 2%;
+                flex-basis: $fb-70per;
+                margin-left: $ml-2per;
             }
         }
     }
 
     &__skills-wrapper{
-        flex-basis: 45%;
+        flex-basis: $fb-45per;
 
         .skills{
             &__work-experience{
-                margin-bottom: 4%;
+                margin-bottom: $mb-4per;
             }
         }
     }
     
     &__ability-wrapper{
-        border-radius: 8px;
-        padding: 1%;
-        box-shadow: 5px 5px 5px #aaa;
+        @include boxShadow($box-sh-5px $c-silver-chalice);
+        border-radius: $bor-r-8px;
+        padding: $p-1per;
 
         .skills__container-ability{
-            flex-basis: 10%;
-            max-width: 90%;
-            margin: 0 0 20px 3.5%;
-            border-radius: 7px;
-            background-color: #ededed;
+            flex-basis: $fb-10per;
+            max-width: $max-w-90per;
+            margin: 0 0 $m-20px $m-3per;
+            border-radius: $bor-r-8px;
+            background-color: $c-gallery;
         }
     }
 }

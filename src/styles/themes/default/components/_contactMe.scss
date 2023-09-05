@@ -1,6 +1,6 @@
 .contact-me{
     padding: $p-5per 0 0 0;
-    width: $w-100-per;
+    width: $w-100per;
     @include background($c-peach-cream, $c-brandy);
 
     &__container-circle-1{
@@ -42,7 +42,7 @@
                     &__input{
                         @include boxShadow($box-sh-5px $c-silver-chalice);
                         font-size: pxToRem($fs-15px);
-                        width: $w-65-per;
+                        width: $w-65per;
                         border-radius: $bor-r-8px;
                         background-color: $c-white;
                         color: $c-hemp;
@@ -50,7 +50,7 @@
                     }
 
                     &__submit-wrapper{
-                        width: $w-66-per;
+                        width: $w-66per;
 
                         .submit{
                             &__container{
@@ -125,7 +125,7 @@
             }
 
             &__image{
-                width: $w-70-per;
+                width: $w-70per;
                 border-radius: $bor-r-8px;
             }
 

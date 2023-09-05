@@ -5,6 +5,7 @@ $c-hemp:                #8a7474;
 $c-corvette:            #f8cda7;
 $c-silver-chalice:      #aaaaaa;
 $c-peach-cream:         #fff1df;
+$c-gallery:             #ededed;
 
 $c-crayola:             rgba(248, 231, 213, .7);
 $c-white-07:            rgba(255, 255, 255, 0.7);
@@ -13,8 +14,9 @@ $c-white-07:            rgba(255, 255, 255, 0.7);
 $f-quicksand: "Quicksand", sans-serif;
 
 //Padding
-$p-150px: 150px;
+$p-10px: 10px;
 $p-92px: 92px;
+$p-150px: 150px;
 
 $p-1per: 1%;
 $p-2per: 2%;
@@ -24,10 +26,19 @@ $p-10per: 10%;
 //Padding right
 $pr-3per: 3%;
 
+//Padding left
+$pl-20px: 20px;
+
 //Padding top
 $pt-1per: 1%;
 
+//Padding bottom
+$pb-2per: 2%;
+
 //Margin
+$m-20px: 20px;
+
+$m-1per: 1%;
 $m-2per: 2%;
 $m-3per: 3%;
 $m-4per: 4%;
@@ -36,6 +47,7 @@ $m-5per: 5%;
 //Margin bottom
 $mb-1per: 1%;
 $mb-2per: 2%;
+$mb-4per: 4%;
 $mb-5per: 5%;
 
 //Margin right
@@ -43,14 +55,19 @@ $mr-2per: 2%;
 $mr-15per: 15%;
 
 //Margin left
+$ml-2per: 2%;
 $ml-4per: 4%;
 
 //Flex basis
+$fb-10per: 10%;
+$fb-20per: 20%;
 $fb-30per: 30%;
 $fb-40per: 40%;
+$fb-45per: 45%;
 $fb-50per: 50%;
 $fb-60per: 60%;
 $fb-68per: 68%;
+$fb-70per: 70%;
 $fb-100per: 100%;
 
 //Z index
@@ -65,17 +82,25 @@ $w-280px: 280px;
 $w-350px: 350px;
 $w-400px: 400px;
 
-$w-65-per: 65%;
-$w-66-per: 66%;
-$w-70-per: 70%;
-$w-100-per: 100%;
+$w-50per: 50%;
+$w-65per: 65%;
+$w-66per: 66%;
+$w-70per: 70%;
+$w-80per: 80%;
+$w-90per: 90%;
+$w-100per: 100%;
 
 //Height
 $h-55px: 55px;
 
+$h-100per: 100%;
+
 //Min width
 $min-w-350px: 350px;
 $min-w-380px: 380px;
+
+//Max width
+$max-w-90per: 90%;
 
 //Min height
 $min-h-500px: 500px;
@@ -118,6 +143,9 @@ $box-sh-5px-6px-6px: 5px 6px 6px;
 
 //Font size
 $fs-0875rem: .875rem;
+
+//Font weight
+$fw-700: 700;
 
 $fs-15px: 15px;
 $fs-19px: 19px;
