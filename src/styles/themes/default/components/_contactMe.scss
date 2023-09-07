@@ -74,10 +74,11 @@
 
                             &__submit-button{
                                 color: $c-white;
-                                padding: $p-10per $p-5per;
                                 font-size: pxToRem($fs-19px);
                                 background: none;
                                 border: none;
+                                padding: 0;
+                                margin: $m-10px;
                                 cursor: pointer;
                             }
                         }

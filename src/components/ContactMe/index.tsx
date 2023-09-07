@@ -25,6 +25,11 @@ const ContactMe = () => {
         },
     });
 
+    const SubmitHandle = (event:any) => {
+        formik.submitForm();
+        console.log("CLICKED: ", event);
+    }
+
     return(
         <div id="contactMe" className="main-wrapper__contact-me contact-me">
             <div>
@@ -81,8 +86,8 @@ const ContactMe = () => {
                                 helperText={formik.touched.message && formik.errors.message} />
 
                             <div className="form__submit-wrapper">
-                                <div className="submit__container">
-                                    <input className="submit__submit-button" type="submit" value="Send" />
+                                <div className="submit__container" onClick={SubmitHandle}>
+                                    <p className="submit__submit-button">Send</p>
                                     <Tooltip title="Sent the message">
                                         <SendIcon />
                                     </Tooltip>

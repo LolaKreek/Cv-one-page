@@ -9,16 +9,25 @@
         margin: $m-1per $m-1per $m-2per 0;
     }
 
-    .column{
+    .column > p{
+        color: $c-gallery;
+    }
+
+    .column-animation{
         @include boxShadow($box-sh-5px $c-silver-chalice);
         @include background($c-corvette, $c-brandy);
-        @include animation(showSkills 2s ease-in forwards);
+        @include animation(showSkills 1.5s ease-in forwards);
         height: $h-100per;
         border-radius: $bor-r-8px;
+        flex-wrap: nowrap;
 
         p{
+            color: $c-white;
             padding: $p-10px;
             margin: 0;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
             text-align: right;
         }
     }
