@@ -11,26 +11,25 @@ import Circles from "../Circles";
 import Circle_01 from "../../assets/circle_01.png";
 import Circle_02 from "../../assets/circle_02.png";
 import PfdFile from "../../data/lalita-klimchuk.pdf";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Tooltip } from "@mui/material";
 
 //Creating a part "About Me"
 const AboutMe = () => {
     //Import of required icons
     const imageArray = [MainFirstImage, MainSecondImage, MainThierdImage];
-    //UseState contains a link to the currently selected picture in the carousel
-    const [imageSetter, setImageSetter] = useState(imageArray[0]);
     //UseState contains the index of the current image
     const [currentImage, setCurrentImage] = useState(0);
+    const mainImageRef = useRef(null);
 
     useEffect(() => {
-        if(currentImage > (imageArray.length - 1)){
-            setCurrentImage(0);
+        const imageElement = mainImageRef.current;
+        if(imageElement){
+            imageElement.src = imageArray[currentImage];
+            imageElement.style.animation = 'none';
+            imageElement.offsetHeight; // trigger reflow for main image
+            imageElement.style.animation = null;
         }
-        else if(currentImage < 0){
-            setCurrentImage(imageArray.length - 1);
-        }
-        setImageSetter(imageArray[currentImage]);
     }, [currentImage])
 
     //Logic for downloading a resume from a page
@@ -67,13 +66,23 @@ const AboutMe = () => {
         <div className="about-me">
             <div className="about-me__image-main-container">
                 <Circles class="image-main-container__container-about-me-circle-2 circle" classImg="image-main-container__about-me-circle-2" src={Circle_02} />
-                <Tooltip className="image-main-container__arrows-cantainer" title="Go left" onClick={() => setCurrentImage(currentImage - 1)}>
+
+                {currentImage > 0 ? <Tooltip className="image-main-container__arrows-cantainer" title="Go left" onClick={() => setCurrentImage(currentImage - 1)}>
                     <ChevronLeftIcon sx={{color: "#dbb594", fontSize: 40}}/>
-                </Tooltip>
-                {imageSetter ? <img className="about-me__main-image-item" src={imageSetter} alt="Main image" /> : <></>}
-                <Tooltip className="image-main-container__arrows-cantainer" title="Go right"  onClick={() => setCurrentImage(currentImage + 1)}>
+                </Tooltip> : 
+                <Tooltip className="image-main-container__arrows-cantainer" title="Swipe right">
+                    <ChevronLeftIcon sx={{color: "#aaa", fontSize: 40}}/>
+                </Tooltip>}
+
+                <img ref={mainImageRef} className='about-me__main-image-item' src='' alt="Main image" />
+
+                {currentImage < 2 ? <Tooltip className="image-main-container__arrows-cantainer" title="Go right" onClick={() => setCurrentImage(currentImage + 1)}>
                     <ChevronRightIcon sx={{color: "#dbb594", fontSize: 40}} />
+                </Tooltip> : 
+                <Tooltip className="image-main-container__arrows-cantainer" title="Swipe left">
+                    <ChevronRightIcon sx={{color: "#aaa", fontSize: 40}} />
                 </Tooltip>
+                }
             </div>
 
             <Circles class="about-me__container-circle-3" classImg="about-me__circle-3 circle" src={Circle_01} />

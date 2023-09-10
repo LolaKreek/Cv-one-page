@@ -6,7 +6,6 @@ import FinalPart from "../../components/FinalPart";
 import Menu from "../../components/Menu";
 import MyWorks from "../../components/MyWorks";
 import Tools from "../../components/Tools";
-import "./style.css"
 
 const Dashboard = () => {
     return(

@@ -33,9 +33,11 @@
     }
 
     &__main-image-item{
+        @include animation(1s ease-in-out 1 slideInFromLeft);
         max-height: $min-h-500px;
         border-radius: $bor-r-8px;
         z-index: $zi-1;
+        border: 1px solid $c-white;
     }
 
     &__container-circle-1,
