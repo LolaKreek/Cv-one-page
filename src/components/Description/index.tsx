@@ -131,63 +131,55 @@ const Description = () => {
 
             <div className="description__skills-wrapper">
                 <div className="skills__work-experience">
-                    <h2 className="second-header">Work Experience</h2>
+                    <h2 className="second-header">{t('workExperience')}</h2>
                     <div className="description__secondary-school-container">
                         <p className="secondary-school-container__years-text margin-zero">2017 - 2018</p>
-                        <p className="secondary-school-container__school-text margin-zero">Sushi Bar in Siedlce, waitress</p>
+                        <p className="secondary-school-container__school-text margin-zero">{t('workExperienceSushiBar')}</p>
                     </div>
                     <div className="description__secondary-school-container">
                         <p className="secondary-school-container__years-text margin-zero">2018 - 2019</p>
-                        <p className="secondary-school-container__school-text margin-zero">Printing House "Iwonex", assistant</p>
+                        <p className="secondary-school-container__school-text margin-zero">{t('workExperienceIwonex')}</p>
                     </div>
-                    <p className="standard-color-and-font description-text">I decided to add job experiences that are not related to my specialty to show that 
-                    I am a person who can work long and hard :)</p>
+                    <p className="standard-color-and-font description-text">{t('workExperienceFirstParagraph')}</p>
                     <div className="description__secondary-school-container">
                         <p className="secondary-school-container__years-text margin-zero">03/2020 - 06/2020</p>
-                        <p className="secondary-school-container__school-text margin-zero">The course "Internet Content Accessibility Tester"</p>
+                        <p className="secondary-school-container__school-text margin-zero">{t('workExperienceTester')}</p>
                     </div>
-                    <p className="standard-color-and-font description-text">The next thing that happened to me was my first practice where 
-                    my task was "Make a website with a database on the subject of "Project Tracking System" (Used HTML, CSS, JS, jQuery, PHP and SQL).</p>
+                    <p className="standard-color-and-font description-text">{t('workExperienceSecondParagraph')}</p>
                     <div className="description__secondary-school-container">
                         <p className="secondary-school-container__years-text margin-zero">07/2020 - 08/2020</p>
-                        <p className="secondary-school-container__school-text margin-zero">Internship at the University of Natural Sciences and Humanities in Siedlce</p>
+                        <p className="secondary-school-container__school-text margin-zero">{t('workExperienceUniversityInternship')}</p>
                     </div>
-                    <p className="standard-color-and-font description-text">The next course I took will help me to get a job in Poland and get a good practice in Germany in the future.</p>
+                    <p className="standard-color-and-font description-text">{t('workExperienceThirdParagraph')}</p>
                     <div className="description__secondary-school-container">
                         <p className="secondary-school-container__years-text margin-zero">04/2021 - 10/2021</p>
-                        <p className="secondary-school-container__school-text margin-zero">The course "Dev Hero: Remote course Front End"</p>
+                        <p className="secondary-school-container__school-text margin-zero">{t('workExperienceReactCourse')}</p>
                     </div>
-                    <p className="standard-color-and-font description-text">It was my first internship at the firm, I learned a lot in these three months :)</p>
+                    <p className="standard-color-and-font description-text">{t('workExperienceFourthParagraph')}</p>
                     <div className="description__secondary-school-container">
                         <p className="secondary-school-container__years-text margin-zero">07/2021 - 10/2021</p>
-                        <p className="secondary-school-container__school-text margin-zero">Practice in a private company in Siedlce, working on commercial 
-                        projects as a Junior Front-End Developer</p>
+                        <p className="secondary-school-container__school-text margin-zero">{t('workExperiencePrivatePractice')}</p>
                     </div>
-                    <p className="standard-color-and-font description-text">During almost all my studies, I constantly worked part-time somewhere, 
-                        because I lived on my own.</p>
+                    <p className="standard-color-and-font description-text">{t('workExperienceFifthParagraph')}</p>
                     <div className="description__secondary-school-container">
                         <p className="secondary-school-container__years-text margin-zero">01/2019 - 03/2022</p>
-                        <p className="secondary-school-container__school-text margin-zero">RGIS, inventory worker in the retail area</p>
+                        <p className="secondary-school-container__school-text margin-zero">{t('workExperienceRgis')}</p>
                     </div>
-                    <p className="standard-color-and-font description-text">The next practice was not limited by time frames (for example, 320 hours), 
-                        I worked for the company until I did the tasks indicated at the very beginning.</p>
+                    <p className="standard-color-and-font description-text">{t('workExperienceSixthParagraph')}</p>
                     <div className="description__secondary-school-container">
                         <p className="secondary-school-container__years-text margin-zero">06/2022 - 10/2022</p>
-                        <p className="secondary-school-container__school-text margin-zero">Practice at the private company "meetingmasters.de e.K." 
-                        in Germany, Trier, working on commercial projects as Junior Front-End Developer</p>
+                        <p className="secondary-school-container__school-text margin-zero">{t('workExperienceGermanyPractice')}</p>
                     </div>
-                    <p id="skills" className="standard-color-and-font description-text">At the next company, I worked remotely. At first I worked part-time, 
-                        and then I started working full-time.</p>
+                    <p id="skills" className="standard-color-and-font description-text">{t('workExperienceSeventhParagraph')}</p>
                     <div className="description__secondary-school-container">
                         <p className="secondary-school-container__years-text margin-zero">03/2022 - 04/2023</p>
-                        <p className="secondary-school-container__school-text margin-zero">Blunovation Sp. z o.o, Junior front-end developer</p>
+                        <p className="secondary-school-container__school-text margin-zero">{t('workExperienceBlunovation')}</p>
                     </div>
                 </div>
 
                 <div className="description__ability-wrapper" ref={skillsRef}>
-                    <h2 className="main-header">//Skills</h2>
-                    <p className="standard-color-and-font description-text">Below are the skills I possess, along with a brief 
-                    description of my proficiency level in each:</p>
+                    <h2 className="main-header">{t('skills')}</h2>
+                    <p className="standard-color-and-font description-text">{t('skillsFirstParagraph')}</p>
 
                     <div className="skills__container-ability">
                         {showSkills ? <Skills class='column-10 column column-animation' text='HTML 100%' tooltipTitle="Highly skilled in HTML" />
@@ -214,7 +206,7 @@ const Description = () => {
                         : <Skills class='column-9 column' text='Scss 90%' tooltipTitle="Skillful in SCSS" />}
                     </div>
                 </div>
-                <p className="standard-color-and-font description-text">Below you can find the tools and libraries that I managed to work with ;)</p>
+                <p className="standard-color-and-font description-text">{t('skillsSecondParagraph')}</p>
             </div>
         </div>
     )

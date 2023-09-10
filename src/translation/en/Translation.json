@@ -46,5 +46,27 @@
     "descriptionEducationGermany": "Hochschule Trier – Trier University of Applied Sciences",
     "descriptionEducationSeventhParagraph": "Also, while studying in Germany, I managed to do an internship in a private company in Trier.",
     "descriptionEducationPractice": "Practice at the firm meetingmasters.de e.K.",
-    "descriptionEducationEighthParagraph": "I had to do part of the practice work remotely, as my German visa was expiring ;)"
+    "descriptionEducationEighthParagraph": "I had to do part of the practice work remotely, as my German visa was expiring ;)",
+
+    "workExperience": "Work Experience",
+    "workExperienceSushiBar": "Sushi Bar in Siedlce, waitress",
+    "workExperienceIwonex": "Printing House 'Iwonex', assistant",
+    "workExperienceFirstParagraph": "I decided to add job experiences that are not related to my specialty to show that I am a person who can work long and hard :)",
+    "workExperienceTester": "The course 'Internet Content Accessibility Tester'",
+    "workExperienceSecondParagraph": "The next thing that happened to me was my first practice where my task was 'Make a website with a database on the subject of 'Project Tracking System'' (Used HTML, CSS, JS, jQuery, PHP and SQL).",
+    "workExperienceUniversityInternship": "Internship at the University of Natural Sciences and Humanities in Siedlce",
+    "workExperienceThirdParagraph": "The next course I took will help me to get a job in Poland and get a good practice in Germany in the future.",
+    "workExperienceReactCourse": "The course 'Dev Hero: Remote course Front End'",
+    "workExperienceFourthParagraph": "It was my first internship at the firm, I learned a lot in these three months :)",
+    "workExperiencePrivatePractice": "Practice in a private company in Siedlce, working on commercial projects as a Junior Front-End Developer",
+    "workExperienceFifthParagraph": "During almost all my studies, I constantly worked part-time somewhere, because I lived on my own.",
+    "workExperienceRgis": "RGIS, inventory worker in the retail area",
+    "workExperienceSixthParagraph": "The next practice was not limited by time frames (for example, 320 hours), I worked for the company until I did the tasks indicated at the very beginning.",
+    "workExperienceGermanyPractice": "Practice at the private company 'meetingmasters.de e.K.' in Germany, Trier, working on commercial projects as Junior Front-End Developer",
+    "workExperienceSeventhParagraph": "At the next company, I worked remotely. At first I worked part-time, and then I started working full-time.",
+    "workExperienceBlunovation": "Blunovation Sp. z o.o, Junior front-end developer",
+
+    "skills": "//Skills",
+    "skillsFirstParagraph": "Below are the skills I possess, along with a brief description of my proficiency level in each:",
+    "skillsSecondParagraph": "Below you can find the tools and libraries that I managed to work with ;)"
 }

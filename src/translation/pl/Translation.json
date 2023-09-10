@@ -22,7 +22,6 @@
 
     "descriptionAboutMeHeader": "//O mnie",
     "descriptionAboutMeSecondHeader": "Wszystko o moim życiu",
-
     "descriptionFirstParagraph": "Długo mogę opowiadać o swoim życiu. W moim wieku mam już trochę doświadczenia, którym mógłabym się podzielić.",
     "descriptionSecondParagraph": "Gdyby życie było kolorowym gobelinem, moje byłoby żywą mozaiką utkaną z różnorodnych doświadczeń i cennych chwil. Jako osoba aktywna i towarzyska cieszę się każdym uderzeniem rytmu życia, starając się dodać wartość każdej cennej chwili.",
     "descriptionThirdParagraph": "Napędzana głęboką pasją do programowania, z zapałem przyjęłam swoją obecną rolę, a moją aspiracją jest zostać wybitną programistką z dogłębnym zrozumieniem swojego rzemiosła.",
@@ -47,5 +46,27 @@
     "descriptionEducationGermany": "Hochschule Trier – Uniwersytet Nauk Stosowanych w Trewirze",
     "descriptionEducationSeventhParagraph": "Również podczas studiów w Niemczech udało mi się odbyć staż w prywatnej firmie w Trewirze.",
     "descriptionEducationPractice": "Praktyka w firmie Meetingmasters.de e.K.",
-    "descriptionEducationEighthParagraph": "Część praktyki musiałam wykonywać zdalnie, bo kończyła się moja niemiecka wiza ;)"
+    "descriptionEducationEighthParagraph": "Część praktyki musiałam wykonywać zdalnie, bo kończyła się moja niemiecka wiza ;)",
+
+    "workExperience": "Doświadczenie zawodowe",
+    "workExperienceSushiBar": "Sushi Bar w Siedlcach, kelnerka",
+    "workExperienceIwonex": "Drukarnia 'Iwonex', asystent",
+    "workExperienceFirstParagraph": "Postanowiłam dodać doświadczenia zawodowe niezwiązane z moją specjalizacją, żeby pokazać, że jestem osobą, która potrafi długo i ciężko pracować :)",
+    "workExperienceTester": "Kurs 'Tester dostępności treści internetowych'",
+    "workExperienceSecondParagraph": "Następną rzeczą, która mi się przytrafiła, była moja pierwsza praktyka, gdzie moim zadaniem było 'Stworzenie strony internetowej z bazą danych na temat 'System śledzenia projektów'' (Użyty HTML, CSS, JS, jQuery, PHP i SQL).",
+    "workExperienceUniversityInternship": "Praktyka na Uniwersytecie Przyrodniczo-Humanistycznym w Siedlcach",
+    "workExperienceThirdParagraph": "Kolejny kurs, który ukończyłam, pomoże mi w zdobyciu pracy w Polsce i zdobyciu dobrej praktyki w Niemczech w przyszłości.",
+    "workExperienceReactCourse": "Kurs 'Dev Hero: Zdalny kurs Front End'",
+    "workExperienceFourthParagraph": "To był mój pierwszy staż w firmie, wiele się nauczyłam przez te trzy miesiące :)",
+    "workExperiencePrivatePractice": "Praktyka w prywatnej firmie w Siedlcach, pracowałam przy projektach komercyjnych jako Junior Front-End Developer",
+    "workExperienceFifthParagraph": "Prawie przez całe studia cały czas pracowałam gdzieś na pół etatu, bo mieszkałam sama.",
+    "workExperienceRgis": "RGIS, pracownik inwentaryzacyjny w strefie sprzedaży detalicznej",
+    "workExperienceSixthParagraph": "Kolejna praktyka nie była ograniczona ramami czasowymi (np. 320 godzin), pracowałam w firmie do momentu wykonania wskazanych na początku zadań.",
+    "workExperienceGermanyPractice": "Praktyka w prywatnej firmie 'meetingmasters.de e.K.' w Niemczech, Trewir, pracowałam przy projektach komercyjnych jako Junior Front-End Developer",
+    "workExperienceSeventhParagraph": "W kolejnej firmie pracowałam zdalnie. Na początku pracowałam na pół etatu, później na pełen etat.",
+    "workExperienceBlunovation": "Blunovation Sp. z oo, Młodszy programista front-end",
+
+    "skills": "//Umiejętności",
+    "skillsFirstParagraph": "Poniżej znajdują się umiejętności, które posiadam, wraz z krótkim opisem mojego poziomu biegłości w każdej z nich:",
+    "skillsSecondParagraph": "Poniżej znajdziesz narzędzia i biblioteki, z którymi udało mi się pracować ;)"
 }
