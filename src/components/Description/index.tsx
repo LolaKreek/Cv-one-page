@@ -11,11 +11,13 @@ import FrontEnd from '../../assets/front-end.png';
 import Practice from '../../assets/practice.png';
 import Skills from "../Skills";
 import { useEffect, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 //Creating a part "Description" (description of my educational process and work experience)
 const Description = () => {
     const skillsRef = useRef(null);
     const [showSkills, setShowSkills] = useState(false);
+    const {t} = useTranslation();
 
     //Tracking the user's position on the page, when adding animation, removing the scrolling event
     const scrollHandle = () => {
@@ -42,105 +44,88 @@ const Description = () => {
         <div id="aboutMe" className="description">
             <div className="description__my-life-wrapper">
                 <div>
-                    <h2 className="main-header">//About me</h2>
-                    <h2 className="second-header">All about my life</h2>
+                    <h2 className="main-header">{t('descriptionAboutMeHeader')}</h2>
+                    <h2 className="second-header">{t('descriptionAboutMeSecondHeader')}</h2>
 
-                    <p className="standard-color-and-font description-text">I can talk about my life for a long time. At my age, I have a little 
-                        experience that I could share.</p>
+                    <p className="standard-color-and-font description-text">{t('descriptionFirstParagraph')}</p>
 
-                    <p className="standard-color-and-font description-text">If life were a colorful tapestry, 
-                    mine would be a vibrant mosaic, woven with diverse experiences and cherished moments. 
-                    As an active and sociable individual, I relish every beat of life's rhythm, seeking to 
-                    add value to each precious moment. </p>
+                    <p className="standard-color-and-font description-text">{t('descriptionSecondParagraph')}</p>
 
-                    <p className="standard-color-and-font description-text">Fuelled by a profound passion for programming, 
-                    I have embraced my current role with fervor, and my aspiration is to become an outstanding 
-                    programmer with an in-depth understanding of my craft. </p>
+                    <p className="standard-color-and-font description-text">{t('descriptionThirdParagraph')}</p>
 
-                    <p className="standard-color-and-font description-text">Looking ahead, my vision is one of perpetual 
-                    growth, where I am determined to continually sharpen my skills and expand my knowledge. For me, 
-                    the future is an exhilarating journey of intellectual enrichment and becoming a true coding 
-                    maestro XD.</p>
+                    <p className="standard-color-and-font description-text">{t('descriptionFourthParagraph')}</p>
                 </div>
 
                 <div>
-                    <h2 className="second-header margin-top-4-per">My interests</h2>
-                    <p className="standard-color-and-font description-text">Speaking of my interests, they may not be numerous, but they are carefully chosen to ensure 
-                        a fulfilling and enriching holiday for both my physical well-being and mental growth. Here's 
-                        a glimpse into the facets that make my leisure time truly worthwhile:</p>
+                    <h2 className="second-header margin-top-4-per">{t('descriptionMyInterests')}</h2>
+                    <p className="standard-color-and-font description-text">{t('descroptionListIntroduction')}</p>
 
                     <Box className="description__list" sx={{ display: 'flex', alignItems: 'start', textAlign: 'start', flexDirection: 'column', margin: '1% 0 0 10%' }}>
                         <Typography className="list__item" sx={{ minWidth: 150 }}>
                             <TravelExploreIcon />
-                            <span className="list__span">Travel and cultural exploration</span>
+                            <span className="list__span">{t('descroptionListTravelCulturalExploration')}</span>
                         </Typography>
                         <Typography className="list__item" sx={{ minWidth: 150 }}>
                             <FitnessCenterIcon />
-                            <span className="list__span">Fitness classes</span>
+                            <span className="list__span">{t('descriptionListFitness')}</span>
                         </Typography>
                         <Typography className="list__item" sx={{ minWidth: 150 }}>
                             <AutoStoriesIcon />
-                            <span className="list__span">Reading</span>
+                            <span className="list__span">{t('descriptionListReading')}</span>
                         </Typography>
                         <Typography className="list__item" sx={{ minWidth: 150 }}>
                             <VideocamIcon />
-                            <span className="list__span">Photo and video shooting</span>
+                            <span className="list__span">{t('descriptionListPhotoVideo')}</span>
                         </Typography>
                     </Box>
                 </div>
 
                 <div className="description__education-container">
-                    <h2 className="second-header margin-top-4-per">Education</h2>
-                    <p className="standard-color-and-font description-text">Until the age of 17, I lived in Belarus, so I received my secondary 
-                        general education there.</p>
+                    <h2 className="second-header margin-top-4-per">{t('descriptionEducation')}</h2>
+                    <p className="standard-color-and-font description-text">{t('descriptionEducationFirstParagraph')}</p>
                     <div className="description__secondary-school-container">
                         <HistoryEduIcon className="secondary-school-container__icon" />
                         <p className="secondary-school-container__years-text margin-zero">2006 - 2017</p>
-                        <p className="secondary-school-container__school-text margin-zero">Secondary school in Brest, Belarus</p>
+                        <p className="secondary-school-container__school-text margin-zero">{t('descriptionEducationSchool')}</p>
                     </div>
-                    <p className="standard-color-and-font description-text">At the university, I'm studing a little longer than expected due to 
-                    personal circumstances. I'm studing at the computer science faculty.</p>
+                    <p className="standard-color-and-font description-text">{t('descriptionEducationSecondParagraph')}</p>
                     <div className="description__secondary-school-container">
                         <SchoolIcon className="secondary-school-container__icon" />
                         <p className="secondary-school-container__years-text margin-zero">2019 - now</p>
-                        <p className="secondary-school-container__school-text margin-zero">Siedlce University of Natural Sciences and Humanities</p>
+                        <p className="secondary-school-container__school-text margin-zero">{t('descriptionEducationUniversity')}</p>
                     </div>
-                    <p className="standard-color-and-font description-text">While studying at the university, I had the opportunity to take a free course "Information technology supporting people 
-                        with visual impairment", which was organized by the university.</p>
+                    <p className="standard-color-and-font description-text">{t('descriptionEducationThirdParagraph')}</p>
                     <div className="description__secondary-school-container">
                         <BlindIcon className="secondary-school-container__icon" />
                         <p className="secondary-school-container__years-text margin-zero">03/2020 - 06/2020</p>
-                        <p className="secondary-school-container__school-text margin-zero">The course "Internet Content Accessibility Tester"</p>
+                        <p className="secondary-school-container__school-text margin-zero">{t('descriptionEducationTesterCourse')}</p>
                     </div>
-                    <p className="standard-color-and-font description-text">A year later, I realized that the university does not provide enough narrow knowledge to be able to get a job in the 
-                        future, so I bought courses in ReactJS. But during this course, I also greatly improved my knowledge in js, 
-                        css and scss.</p>
+                    <p className="standard-color-and-font description-text">{t('descriptionEducationFourthParagraph')}</p>
                     <div className="description__secondary-school-container">
                         <div className="secondary-school-container__icon">
                             <img src={FrontEnd} width={23}/>
                         </div>
                         <p className="secondary-school-container__years-text margin-zero">04/2021 - 10/2021</p>
-                        <p className="secondary-school-container__school-text margin-zero">The course "Dev Hero: Remote course Front End"</p>
+                        <p className="secondary-school-container__school-text margin-zero">{t('descriptionEducationReactCourse')}</p>
                     </div> 
-                    <p className="standard-color-and-font description-text">A couple of months later completing these courses, I was able to get a job :)</p>
-                    <p className="standard-color-and-font description-text">After I got a remote job, I went to Germany for one semester as an exchange student to study. I studied in the 
-                    city of Trier at the Faculty of Computer Science.</p>
+                    <p className="standard-color-and-font description-text">{t('descriptionEducationFifthParagraph')}</p>
+                    <p className="standard-color-and-font description-text">{t('descriptionEducationSixthParagraph')}</p>
                     <div className="description__secondary-school-container">
                         <div className="secondary-school-container__icon">
                             <img src={ExchangeStudent} width={23}/>
                         </div>
                         <p className="secondary-school-container__years-text margin-zero">04/2022 - 08/2022</p>
-                        <p className="secondary-school-container__school-text margin-zero">Hochschule Trier – Trier University of Applied Sciences</p>
+                        <p className="secondary-school-container__school-text margin-zero">{t('descriptionEducationGermany')}</p>
                     </div>
-                    <p className="standard-color-and-font description-text">Also, while studying in Germany, I managed to do an internship in a private company in Trier.</p>
+                    <p className="standard-color-and-font description-text">{t('descriptionEducationSeventhParagraph')}</p>
                     <div className="description__secondary-school-container">
                         <div className="secondary-school-container__icon">
                             <img src={Practice} width={25}/>
                         </div>
                         <p className="secondary-school-container__years-text margin-zero">06/2022 - 10/2022</p>
-                        <p className="secondary-school-container__school-text margin-zero">Practice at the firm meetingmasters.de e.K.</p>
+                        <p className="secondary-school-container__school-text margin-zero">{t('descriptionEducationPractice')}</p>
                     </div>
-                    <p className="standard-color-and-font description-text">I had to do part of the practice work remotely, as my German visa was expiring ;)</p>
+                    <p className="standard-color-and-font description-text">{t('descriptionEducationEighthParagraph')}</p>
                 </div>
             </div>
 
