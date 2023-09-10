@@ -15,8 +15,10 @@
     "@mui/icons-material": "^5.14.1",
     "@mui/material": "^5.14.1",
     "formik": "^2.4.3",
+    "i18next": "^23.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-i18next": "^13.2.2",
     "sass": "^1.64.0",
     "sass-loader": "^13.3.2",
     "yup": "^1.2.0"

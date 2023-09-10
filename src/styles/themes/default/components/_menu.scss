@@ -35,8 +35,8 @@
                 @include flex();
                 border-radius: $bor-r-8px;
                 min-height: $min-h-50px;
-                width: $w-620px;
-                padding: 0 0 0 $p-05per;
+                width: auto;
+                padding: 0 $p-15px 0 $p-05per;
             }
 
             &__icon{
@@ -81,5 +81,13 @@
                 color: $c-hemp;
             }
         }
+    }
+
+    &__change-language{
+        @include flex();
+        @include justifyContent(center);
+        align-items: center;
+        align-content: center;
+        padding: 0 0 $p-3px 0;
     }
 }

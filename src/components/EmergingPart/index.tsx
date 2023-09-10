@@ -1,17 +1,19 @@
 import { Link, Tooltip } from "@mui/material";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LogoDevIcon from '@mui/icons-material/LogoDev';
+import { useTranslation } from "react-i18next";
 
 //Creating a part "Emerging Part" (The part that appears at the top of the page)
 const EmergingPart = () => {
+    const {t} = useTranslation();
     return(
         <div className="emerging-part">
-            <h2 className="emerging-part__main-header main-header">//Hello, my name is Lalita Klimchuk</h2>
-            <h2 className="emerging-part__second-header second-header">Junior Front-End Developer</h2>
-            <p className="emerging-part__text-content standard-color-and-font">I am an ambitious student with a year of work experience looking to improve my skills and knowledge in programming :)</p>
+            <h2 className="emerging-part__main-header main-header">{t('emergingPartMainHeader')}</h2>
+            <h2 className="emerging-part__second-header second-header">{t('emergingPartSecondHeader')}</h2>
+            <p className="emerging-part__text-content standard-color-and-font">{t('emergingPartDescription')}</p>
 
             <div className="emerging-part__buttons-container">
-                <p className="emerging-part-buttons__text-content">See my works</p>
+                <p className="emerging-part-buttons__text-content">{t('emergingPartSeeMyWorks')}</p>
 
                 <div className="emerging-part-buttons__buttons-content">
                     <Tooltip className="emerging-part-buttons__item" title="GitHub">
