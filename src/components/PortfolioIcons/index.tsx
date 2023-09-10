@@ -4,6 +4,10 @@ import WebIcon from '@mui/icons-material/Web';
 import { Tooltip } from '@mui/material';
 import { ComponentsTypes } from '../types';
 
+//Creating icons for portfolio items
+//PROPS:
+//href          -> link where you can find the project code on GitHub
+//showWebsite   -> link to the project on the Netlify platform where you can see the project visually
 const PortfolioIcons = (props: ComponentsTypes.PortfolioIconsType) => {
     return (
         <div className="portfolio__container-icons">

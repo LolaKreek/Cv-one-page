@@ -1,6 +1,7 @@
 import { Button, Tooltip, styled } from "@mui/material";
 import { ComponentsTypes } from "../types";
 
+// Create a GradientButton component that'll render an <button> tag with some styles
 const GradientButton = styled(Button)`
   background: linear-gradient(45deg, #f8cda7 30%, #dbb594 90%);
   border-radius: 8px;
@@ -19,6 +20,10 @@ const GradientButton = styled(Button)`
   }
 `;
 
+//Creating a custom button
+//PROPS:
+//icon     -> mui component containing an icon from the icon library
+//title    -> button name
 const GradientButtonWithIcon = ({icon, title}: ComponentsTypes.GradientButtonPropsType) => {
     return(
       <GradientButton className="gradient-button__button-item" variant="contained">

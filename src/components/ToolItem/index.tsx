@@ -1,5 +1,12 @@
 import { ComponentsTypes } from "../types";
 
+//Creating one tool in the part "Tools"
+//PROPS:
+//wrapper       -> wrapper class name (main wrapper in this component)
+//src           -> link to picture
+//firstText     -> text for the first paragraph
+//secondText    -> text for the second paragraph
+//href          -> link to documentation page
 const ToolItem = (props: ComponentsTypes.ToolsItemPropsType) => {
     return(
         <div className={'tools__container-icons ' + props.wrapper}>

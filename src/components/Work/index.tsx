@@ -1,5 +1,14 @@
 import { ComponentsTypes } from "../types";
 
+//Creating one work block in the "My work/Portfolio" part
+//Here a part of the block is created, which appears when you hover the mouse over the block
+//PROPS:
+//wrapper       -> wrapper class name (main wrapper in this component)
+//firstText     -> title text
+//secondText    -> paragraph text
+//thirdText     -> the first description text
+//fourth        -> the second description text
+//link          -> link to the Netlify platform where you can watch the project
 const Work = (props: ComponentsTypes.WorkPropstype) => {
     return(
             <div className={"my-works__new-work " + props.wrapper}>

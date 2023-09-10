@@ -1,7 +1,12 @@
-import { Tooltip } from "@mui/material";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import { Tooltip } from "@mui/material";
 import { ComponentsTypes } from "../types";
 
+//Creating one blog post in the "Blogs" part
+//PROPS:
+//wrapper       -> wrapper class name (main wrapper in this component)
+//src           -> link to picture
+//title         -> title text (main title in this component, but second title in "Blogs" part) 
 const BlogItem = (props: ComponentsTypes.BlogItemPropsType) => {
     return(
         <div className={"blog-posts__container-posts " + props.wrapper}>

@@ -12,10 +12,12 @@ import Practice from '../../assets/practice.png';
 import Skills from "../Skills";
 import { useEffect, useRef, useState } from "react";
 
+//Creating a part "Description" (description of my educational process and work experience)
 const Description = () => {
     const skillsRef = useRef(null);
     const [showSkills, setShowSkills] = useState(false);
 
+    //Tracking the user's position on the page, when adding animation, removing the scrolling event
     const scrollHandle = () => {
         if(showSkills == false){
             if(skillsRef.current){
@@ -31,6 +33,7 @@ const Description = () => {
         }
     }
 
+    //Adding a scrolling event to a window
     useEffect(() => {
         window.addEventListener('scroll', scrollHandle);
     }, [])

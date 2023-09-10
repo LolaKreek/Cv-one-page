@@ -10,6 +10,7 @@ import AdobePhotoshop from "../../assets/adobe-photoshop.png";
 import Circles from "../Circles";
 import Circle_01 from "../../assets/circle_01.png"
 
+//Creating the part "Tools"
 const Tools = () => {
     return(
         <div id="portfolio" className="tools__margin-wrapper">

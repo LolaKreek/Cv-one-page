@@ -3,6 +3,7 @@ import Circles from "../Circles";
 import Circle_01 from "../../assets/circle_01.png";
 import Circle_02 from "../../assets/circle_02.png";
 
+//Creating a part "Blogs"
 const BlogPosts = () => {
     return(
         <div id="blog" className="blog-posts">

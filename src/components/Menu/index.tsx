@@ -4,6 +4,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import HorizontalRuleIcon from '@mui/icons-material/HorizontalRule';
 
+//Creating a part "Menu"
 const Menu = () => {
     return(
         <div className="menu">

@@ -5,18 +5,22 @@ import GradientButton from "../GradientButtonWithIcon";
 import EngineeringIcon from '@mui/icons-material/Engineering';
 import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
 import EmergingPart from "../EmergingPart";
-import { Tooltip } from "@mui/material";
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
-import { useEffect, useState } from "react";
 import Circles from "../Circles";
 import Circle_01 from "../../assets/circle_01.png";
 import Circle_02 from "../../assets/circle_02.png";
 import PfdFile from "../../data/lalita-klimchuk.pdf";
+import { useEffect, useState } from "react";
+import { Tooltip } from "@mui/material";
 
+//Creating a part "About Me"
 const AboutMe = () => {
+    //Import of required icons
     const imageArray = [MainFirstImage, MainSecondImage, MainThierdImage];
+    //UseState contains a link to the currently selected picture in the carousel
     const [imageSetter, setImageSetter] = useState(imageArray[0]);
+    //UseState contains the index of the current image
     const [currentImage, setCurrentImage] = useState(0);
 
     useEffect(() => {
@@ -29,6 +33,7 @@ const AboutMe = () => {
         setImageSetter(imageArray[currentImage]);
     }, [currentImage])
 
+    //Logic for downloading a resume from a page
     async function cvDownloadHandle() {
         fetch(PfdFile, {
             method: 'GET',

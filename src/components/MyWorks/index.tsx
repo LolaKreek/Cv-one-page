@@ -7,6 +7,7 @@ import PortfolioIcons from "../PortfolioIcons";
 import Circles from "../Circles";
 import Circle_01 from "../../assets/circle_01.png"
 
+//Creating a part "My works/Portfolio"
 const MyWorks = () => {
     const [firstWork, setFirstWork] = useState(false);
     const [secondWork, setSecondWork] = useState(false);

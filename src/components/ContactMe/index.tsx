@@ -8,7 +8,10 @@ import { useFormik } from "formik";
 import { contactMeScheme } from "../../features/formik/formikScheme";
 import { allInputs, textAreas } from "../stylesVariable";
 
+//Creating a part "Contact Me"
 const ContactMe = () => {
+    // Pass the useFormik() hook initial form values and a submit function that will
+    // be called when the form is submitted
     const formik = useFormik({
         initialValues: {
           email: '',
@@ -25,9 +28,8 @@ const ContactMe = () => {
         },
     });
 
-    const SubmitHandle = (event:any) => {
+    const SubmitHandle = () => {
         formik.submitForm();
-        console.log("CLICKED: ", event);
     }
 
     return(

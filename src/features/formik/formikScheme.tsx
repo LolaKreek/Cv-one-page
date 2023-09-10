@@ -1,5 +1,6 @@
 import * as yup from 'yup';
 
+//Сreating a validation scheme for the email submission form
 export const contactMeScheme = yup.object({
     email: yup.string()
         .email('Email must be a valid')

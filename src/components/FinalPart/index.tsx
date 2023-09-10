@@ -11,6 +11,7 @@ import ClearAndConciseCommunication from "../../assets/clear-and-concise-communi
 import AdaptabilityInCommunication from "../../assets/adaptability-in-communication.png";
 import Circles from '../Circles';
 
+//Creating a part "Final part" (language skills, closing thoughts, communication skills)
 const FinalPart = () => {
     return(
         <div className="final-part">

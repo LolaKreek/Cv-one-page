@@ -2,6 +2,7 @@ import { Link, Tooltip } from "@mui/material";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LogoDevIcon from '@mui/icons-material/LogoDev';
 
+//Creating a part "Emerging Part" (The part that appears at the top of the page)
 const EmergingPart = () => {
     return(
         <div className="emerging-part">
