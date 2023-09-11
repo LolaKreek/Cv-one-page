@@ -110,5 +110,13 @@
     "finalSkillsProblemSolving": "Komunikacja służąca rozwiązywaniu problemów",
     "finalSkillsProblemSolvingDescription": "Przejrzyste i precyzyjne komunikowanie rozwiązań problemów programistycznych, umożliwiające skuteczne rozwiązywanie problemów i debugowanie.",
     "finalSkillsCommunicationAdaptability": "Adaptacyjność w komunikacji",
-    "finalSkillsCommunicationAdaptabilityDescription": "Dostosowywanie stylu komunikacji do różnych odbiorców, niezależnie od tego, czy są to inni programiści, kierownictwo czy użytkownicy końcowi."
+    "finalSkillsCommunicationAdaptabilityDescription": "Dostosowywanie stylu komunikacji do różnych odbiorców, niezależnie od tego, czy są to inni programiści, kierownictwo czy użytkownicy końcowi.",
+
+    "blogPosts": "//Posty na blogu",
+    "blogSecondHeader": "Porady i wskazówki",
+    "blogItemTitle": "//Tytuł",
+    "blogItemHeader": "Tytuł drugorzędny",
+    "blogSecondDescription": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "blogReadMore": "Czytaj więcej",
+    "blogAuthor": "Autor"
 }

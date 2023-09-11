@@ -110,5 +110,13 @@
     "finalSkillsProblemSolving": "Problem-Solving Communication",
     "finalSkillsProblemSolvingDescription": "Communicating solutions to programming challenges with clarity and precision, enabling effective troubleshooting and debugging.",
     "finalSkillsCommunicationAdaptability": "Adaptability in Communication",
-    "finalSkillsCommunicationAdaptabilityDescription": "Tailoring communication style to suit different audiences, whether it be fellow programmers, management, or end-users."
+    "finalSkillsCommunicationAdaptabilityDescription": "Tailoring communication style to suit different audiences, whether it be fellow programmers, management, or end-users.",
+
+    "blogPosts": "//Blog posts",
+    "blogSecondHeader": "Hints and tips",
+    "blogItemTitle": "//Title",
+    "blogItemHeader": "Secondary Title",
+    "blogSecondDescription": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "blogReadMore": "Read more",
+    "blogAuthor": "Author"
 }
