@@ -71,5 +71,21 @@
     "skillsSecondParagraph": "Below you can find the tools and libraries that I managed to work with ;)",
 
     "tools": "//Tools",
-    "toolsLibraries": "Tools and libraries"
+    "toolsLibraries": "Tools and libraries",
+
+    "works": "//My works",
+    "worksPortfolio": "Portfolio",
+    "worksFirstParagraph": "Welcome to my evolving portfolio of programming projects, where quality reigns supreme over quantity. While my collection may not be extensive, rest assured that each project is imbued with soul, passion, and unwavering commitment. With every line of code written, I embark on a journey of continuous improvement, determined to hone my skills and create software solutions that leave a lasting impression. As the years pass, my portfolio will undoubtedly grow in both scope and sophistication, becoming a true reflection of my dedication to the craft and my relentless pursuit of excellence. So, join me on this dynamic journey, where every project tells a unique story of growth, learning, and the unwavering desire to make a difference through the power of programming.",
+    "worksFirstHeader": "Interactive world map",
+    "worksFirstDescription": "Contains information about the location of containers and the status of documents for these containers",
+    "worksFirstSkills": "Skills: ReactJS/TypeScript/CSS/HTML/JSX",
+    "worksFirstTools": "Tools: d3-geo/geojson/Mui/Vite.js",
+    "worksSecondHeader": "Forum for the game Genshin Impact",
+    "worksSecondDescription": "These are ordinary static pages with text. The project was made to defend one of the subjects at the university",
+    "worksSecondSkills": "Skills: ReactJS/JS/CSS/HTML",
+    "worksSecondTools": "Tools: Google firebase/Styled Components",
+    "worksThirdHeader": "Graduate work",
+    "worksThirdDescription": "Work is currently underway on this project. The project will be added to the portfolio when it is fully completed. But you can follow the development of this project on github :)",
+    "worksThirdSkills": "Skills: ReactJS/TypeScript/CSS/HTML and etc",
+    "worksThirdTools": "Tools: Mui/Redux toolkit/Formik docs/Vite.js and etc"
 }

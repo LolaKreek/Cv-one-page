@@ -71,5 +71,21 @@
     "skillsSecondParagraph": "Poniżej znajdziesz narzędzia i biblioteki, z którymi udało mi się pracować ;)",
 
     "tools": "//Narzędzia",
-    "toolsLibraries": "Narzędzia i biblioteki"
+    "toolsLibraries": "Narzędzia i biblioteki",
+
+    "works": "//Moje prace",
+    "worksPortfolio": "Portfolio",
+    "worksFirstParagraph": "Witam w moim rozwijającym się portfolio projektów programistycznych, gdzie jakość przeważa nad ilością. Chociaż moja kolekcja może nie jest obszerna, możesz mieć pewność, że każdy projekt jest przepojony duszą, pasją i niezachwianym zaangażowaniem. Z każdą napisaną linijką kodu wyruszam w podróż ciągłego doskonalenia, zdeterminowana doskonalić swoje umiejętności i tworzyć rozwiązania programowe, które pozostawiają trwałe wrażenie. W miarę upływu lat moje portfolio niewątpliwie będzie rosło zarówno pod względem zakresu, jak i wyrafinowania, stając się prawdziwym odzwierciedleniem mojego oddania rzemiosłu i mojego nieustannego dążenia do doskonałości. Dołącz więc do mnie w tej dynamicznej podróży, podczas której każdy projekt opowiada wyjątkową historię rozwoju, uczenia się i niezachwianej chęci dokonywania zmian dzięki mocy programowania.",
+    "worksFirstHeader": "Interaktywna mapa świata",
+    "worksFirstDescription": "Zawiera informacje o lokalizacji kontenerów i statusie dokumentów tych kontenerów",
+    "worksFirstSkills": "Umiejętności: ReactJS/TypeScript/CSS/HTML/JSX",
+    "worksFirstTools": "Narzędzia: d3-geo/geojson/Mui/Vite.js",
+    "worksSecondHeader": "Forum gry Genshin Impact",
+    "worksSecondDescription": "Są to zwykłe strony statyczne z tekstem. Projekt powstał w celu obrony jednego z przedmiotów na uczelni",
+    "worksSecondSkills": "Umiejętności: ReactJS/JS/CSS/HTML",
+    "worksSecondTools": "Narzędzia: Google Firebase/Styled Components",
+    "worksThirdHeader": "Praca dyplomowa",
+    "worksThirdDescription": "Obecnie trwają prace nad tym projektem. Projekt zostanie dodany do portfolio po jego całkowitym ukończeniu. Ale rozwój tego projektu możesz śledzić na githubie :)",
+    "worksThirdSkills": "Umiejętności: ReactJS/TypeScript/CSS/HTML itp",
+    "worksThirdTools": "Narzędzia: Zestaw narzędzi Mui/Redux/Formik docs/Vite.js itp"
 }
