@@ -68,5 +68,8 @@
 
     "skills": "//Skills",
     "skillsFirstParagraph": "Below are the skills I possess, along with a brief description of my proficiency level in each:",
-    "skillsSecondParagraph": "Below you can find the tools and libraries that I managed to work with ;)"
+    "skillsSecondParagraph": "Below you can find the tools and libraries that I managed to work with ;)",
+
+    "tools": "//Tools",
+    "toolsLibraries": "Tools and libraries"
 }

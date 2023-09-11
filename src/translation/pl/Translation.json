@@ -68,5 +68,8 @@
 
     "skills": "//Umiejętności",
     "skillsFirstParagraph": "Poniżej znajdują się umiejętności, które posiadam, wraz z krótkim opisem mojego poziomu biegłości w każdej z nich:",
-    "skillsSecondParagraph": "Poniżej znajdziesz narzędzia i biblioteki, z którymi udało mi się pracować ;)"
+    "skillsSecondParagraph": "Poniżej znajdziesz narzędzia i biblioteki, z którymi udało mi się pracować ;)",
+
+    "tools": "//Narzędzia",
+    "toolsLibraries": "Narzędzia i biblioteki"
 }

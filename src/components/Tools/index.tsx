@@ -9,14 +9,17 @@ import StyledComponents from '../../assets/styled-components.png';
 import AdobePhotoshop from "../../assets/adobe-photoshop.png";
 import Circles from "../Circles";
 import Circle_01 from "../../assets/circle_01.png"
+import { useTranslation } from "react-i18next";
 
 //Creating the part "Tools"
 const Tools = () => {
+    const {t} = useTranslation();
+
     return(
         <div id="portfolio" className="tools__margin-wrapper">
             <div className="tools__main-container">
-                <h2 className="main-header">//Tools</h2>
-                <h2 className="second-header">Tools and libraries</h2>
+                <h2 className="main-header">{t('tools')}</h2>
+                <h2 className="second-header">{t('toolsLibraries')}</h2>
 
                 <Circles class="tools__container-circle-1 circle" classImg="circle-1" src={Circle_01} />
 
