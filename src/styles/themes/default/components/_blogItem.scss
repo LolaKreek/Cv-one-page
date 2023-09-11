@@ -1,0 +1,109 @@
+.blog-posts{
+    padding: $p-92px 0 $p-2per $p-2per;
+    position: relative;
+    background-color: $c-white;
+
+    &__container-posts{
+        @include flex();
+        @include flexDirection(row);
+        @include justifyContent(space-between);
+        @include flexWrap(nowrap);
+        @include transition();
+        padding: $p-2per 0 $p-2per $p-2per;
+        margin: 0 $m-2per $m-3per 0;
+        border-radius: $bor-r-8px;
+        z-index: $zi-1;
+
+        &:hover{
+            @include boxShadow($box-sh-5px $c-silver-chalice);
+            @include transition();
+            background-color: $c-crayola-07;
+            z-index: $zi-1;
+        }
+    }
+    
+    &__main-image{
+        @include boxShadow($box-sh-5px $c-silver-chalice);
+        @include flexBasis($fb-30per);
+        min-width: $min-w-350px;
+        border-radius: $bor-r-8px;
+    }
+
+    .post-content{
+        @include flexBasis($fb-68per);
+        padding: $p-1per 0 0 0;
+        position: relative;
+
+        &__main-post-header{
+            margin: 0 $m-3per 0 $m-2per;
+        }
+
+        &__second-post-header{
+            margin: 0 $m-3per 0 $m-2per;
+        }
+
+        &__paragraph{
+            margin: 0 $m-3per 0 $m-2per;
+            padding: 0 $p-3per 0 0;
+        }
+
+        &__content-read-more{
+            @include flex();
+            @include flexWrap(nowrap);
+            @include justifyContent(end);
+            @include flexBasis($fb-100per);
+            margin: 0 $m-15per 0 0;
+            color: $c-brandy;
+            align-items: center;
+            align-content: center;
+
+            .content{
+                &__read-more{
+                    margin: 0 $m-2per 0 0;
+                    cursor: pointer;
+                }
+
+                &__read-more-arrow{
+                    cursor: pointer;
+                }
+            }
+        }
+
+        &__author-container{
+            position: absolute;
+            top: $t-3per;
+            right: $right-2per;
+            font-size: $fs-0875rem;
+
+            .author-container__author{
+                color: $c-brandy;
+                margin: 0;
+            }
+        }
+    }
+
+    &__container-circle-1{
+        top: $t-38per;
+        left: 0;
+
+        .circle-1{
+            width: $w-400px;
+        }
+    }
+
+    &__container-circle-2{
+        top: $t-35per;
+        right: $right-20per;
+
+        .circle-2{
+            width: $w-250px;
+        }
+    }
+
+    &__content-main-container{
+        @include flex();
+        @include flexDirection(column);
+        @include justifyContent(space-around);
+        margin: $m-1per 0 0 0;
+    }
+}

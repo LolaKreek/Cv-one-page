@@ -1,0 +1,120 @@
+.description{
+    @include flex();
+    @include flexDirection(row);
+    @include justifyContent(space-around);
+    background-color: $c-white;
+    padding: $p-92px 0 0 0;
+
+    .description-text{
+        margin: $m-1per $m-1per $m-2per 0;
+    }
+
+    .column > p{
+        color: $c-gallery;
+    }
+
+    .column-animation{
+        @include boxShadow($box-sh-5px $c-silver-chalice);
+        @include background($c-corvette, $c-brandy);
+        @include animation(showSkills 1.5s ease-in forwards);
+        height: $h-100per;
+        border-radius: $bor-r-8px;
+        flex-wrap: nowrap;
+
+        p{
+            color: $c-white;
+            padding: $p-10px;
+            margin: 0;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            text-align: right;
+        }
+    }
+
+    &__my-life-wrapper{
+        @include flexBasis($fb-45per);
+    }
+
+    &__list{
+        @include flex();
+        @include flexDirection(row);
+        @include justifyContent(space-between);
+
+        .list{
+            &__item{
+                @include flex();
+                @include flexDirection(row);
+                @include justifyContent(start);
+                color: $c-hemp;
+                padding:  0 0 $p-2per 0;
+                flex-shrink: 0;
+            }
+
+            &__span{
+                padding: 0 0 0 $p-20px;
+            }
+        }
+        
+       
+    }
+
+    &__education-container{
+        margin: 0 0 $m-5per 0;
+    }
+
+    &__secondary-school-container{
+        @include flex();
+        @include flexDirection(row);
+        @include justifyContent(center);
+        color: $c-hemp;
+        align-items: center;
+        align-content: center;
+
+        .secondary-school-container{
+            &__icon{
+                @include flex();
+                @include justifyContent(center);
+                @include flexBasis($fb-10per);
+                align-items: center;
+                align-content: center;
+            }
+
+            &__years-text{
+                @include flexBasis($fb-20per);
+                font-weight: $fw-700;
+            }
+
+            &__school-text{
+                @include flexBasis($fb-70per);
+                margin: 0 0 0 $m-2per;
+            }
+        }
+    }
+
+    &__skills-wrapper{
+        @include flexBasis($fb-45per);
+
+        .skills{
+            &__work-experience{
+                margin: 0 0 $m-4per 0;
+            }
+        }
+    }
+    
+    &__ability-wrapper{
+        @include boxShadow($box-sh-5px $c-silver-chalice);
+        border-radius: $bor-r-8px;
+        padding: $p-1per;
+
+        .skills__container-ability{
+            @include flexBasis($fb-10per);
+            max-width: $max-w-90per;
+            margin: 0 0 $m-20px $m-3per;
+            border-radius: $bor-r-8px;
+            background-color: $c-gallery;
+        }
+    }
+}
+
+@include createColumns();

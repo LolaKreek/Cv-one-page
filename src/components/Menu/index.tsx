@@ -1,42 +1,55 @@
-import components from '../index';
-import icons from '../icons';
+import { Box, Link, Tooltip, Typography } from "@mui/material";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import HorizontalRuleIcon from '@mui/icons-material/HorizontalRule';
+import ChangeLanguage from "../ChangeLanguage.tsx";
+import { useTranslation } from "react-i18next";
 
 //Creating a part "Menu"
 const Menu = () => {
-    //Import of required components
-    const {Print, List} = components;
-    //Import of required icons
-    const {PercentageLine, TwitterIcon, FacebookIcon, LinkedinIcon} = icons;
-
-    const menuList = [
-        {id: 1, href: '#aboutMe', text: 'About me'},
-        {id: 2, href: '#skills', text: 'Skills'},
-        {id: 3, href: '#portfolio', text: 'Portfolio'},
-        {id: 4, href: '#blogs', text: 'Blog'},
-        {id: 5, href: '#contactMe', text: 'Contact me'}
-    ]
-
-    const iconList = [
-        {id: 1, class: 'list-icon__icon rotate', src: PercentageLine},
-        {id: 2, class: 'list-icon__icon', src: TwitterIcon},
-        {id: 3, class: 'list-icon__icon', src: FacebookIcon},
-        {id: 4, class: 'list-icon__icon', src: LinkedinIcon}
-    ]
+    const {t} = useTranslation();
 
     return(
-        <nav className="main-wrapper__menu menu">
-            <div className="menu__general">
-                <div className="menu__container-initials">
-                    <Print component='p' class='menu__initials' text='L.K.' />
+        <div className="menu">
+            <div className="menu__main-container">
+                <div className="menu-initials">
+                    <h1 className="menu-initials__text-content">L.K.</h1>
                 </div>
 
-                <div className="menu__container-list">
-                    <List class='menu__list list' element='a' lists={menuList} />
-                    <List class='menu__list-icon list list-icon' element='img' lists={iconList} />
+                <div className="menu-content__main-container menu-content">
+                    <Box sx={{ display: 'flex', alignItems: 'center', textAlign: 'center' }}>
+                        <Typography className="menu-content__items" sx={{ minWidth: 'auto', margin: '0 10px' }}><a className="menu-content__links" href="#aboutMe">{t('menuAboutMe')}</a></Typography>
+                        <Typography className="menu-content__items" sx={{ minWidth: 'auto', margin: '0 10px' }}><a className="menu-content__links" href="#skills">{t('menuSkills')}</a></Typography>
+                        <Typography className="menu-content__items" sx={{ minWidth: 'auto', margin: '0 10px' }}><a className="menu-content__links" href="#portfolio">{t('Portfolio')}</a></Typography>
+                        {/* <Typography className="menu-content__items" sx={{ minWidth: 'auto', margin: '0 10px' }}><a className="menu-content__links" href="#blog">{t('menuBlog')}</a></Typography> */}
+                        <Typography className="menu-content__items" sx={{ minWidth: 'auto', margin: '0 10px' }}><a className="menu-content__links" href="#contactMe">{t('menuContactMe')}</a></Typography>
+                        <HorizontalRuleIcon sx={{ transform: `rotate(90deg)` }} />
+                        
+                        <Tooltip className="memu-content__icon" title="LinkedIn">
+                            <Link className="menu__linked-in-link" href="https://www.linkedin.com/in/lalita-klimchuk-137b28227/" target="_blank">
+                                <LinkedInIcon />
+                            </Link>
+                        </Tooltip>
+                        <Tooltip title="GitHub">
+                            <Link className="menu__git-hub-link" href="https://github.com/LolaKreek" target="_blank">
+                                <GitHubIcon />
+                            </Link>
+                        </Tooltip>
+                        <Tooltip title="Instagram">
+                            <Link className="menu__instagram-link" href="https://www.instagram.com/lolakreek/" target="_blank">
+                                <InstagramIcon />
+                            </Link>
+                        </Tooltip>
+
+                        <div className="menu__change-language">
+                            <ChangeLanguage />
+                        </div>
+                    </Box>
                 </div>
             </div>
-        </nav>
-    );
+        </div>
+    )
 }
 
 export default Menu;

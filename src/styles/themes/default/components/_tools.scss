@@ -1,55 +1,83 @@
-// STYLES FOR THE "TOOLS" PART
-.main-wrapper__tools {
-  margin: $m-30px 0;
-  padding: $p-2per 0 $p-3per $p-7per;
-  position: relative;
-  @include background($c-peach-cream, $c-brandy);
+.tools{
+    &__margin-wrapper{
+        padding: $p-62px 0 0 0;
+        background-color: $c-white;
+    }
 
-  .tools {
-    &__main-icons-wrapper {
-      @include inlineFlex();
-      @include justifyContent(left);
-      @include flexWrap(nowrap);
-      width: $w-100per;
+    &__main-container{
+        @include background($c-peach-cream, $c-brandy);
+        padding: $p-3per $p-2per $p-3per $p-2per;
+        position: relative;
+    }
 
-      .icon{
-        @include transition(all 1s);
-        @include transform(rotateY(0deg));
-      
-        &:hover{
-          @include transition(all 1s);
-          @include transform(rotateY(360deg));
+    &__container-circle-1{
+        bottom: $bottom-minus-40per;
+        right: $right-10per;
+
+        .circle-1{
+            width: $w-200px;
         }
-      }
-
-      @include media-size($ds-large-phone){max-width: $maxw-450px;  @include flexWrap(wrap);}
-      @include media-size($ds-phone){max-width: $maxw-90vw;}
     }
 
-    &__container-icons {
-      @include flexBasis($fbs-06);
-      background-color: $c-white;
-      border-radius: $br-7px;
-      margin: $m-20px $m-15px 0 0;
-      cursor: pointer;
-      @include boxShadow($boxsh-5px-10px $c-silver-chalice);
-
-      @include media-size($ds-phone){min-width: $minw-40vw;}
+    &__content-container{
+        @include flex();
+        @include flexDirection(row);
+        @include justifyContent(space-around);
+        align-items: center;
+        align-content: center;
+        padding: $p-1per 0 0 0;
     }
 
-    &__icons {
-      max-width: $maxw-65px;
-      display: block;
-      height: $h-50px;
-      margin: 0 auto;
+    &__icons-link{
+        @include flex();
+        @include flexDirection(column);
+        @include justifyContent(center);
+        align-items: center;
+        align-content: center;
     }
 
-    &__inscription {
-      color: $c-hemp;
-      font-family: $f-work-sans;
-      margin: 0;
-      text-align: center;
-      font-size: pxToRem($font-10px);
+    &__container-icons{
+        @include flex();
+        @include flexDirection(column);
+        @include justifyContent(center);
+        @include transition();
+        @include flexBasis($fb-8per);
+        align-items: center;
+        align-content: center;
+        cursor: pointer;
+        grid-auto-rows: 1fr;
+        border-radius: $bor-r-8px;
+        background-color: $c-white-09;
+        z-index: $zi-2;
+
+        &:hover{
+            @include boxShadow($box-sh-5px $c-silver-chalice);
+            @include transition();
+        }
+
+        .tools{
+            &__icons{
+                width: $w-70px;
+                padding: $p-10per;
+                height: $h-70px;
+            }
+
+            &__inscription{
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                color: $c-hemp;
+                font-family: $f-work-sans;
+                margin: 0 $m-1per $m-1per $m-1per;
+                text-align: center;
+                font-size: $fs-0625rem;
+            }
+        }
     }
-  }
+
+    .icon{
+        background: $c-white;
+        border-radius: $bor-r-8px;
+        cursor: pointer;
+        z-index: $zi-1;
+    }
 }

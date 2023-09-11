@@ -6,13 +6,17 @@
 @import "../../global";
 
 //Import components styles
-@import "./components/freelancer";
-@import "./components/circle";
-@import "./components/skills";
-@import "./components/aboutMe";
-@import "./components/tools";
-@import "./components/works";
-@import "./components/blogs";
-@import "./components/contactMe";
 @import "./components/menu";
+@import "./components/aboutMe";
+@import "./components//blogItem";
+@import "./components//contactMe";
+@import "./components/description";
+@import "./components/emergingPart";
+@import "./components/finalPart";
+@import "./components/gradientButton";
+@import "./components/myWorks";
+@import "./components/portfolioIcons";
+@import "./components/tools.scss";
+
+//Import global animations
 @import "./components/keyframes";

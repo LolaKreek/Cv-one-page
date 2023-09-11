@@ -1,127 +1,139 @@
-// STYLES FOR THE "CONTACT ME" PART
-.main-wrapper__contact-me {
-  margin: $m-30px 0 0;
-  width: $w-100per;
-  @include background($c-peach-cream, $c-brandy);
+.contact-me{
+    padding: $p-5per 0 0 0;
+    width: $w-100per;
+    @include background($c-peach-cream, $c-brandy);
 
-  .contact-me{
+    &__container-circle-1{
+        bottom: 0;
+        left: $left-50per;
+        
+        .circle-1{
+            width: $w-400px;
+        }
+    }
+
     &__relative-wrapper{
-      position: relative;
-      @include inlineFlex();
-      @include justifyContent(space-around);
-      @include flexWrap(nowrap);
-
-      @include media-size($ds-desktop){width: $ss-desktop;}
-      @include media-size($ds-large-laptop){width: $ss-large-laptop}
-      @include media-size($ds-laptop){width: $ss-laptop}
-      @include media-size($ds-tablet){width: $ss-tablet}
-      @include media-size($ds-large-phone){display: block; width: $ss-large-phone}
-      @include media-size($ds-phone){display: block; width: $ss-phone}
+        @include flex();
+        @include flexDirection(row);
+        @include justifyContent(space-between);
+        position: relative;
     }
 
     &__content-wrapper{
-      -ms-flex-preferred-size: $fbs-60;
-      flex-basis: $fbs-60;
-      padding: $p-3per $p-7per;
+        @include flexBasis($fb-50per);
 
-      > p{
-        @include media-size($ds-phone){max-width: $maxw-90vw;}
-      }
+        .contact-wrapper{
+            &__main-header{
+                margin: $m-2per 0 0 $m-4per;
+            }
 
-      @include media-size($ds-laptop){font-size: pxToRem($font-15px);}
-    }
+            &__second-header{
+                margin: 0 0 $m-2per $m-4per;
+            }
 
-    &__input{
-      font-size: pxToRem($font-15px);
-      padding: $p-2per 0 $p-2per $p-3per;
-      margin: $m-2per 0 0;
-      width: $w-65per;
-      border: none;
-      border-radius: $br-7px;
-      @include boxShadow($boxsh-5px-10px $c-silver-chalice);
+            &__paragraph{
+                margin: 0 0 0 $m-4per;
+            }
 
-      @include inputPlaceholder {
-        color: $c-martini;
-        font-family: $f-work-sans;
-      }
+            &__form{
+                margin: $m-5per 0 0 $m-3per;
 
-      @include media-size($ds-large-phone){margin: 0 0 $m-3per $m-15per;}
-    }
+                .form{
+                    &__input{
+                        @include boxShadow($box-sh-5px $c-silver-chalice);
+                        font-size: pxToRem($fs-15px);
+                        width: $w-65per;
+                        border-radius: $bor-r-8px;
+                        background-color: $c-white;
+                        color: $c-hemp;
+                        border: none;
+                    }
 
-    &__submit{
-      color: $c-white;
-      border: none;
-      padding: $p-10px $p-50px;
-      font-size: pxToRem($font-15px);
-      border-radius: $br-7px;
-      margin: 0 0 0 $m-50px;
-      @include boxShadow($boxsh-3px-5px $c-dusty-gray);
-      @include background($c-corvette, $c-brandy);
+                    &__submit-wrapper{
+                        width: $w-66per;
 
-      @include submitPlaceholder {
-        color: $c-white;
-        font-family: $f-work-sans;
-      }
+                        .submit{
+                            &__container{
+                                @include flex();
+                                @include flexDirection(row);
+                                @include justifyContent(center);
+                                @include background($c-corvette, $c-brandy);
+                                @include transition();
+                                width: $w-120px;
+                                border-radius: $bor-r-8px;
+                                margin: $m-2per auto;
+                                align-items: center;
+                                align-content: center;
+                                cursor: pointer;
 
-      @include media-size($ds-large-phone){margin: 0 0 $m-3per $m-27per;}
-    }
+                                &:hover{
+                                    @include boxShadow($box-sh-5px $c-silver-chalice);
+                                    @include transition();
+                                }
+                            }
 
-    &__image-wrapper{
-      @include flexBasis($fbs-40);
-
-      > img{
-        height: $h-250px;
-        margin: $m-15per 0 0 $m-10per;
-        border-radius: $br-7px;
-
-        @include media-size($ds-laptop){
-          max-width: $maxw-220px;
-          margin: $m-70px 0 0 $m-60px;
-          height: auto;
-          font-size: pxToRem($font-15px);
+                            &__submit-button{
+                                color: $c-white;
+                                font-size: pxToRem($fs-19px);
+                                background: none;
+                                border: none;
+                                padding: 0;
+                                margin: $m-10px;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
         }
-        @include media-size($ds-large-phone){display: none;}
-      }
-
-      @include media-size($ds-laptop){margin-right: $m-200px;}
-      @include media-size($ds-large-phone){margin-right: 0;}
-      @include media-size($ds-phone){max-width: $maxw-100vw;}
-    }
-
-    &__description{
-      text-align: right;
-
-      @include media-size($ds-large-phone){text-align: center;}
     }
 
     &__middle-part{
-      min-width: $minw-200px;
-      position: absolute;
-      border-radius: $br-7px;
-      top: $top-30per;
-      left: $left-55per;
-      padding: $p-15px;
-      @include inlineFlex();
-      @include boxShadow($boxsh-3px-5px $c-dove-gray);
-      background-color: $c-white-opacity-90;
+        @include boxShadow($box-sh-5px $c-silver-chalice);
+        @include flex();
+        @include flexDirection(row);
+        @include justifyContent(space-between);
+        position: absolute;
+        top: $t-40per;
+        right: $right-38per;
+        border-radius: $bor-r-8px;
+        background-color: $c-white-07;
+        padding: $p-1per $p-2per;
+        align-items: center;
+        align-content: center;
+        z-index: $zi-2;
 
-      > img{
-        @include flexBasis($fbs-30);
-        max-width: $maxw-50px;
-        margin: 0 $m-10px 0;
-      }
+        .contact-middle-part{
+            &__contact-icon{
+                height: $h-55px;
+            }
 
-      @include media-size($ds-laptop){top: $top-30per;  left: $left-38per;}
-      @include media-size($ds-tablet){top: $top-30per;  left: $left-32per;}
-      @include media-size($ds-large-phone){display: none;}
+        }
     }
 
-    &__middle-part-container{
-      @include flexBasis($fbs-70);
-    }
+    &__image-wrapper{
+        @include flex();
+        @include flexDirection(column);
+        @include justifyContent(center);
+        @include flexBasis($fb-50per);
+        z-index: $zi-1;
 
-    &__main-header{
-      @include media-size($ds-phone){max-width: $maxw-90vw;}
+        .contact-image{
+            &__image-container{
+                @include flex();
+                @include flexDirection(row);
+                @include justifyContent(center);
+            }
+
+            &__image{
+                width: $w-70per;
+                border-radius: $bor-r-8px;
+            }
+
+            &__text-container{
+                text-align: right;
+                margin: $m-3per $m-5per $m-5per 0;
+            }
+        }
     }
-  }
 }

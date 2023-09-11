@@ -1,0 +1,102 @@
+.my-works{
+    background-color: $c-white;
+    padding: $p-5per $p-2per 0 $p-2per;
+    color: $c-black;
+
+    .show-wrapper{
+        @include animation(showNewWorkIn .5s ease-out forwards);
+    }
+
+    &__text{
+        margin: $m-1per $m-2per $m-2per 0;
+    }
+
+    &__container-works{
+        @include flex();
+        @include flexDirection(row);
+        @include justifyContent(space-around);
+        @include flexWrap(wrap);
+        position: relative;
+
+        @include media-size(1260px){
+            @include flexDirection(column);
+            width: $w-70per;
+            margin: 0 auto;
+        }
+    }
+
+    &__container-circle-1{
+        width: $w-100px;
+        bottom: $bottom-minus-50per;
+        right: $right-10per;
+
+        .circle-1{
+            width: $w-250px;
+        }
+    }
+
+    &__work{
+        @include boxShadow($box-sh-5px $c-silver-chalice);
+        @include flexBasis($fb-30per);
+        border-radius: $bor-r-8px;
+        min-width: $min-w-370px;
+        z-index: $zi-2;
+        background-color: $c-white;
+        position: relative;
+
+        @include media-size(1260px){
+            margin: 0 0 $m-2per 0;
+        }
+    }
+
+    .my-work{
+        &__main-image{
+            width: $w-100per;
+            border-radius: $bor-r-8px $bor-r-8px 0 0;
+        }
+    }
+
+    &__new-work{
+        display: block;
+        position: absolute;
+        width: $w-100per;
+        height: $h-100per;
+        text-align: center;
+        margin: 0 auto;
+        border-radius: $bor-r-8px;
+        background-color: $c-brandy-08;
+    }
+
+    &__content-container{
+        @include flex();
+        @include flexDirection(column);
+        @include justifyContent(center);
+        height: $h-100per;
+        flex: $flex-1;
+        align-items: center;
+        align-content: center;
+        margin: 0 auto;
+    }
+
+    .main-header__for-my-work,
+    &__new-paragraph,
+    &__new-description{
+        animation-delay: $trans-time-1s;
+        animation: showTextContent 1s ease-out forwards;
+    }
+
+    &__new-paragraph,
+    &__new-description{
+        color: $c-white;
+        font-weight: $fw-600;
+    }
+
+    &__new-paragraph{
+        margin: 0 0 $m-2per 0;
+        
+    }
+
+    &__new-description{
+        margin: 0;
+    }
+}

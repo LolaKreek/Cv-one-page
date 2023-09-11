@@ -1,17 +1,35 @@
-import icons from '../icons';
+import LogoDevIcon from '@mui/icons-material/LogoDev';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import WebIcon from '@mui/icons-material/Web';
+import { Tooltip } from '@mui/material';
+import { ComponentsTypes } from '../types';
 
-//Creating one block with an image
-//Each work block contains a PortfolioIcons, these icons are at the bootom (Two icons).
-const PortfolioIcons = () => {
-    //Import of required icons
-    const {BitBucketIcon, ExternalLinkIcon} = icons;
+//Creating icons for portfolio items
+//PROPS:
+//href          -> link where you can find the project code on GitHub
+//showWebsite   -> link to the project on the Netlify platform where you can see the project visually
+const PortfolioIcons = (props: ComponentsTypes.PortfolioIconsType) => {
+    return (
+        <div className="portfolio__container-icons">
+            <Tooltip title="GitHub">
+                <a className='portfolio__icon-item' href="https://github.com/LolaKreek" target='_blank'>
+                    <GitHubIcon sx={{fontSize: 32, color: "#c8c8c7"}} />
+                </a>
+            </Tooltip>
 
-    return(
-        <div className="my-works__container-icons">
-            <img alt='Leave an opinion' className='my-works__icons' src={BitBucketIcon} />
-            <img alt='View Code' className='my-works__icons' src={ExternalLinkIcon}  />
+            <Tooltip title="Code of this project">
+                <a className='portfolio__icon-item' href={props.href} target='_blank'>
+                    <LogoDevIcon sx={{fontSize: 35, color: "#c8c8c7"}} />
+                </a>
+            </Tooltip>
+
+            {props.showWebsite ? <Tooltip title="Open this project">
+                <a className='portfolio__icon-item' href={props.showWebsite} target='_blank'>
+                    <WebIcon sx={{fontSize: 39, color: "#c8c8c7"}} />
+                </a>
+            </Tooltip> : <></>}
         </div>
-    );
+    )
 }
 
 export default PortfolioIcons;

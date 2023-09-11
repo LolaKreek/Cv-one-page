@@ -1,88 +1,36 @@
-//Import global scss files
-@import './variables';
-@import './fonts';
-@import './mixins';
-@import './normalize';
-
-//Global styles
-html {
-  scroll-behavior: smooth;
-}
-
-body{
-  margin: 0;
-  background-color: white;
-}
-
-form{
-  @include media-size($ds-phone){max-width: $maxw-90vw;}
-}
-
-.main-wrapper{
-  width: $w-100per;
-  height: auto;
-  margin: auto;
-  overflow: hidden;
-}
-
-.general{
-  margin: auto;
-
-  > p{
-    max-width: $maxw-50per;
-    color: $c-hemp;
-    font-family: $f-work-sans;
-
-    @include media-size($ds-laptop){max-width: $maxw-900px;}
-    @include media-size($ds-tablet){max-width: $maxw-700px;}
-    @include media-size($ds-phone){max-width: $maxw-490px;}
-  }
-
-  @include media-size($ds-desktop){width: $ss-desktop;}
-  @include media-size($ds-large-laptop){width: $ss-large-laptop;}
-  @include media-size($ds-laptop){width: $ss-laptop;}
-  @include media-size($ds-tablet){width: $ss-tablet;}
-  @include media-size($ds-large-phone){width: $ss-large-phone;}
-  @include media-size($ds-phone){width: $ss-phone;}
-}
-
-.rotate{
-  @include transform(rotate(90deg));
-  margin-top: $m-20px;
-}
-
-.menu__phone{
-  display: none;
-
-  > p{
-    padding: 0 $p-50px;
-    font-size: pxToRem($font-25px);
-
-    @include media-size($ds-large-phone){font-size: pxToRem($font-14px);}
-    @include media-size($ds-phone){font-size: pxToRem($font-14px);}
-  }
-
-  @include media-size($ds-tablet){display: block; margin: 0;}
-}
-
-.display__none{
-  display: none!important;
+a{
+    text-decoration: inherit;
 }
 
 .standard-color-and-font{
-  color: $c-hemp;
-  font-family: $f-work-sans;
+    color: $c-hemp;
+    line-height: $lh-14;
+    margin: 0 $m-1per 0 $m-3per;
 }
 
 .main-header{
-  font-family: $f-noto-sans-kr;
-}
-
-.margin-zero{
-  margin: 0;
+    color: $c-black;
+    font-family: $f-asap-condensed;
+    line-height: $lh-1;
+    margin: 0;
 }
 
 .second-header{
-  color: $c-brandy;
-  font-family: $f-poppins;
+    color: #dbb594;
+    line-height: $lh-11;
+    font-family: $f-quicksand;
+    margin: 0;
+}
+
+.circle{
+    position: absolute;
+    z-index: 0;
+}
+
+.margin-zero{
+    margin: 0;
+}
+
+.margin-top-4-per{
+    margin: $m-4per 0 0 0;
 }

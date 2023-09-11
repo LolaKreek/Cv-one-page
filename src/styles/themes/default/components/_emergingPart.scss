@@ -1,0 +1,59 @@
+.emerging-part{
+    @include boxShadow($box-sh-5px $c-silver-chalice);
+    @include animation(showBlock 1.8s ease-in forwards);
+    position: absolute;
+    min-width: $min-w-500px;
+    top: $t-30per;
+    left: $left-34per;
+    margin: 0 $m-2per 0 0;
+    border-radius: $bor-r-8px;
+    background-color: $c-white-07;
+    z-index: $zi-2;
+
+    &__main-header{
+        margin: $m-2per 0 0 $m-3per;
+    }
+
+    &__second-header{
+        margin: 0 0 0 $m-3per;
+    }
+
+    &__text-content{
+        margin: 0 0 0 $m-3per;
+    }
+
+    &__buttons-container{
+        @include flex();
+        @include flexDirection(row);
+        @include justifyContent(end);
+
+        .emerging-part-buttons{
+            &__text-content{
+                color: $c-hemp;
+                margin: $m-2per $m-6per;
+            }
+
+            &__buttons-content{
+                @include flex();
+                @include flexDirection(row);
+                @include justifyContent(center);
+                align-items: center;
+                align-content: center;
+                margin: 0 $m-8per 0 0;
+            }
+
+            &__item{
+                margin: 0 $m-15per 0 0;
+                cursor: pointer;
+            }
+
+            &__git-hub-link,
+            &__logo-dev-link{
+                svg:hover{
+                    @include transition();
+                    color: $c-hemp;
+                }
+            }
+        }
+    }
+}

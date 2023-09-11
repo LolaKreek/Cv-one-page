@@ -1,0 +1,155 @@
+.final-part{
+    width: $w-100per;
+    background-color: $c-gray-nickel;
+    margin: $m-6per 0 0 0;
+    padding: $p-4per 0 $p-3per 0;
+
+    &__second-header{
+        padding: $p-2per 0 $p-3per $p-2per;
+    }
+
+    &__flex-container{
+        @include flex();
+        @include flexDirection(row);
+        @include justifyContent(space-between);
+        @include flexWrap(nowrap);
+        width: $w-95per;
+        margin: 0 auto;
+        position: relative;
+
+        .circle-1{
+            width: $min-w-350px;
+            z-index: $zi-5;
+        }
+    }
+
+    &__right-part{
+        @include flex();
+        @include flexDirection(column);
+        @include justifyContent(space-between);
+        @include flexBasis($fb-47per);
+        z-index: $zi-2;
+
+        .right-part{
+            &__final-thoughts,
+            &__language-skills{
+                @include boxShadow($box-sh-5px $c-silver-chalice);
+                border-radius: $bor-r-8px;
+                color: $c-hemp;
+                padding: 0 0 $p-3per 0;
+                background-color: $c-white-07;
+            }
+            
+            &__language-skills{
+                .language-skills{
+                    &__skills-wrapper{
+                        @include flex();
+                        @include flexDirection(row);
+                        @include justifyContent(space-between);
+                        width: $w-90per;
+                        margin: 0 auto;
+                    }
+
+                    &__skills-flex-container{
+                        @include flexBasis($fb-65per);
+                    }
+
+                    &__language-container{
+                        @include flex();
+                        @include flexDirection(row);
+                        @include justifyContent(start);
+                        margin: 0 0 $m-2per 0;
+                        align-items: center;
+                        align-content: center;
+                    }
+
+                    &__language-icon-wrapper{
+                        @include flex();
+                        @include flexBasis($fb-15per);
+                        align-items: center;
+                        align-content: center;
+                    }
+
+                    &__language-icon{
+                        width: $w-50px;
+                    }
+
+                    &__multiple-icon-wrapper{
+                        @include flex();
+                        @include justifyContent(end);
+                        @include flexBasis($fb-35per);
+                        align-items: center;
+                    }
+
+                    &__miltiple-icon{
+                        width: $w-100per;
+                        max-width: $max-w-230px;
+                    }
+                }
+
+                .language-skill{
+                    &__language-and-level-wrapper{
+                        @include flexBasis(fb-85per);
+                        padding: 0 0 0 $p-2per;
+                    }
+
+                    &__language{
+                        font-weight: bolder;
+                    }
+                }
+            }
+        }
+    }
+
+    &__container-circle-1{
+        position: absolute;
+        top: $t-30per;
+        left: $left-30per;
+        z-index: $zi-1;
+    }
+
+    &__communication-skills{
+        @include background($c-peach-cream, $c-brandy);
+        @include flexBasis($fb-47per);
+        border-radius: $bor-r-8px;
+        padding: 0 0 $p-2per 0;
+        z-index: $zi-2;
+
+        .communication-skills{
+            &__second-header{
+                margin: $m-2per 0 $m-1per $m-3per;
+            }
+        }
+
+        .communication-skill{
+            &__wrapper{
+                @include flex();
+                @include flexDirection(row);
+                @include justifyContent(space-between);
+                width: $w-100per;
+                margin: $m-2per auto;
+                color: $c-hemp;
+                align-items: center;
+                align-content: center;
+            }
+
+            &__skill-icon-wrapper{
+                @include flex();
+                @include justifyContent(center);
+                @include flexBasis($fb-20per);
+            }
+
+            &__skill-icon{
+                width: $w-50px;
+            }
+
+            &__content-wrapper{
+                @include flexBasis($fb-80per);
+            }
+
+            &__main-header{
+                font-weight: bolder;
+            }
+        }
+    }
+}

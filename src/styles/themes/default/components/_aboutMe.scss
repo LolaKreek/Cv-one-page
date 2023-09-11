@@ -1,171 +1,103 @@
-// STYLES FOR THE "ABOUT ME" PART
-.main-wrapper__about-me {
-  position: relative;
+.about-me{
+    @include flex();
+    @include flexDirection(row);
+    @include justifyContent(space-around);
+    background-color: $c-white;
+    padding: $p-150px 0 0 0;
+    position: relative;
 
-  .about-me {
-    &__first-part {
-      margin: $m-4per 0 $m-2_5per 0;
-      width: $w-100per;
-      position: relative;
-
-      .first-part {
-        &__image {
-          width: auto;
-          max-height: $maxh-400px;
-          border-radius: $br-7px;
-          margin: 0 0 0 $m-10per;
-          position: relative;
-          z-index: $zi-2;
-
-          @include media-size($ds-laptop){margin-left: $m-2per;}
-          @include media-size($ds-large-phone){
-            z-index: $zi-1;
-            max-width: $maxw-200px;
-            height: auto;
-            margin-left: calc(100vw / 5.5);
-            margin-right: calc(100vw / 5.5);
-          }
-        }
-      }
-    }
-
-    &__middle-part {
-      position: absolute;
-      left: $left-26per;
-      top: $top-8per;
-      display: block;
-      @include animation(showBlock 2s ease-in forwards);
-      min-width: $minw-680px;
-      border-radius: $br-10px;
-      @include boxShadow($boxsh-5px $c-silver-chalice);
-      background-color: $c-white-opacity-80;
-      z-index: $zi-3;
-
-      > p {
-        margin: 0 0 0 $m-20px;
-
-        @include media-size($ds-large-phone){max-width: $maxw-300px;  font-size: pxToRem($font-15px);}
-      }
-
-      .middle-part {
-        &__main-header {
-          margin: $m-20px 0 0 $m-20px;
-
-          @include media-size($ds-large-phone){display: none;}      
-        }
-
-        &__main-header-mobile{
-          display: none;
-
-          @include media-size($ds-large-phone){display: block; margin: 0 0 0 $m-3per;}
-        }
-
-        &__second-header {
-          margin: 0 0 0 $m-20px;
-          
-          @include media-size($ds-large-phone){ text-align: left; margin-left: $m-3per;}
-          @include media-size($ds-phone){max-width: $maxw-90vw;}
-        }
-
-        &__container-works {
-          @include inlineFlex();
-          @include justifyContent(space-evenly);
-          @include flexWrap(nowrap);
-          width: $w-100per;
-
-          > p{
-            @include media-size($ds-large-phone){max-width: $maxw-150px;}
-            @include media-size($ds-phone){@include flexBasis($fbs-40);}
-          }
-
-          @include media-size($ds-large-phone){max-width: $maxw-400px;}
-          @include media-size($ds-phone){max-width: $maxw-50per;  @include flex();}
-        }
-
-        &__works {
-          @include flexBasis($fbs-80);
-          text-align: right;
-        }
-
-        &__works-button {
-          @include flexBasis($fbs-20);
-
-          > img {
-            width: $w-50px;
-            height: $h-50px;
-          }
-
-          @include media-size($ds-large-phone){min-width: $minw-200px;}
-          @include media-size($ds-phone){@include flexBasis($fbs-50);}
-        }
-      }
-
-      @include media-size($ds-laptop){
-        left: $left-20per;
-        top: $top-8per;
-        min-width: $minw-680px;
-      }
-      @include media-size($ds-tablet){top: $top-50per;  left: $left-8per;}
-      @include media-size($ds-large-phone){
+    &__image-main-container{
+        @include flexBasis($fb-40per);
+        @include flex();
+        @include justifyContent(right);
+        align-items: center;
+        align-content: center;
         position: relative;
-        max-width: $maxw-300px;
-        top: 0;
-        left: 0;
-        @include boxShadow(none);
-      }
-      @include media-size($ds-phone){
-        max-width: $maxw-50px;
-      }
+        z-index: $zi-1;
     }
 
-    &__second-part {
-      @include inlineFlex();
-      @include justifyContent(space-evenly);
-      @include flexWrap(nowrap);
-      margin: $m-20px 0;
-
-      .second-part {
-        &__about-me {
-          @include flexBasis($fbs-40);
-          padding: 0 0 0 $p-20px;
-
-          @include media-size($ds-large-phone){display: block;  margin: auto;}
+    .image-main-container{
+        &__container-about-me-circle-2{
+            bottom: $bottom-minus-25per;
+            right: $right-minus-11per;
         }
-      }
 
-      @include media-size($ds-laptop){max-width: $maxw-85per;}
-      @include media-size($ds-tablet){max-width: $maxw-82per;}
-      @include media-size($ds-large-phone){
-        display: block;
-        @include flexBasis($fbs-20);
+        &__about-me-circle-2{
+            width: $w-250px;
+            z-index: $zi-0;
+        }
+
+        &__arrows-cantainer{
+            cursor: pointer;
+        }
+    }
+
+    &__main-image-item{
+        @include animation(1s ease-in-out 1 slideInFromLeft);
+        max-height: $min-h-500px;
+        border-radius: $bor-r-8px;
+        z-index: $zi-1;
+        border: 1px solid $c-white;
+    }
+
+    &__container-circle-1,
+    &__container-circle-3{
+        position: absolute;
+        z-index: $zi-0;
+    }
+
+    &__container-circle-1{
+        bottom: $bottom-30per;
+        right: $right-350px;
+    }
+
+    &__container-circle-3{
+        left: 0;
+        top: 0;
+    }
+
+    &__circle-1{
+        width: $w-350px;
+        z-index: 0;
+    }
+
+    &__circle-3{
+        width: $w-280px;
+    }
+
+    .about-me-buttons-part{
+        &__main-container{
+            @include flexBasis($fb-60per);
+            @include flex();
+            @include flexDirection(column);
+            @include justifyContent(end);
+            margin: 0 0 $m-5per 0;
+            align-items: center;
+            align-content: center;
+            text-align: center;
+            z-index: $zi-1;
+        }
+
+        &__main-header{
+            color: $c-brandy;
+            font-family: $f-quicksand;
+            line-height: $lh-1;
+            margin: 0;
+        }
+
+        &__text{
+            color: $c-hemp;
+            line-height: $lh-14;
+            margin: $m-1per 0 $m-2per 0;
+        }
+    }
+
+    .buttons-part-content__buttons-container{
+        @include flex();
         @include flexDirection(row);
-      }
+        @include justifyContent(space-between);
+        @include flexWrap(nowrap);
+        min-width: $min-w-380px;
+        padding: 0 $p-3per 0 0;
     }
-
-    &__container-inscription {
-      width: $w-100per;
-      @include inlineFlex();
-      @include justifyContent(center);
-      @include flexWrap(nowrap);
-
-      @include media-size($ds-phone){@include flex(); max-width: $maxw-100vw;}
-    }
-
-    &__inscription {
-      font-weight: bold;
-      @include flexBasis($fbs-80);
-      text-align: right;
-      padding: $p-10px 0 0 0;
-
-      @include media-size($ds-phone){@include flexBasis($fbs-50);}
-    }
-
-    &__image {
-      @include flexBasis($fbs-20);
-      height: $h-70px;
-      width: auto;
-
-      @include media-size($ds-phone){@include flexBasis($fbs-50);}
-    }
-  }
 }
