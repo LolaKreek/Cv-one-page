@@ -118,5 +118,19 @@
     "blogItemHeader": "Tytuł drugorzędny",
     "blogSecondDescription": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     "blogReadMore": "Czytaj więcej",
-    "blogAuthor": "Autor"
+    "blogAuthor": "Autor",
+
+    "contactMe": "//Skontaktuj się ze mną",
+    "contactMeSecondHeader": "Połączmy się!",
+    "contactMeParagraph": "Jestem podekscytowana możliwością kontaktu i nie mogę się doczekać nawiązania kontaktu z Tobą! Niezależnie od tego, czy chodzi o perspektywy kariery, możliwości współpracy, czy po prostu o podzielenie się pomysłami, nie wahaj się skontaktować, korzystając z informacji podanych poniżej. Jako osoba oddana i pełna entuzjazmu chętnie odkrywam nowe możliwości i angażuję się w znaczące rozmowy, które mogą prowadzić do wzajemnego rozwoju i sukcesu. Połączmy się więc i wyruszmy razem w podróż pełną innowacji i doskonałości!",
+    "contactMeAuthor": "autor",
+    "contactMeUsername": "nazwa użytkownika",
+    "contactMedescription": "opis",
+    "contactMeOccupation": "zawód",
+    "contactMeRepositoryType": "typ repozytorium",
+    "contactMeGitHub": "gitHub",
+    "contactMeFormPlaceholderMessage": "Wiadomość",
+    "contactMeFromPlaceholderSubject": "Temat",
+    "contactMeFormPlaceholderEmail": "Twój email",
+    "contactMeFormSubmitButton": "Wyślij"
 }

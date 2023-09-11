@@ -118,5 +118,19 @@
     "blogItemHeader": "Secondary Title",
     "blogSecondDescription": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     "blogReadMore": "Read more",
-    "blogAuthor": "Author"
+    "blogAuthor": "Author",
+
+    "contactMe": "//Contact me",
+    "contactMeSecondHeader": "Let's connect!",
+    "contactMeParagraph": "I am thrilled to be available for contact and excitedly looking forward to connecting with you! Whether it's regarding career prospects, collaboration opportunities, or simply sharing ideas, don't hesitate to reach out using the information provided below. As a dedicated and enthusiastic individual, I'm eager to explore new possibilities and engage in meaningful conversations that can lead to mutual growth and success. So, let's connect and embark on a journey of innovation and excellence together!",
+    "contactMeAuthor": "author",
+    "contactMeUsername": "username",
+    "contactMedescription": "description",
+    "contactMeOccupation": "occupation",
+    "contactMeRepositoryType": "repository type",
+    "contactMeGitHub": "gitHub",
+    "contactMeFormPlaceholderMessage": "Message",
+    "contactMeFromPlaceholderSubject": "Subject",
+    "contactMeFormPlaceholderEmail": "Your email",
+    "contactMeFormSubmitButton": "Send"
 }
