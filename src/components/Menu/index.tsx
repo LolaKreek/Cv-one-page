@@ -22,7 +22,7 @@ const Menu = () => {
                         <Typography className="menu-content__items" sx={{ minWidth: 'auto', margin: '0 10px' }}><a className="menu-content__links" href="#aboutMe">{t('menuAboutMe')}</a></Typography>
                         <Typography className="menu-content__items" sx={{ minWidth: 'auto', margin: '0 10px' }}><a className="menu-content__links" href="#skills">{t('menuSkills')}</a></Typography>
                         <Typography className="menu-content__items" sx={{ minWidth: 'auto', margin: '0 10px' }}><a className="menu-content__links" href="#portfolio">{t('Portfolio')}</a></Typography>
-                        <Typography className="menu-content__items" sx={{ minWidth: 'auto', margin: '0 10px' }}><a className="menu-content__links" href="#blog">{t('menuBlog')}</a></Typography>
+                        {/* <Typography className="menu-content__items" sx={{ minWidth: 'auto', margin: '0 10px' }}><a className="menu-content__links" href="#blog">{t('menuBlog')}</a></Typography> */}
                         <Typography className="menu-content__items" sx={{ minWidth: 'auto', margin: '0 10px' }}><a className="menu-content__links" href="#contactMe">{t('menuContactMe')}</a></Typography>
                         <HorizontalRuleIcon sx={{ transform: `rotate(90deg)` }} />
                         

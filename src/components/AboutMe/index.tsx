@@ -21,13 +21,13 @@ const AboutMe = () => {
     const imageArray = [MainFirstImage, MainSecondImage, MainThierdImage];
     //UseState contains the index of the current image
     const [currentImage, setCurrentImage] = useState(0);
-    const mainImageRef = useRef(null);
+    const mainImageRef = useRef<any>(null);
     const {t} = useTranslation();
 
     useEffect(() => {
         const imageElement = mainImageRef.current;
         if(imageElement){
-            imageElement.src = imageArray[currentImage];
+            mainImageRef.current.src = imageArray[currentImage];
             imageElement.style.animation = 'none';
             imageElement.offsetHeight; // trigger reflow for main image
             imageElement.style.animation = null;

@@ -1,5 +1,5 @@
 import AboutMe from "../../components/AboutMe";
-import BlogPosts from "../../components/BlogPosts";
+// import BlogPosts from "../../components/BlogPosts";
 import ContactMe from "../../components/ContactMe";
 import Description from "../../components/Description";
 import FinalPart from "../../components/FinalPart";
@@ -16,7 +16,7 @@ const Dashboard = () => {
             <Tools />
             <MyWorks />
             <FinalPart />
-            <BlogPosts />
+            {/* <BlogPosts /> */}
             <ContactMe />
         </div>
     )
