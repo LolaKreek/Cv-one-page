@@ -133,5 +133,8 @@
     "contactMeFormPlaceholderMessage": "Message",
     "contactMeFromPlaceholderSubject": "Subject",
     "contactMeFormPlaceholderEmail": "Your email",
-    "contactMeFormSubmitButton": "Send"
+    "contactMeFormSubmitButton": "Send",
+
+    "portfolioIconsCodeButton": "Code of this project",
+    "portfolioIconsOpenButton": "Open this project"
 }

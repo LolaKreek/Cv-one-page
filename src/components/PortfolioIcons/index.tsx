@@ -3,12 +3,15 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import WebIcon from '@mui/icons-material/Web';
 import { Tooltip } from '@mui/material';
 import { ComponentsTypes } from '../types';
+import { useTranslation } from 'react-i18next';
 
 //Creating icons for portfolio items
 //PROPS:
 //href          -> link where you can find the project code on GitHub
 //showWebsite   -> link to the project on the Netlify platform where you can see the project visually
 const PortfolioIcons = (props: ComponentsTypes.PortfolioIconsType) => {
+    const {t} = useTranslation();
+
     return (
         <div className="portfolio__container-icons">
             <Tooltip title="GitHub">
@@ -17,13 +20,13 @@ const PortfolioIcons = (props: ComponentsTypes.PortfolioIconsType) => {
                 </a>
             </Tooltip>
 
-            <Tooltip title="Code of this project">
+            <Tooltip title={t('portfolioIconsCodeButton')}>
                 <a className='portfolio__icon-item' href={props.href} target='_blank'>
                     <LogoDevIcon sx={{fontSize: 35, color: "#c8c8c7"}} />
                 </a>
             </Tooltip>
 
-            {props.showWebsite ? <Tooltip title="Open this project">
+            {props.showWebsite ? <Tooltip title={t('portfolioIconsOpenButton')}>
                 <a className='portfolio__icon-item' href={props.showWebsite} target='_blank'>
                     <WebIcon sx={{fontSize: 39, color: "#c8c8c7"}} />
                 </a>

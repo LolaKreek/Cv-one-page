@@ -133,5 +133,8 @@
     "contactMeFormPlaceholderMessage": "Wiadomość",
     "contactMeFromPlaceholderSubject": "Temat",
     "contactMeFormPlaceholderEmail": "Twój email",
-    "contactMeFormSubmitButton": "Wyślij"
+    "contactMeFormSubmitButton": "Wyślij",
+
+    "portfolioIconsCodeButton": "Kod tego projektu",
+    "portfolioIconsOpenButton": "Otwórz ten projekt"
 }
