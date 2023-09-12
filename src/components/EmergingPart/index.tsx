@@ -21,7 +21,7 @@ const EmergingPart = () => {
                             <GitHubIcon sx={{color: "#c8c8c7", fontSize: 35}} />
                         </Link>
                     </Tooltip>
-                    <Tooltip className="emerging-part-buttons__item" title="Code of this page">
+                    <Tooltip className="emerging-part-buttons__item" title={t('emergingPartCodeButton')}>
                         <Link className="emerging-part-buttons__logo-dev-link" href="https://github.com/LolaKreek/Cv-one-page" target="_blank">
                             <LogoDevIcon sx={{color: "#c8c8c7", fontSize: 40 }} />
                         </Link>
