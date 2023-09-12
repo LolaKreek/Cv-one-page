@@ -5,6 +5,8 @@
     Vite - https://vitejs.dev
 
 # Getting Started
+Project link: 
+https://lalita-klimchuk.netlify.app/#contactMe
 
 ## Installation process
 - Install any IDE of your choice
