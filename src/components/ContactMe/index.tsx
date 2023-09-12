@@ -1,5 +1,5 @@
 import ContactIcon from "../../assets/contact_icon.png";
-import ContactMainImg from '../../assets/contact_me.jpg';
+import ContactMainImg from '../../assets/contact-me.jpg';
 import SendIcon from '@mui/icons-material/Send';
 import { TextField, Tooltip } from "@mui/material";
 import Circles from "../Circles";

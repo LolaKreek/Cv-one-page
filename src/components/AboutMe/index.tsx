@@ -1,6 +1,6 @@
 import MainFirstImage from "../../assets/main-first-image.jpg";
 import MainSecondImage from "../../assets/main-second-image.jpg";
-import MainThierdImage from "../../assets/main-third-image.jpeg";
+import MainThierdImage from "../../assets/main-third-image.jpg";
 import GradientButton from "../GradientButtonWithIcon";
 import EngineeringIcon from '@mui/icons-material/Engineering';
 import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
