@@ -30,5 +30,13 @@ This is a project that I decided to create to showcase my skills as a programmer
    All images, styles, icons or fonts and others that are not related to the code go here
 2. components => 
    Directories for sets of components, e.g. under the `Menu` directory, will have the implementation of the interface and functionality for the page menu
-3. pages => 
+3. data => 
+   This folder contains a .pdf file with a resume, which can be downloaded from the website
+4. features =>
+   This folder contains form validation schemes for the FormikDocs library
+4. pages => 
    I store all pages here. Each page is a combination of all elements/components into a whole that is to be displayed to the user
+5. styles => 
+   This folder contains all the necessary .scss styles for the entire project, as well as imported fonts, global styles, variables needed for styles and a normalize.scss file
+6. translation => 
+   This is where .json files are stored for different languages (pl, en)
