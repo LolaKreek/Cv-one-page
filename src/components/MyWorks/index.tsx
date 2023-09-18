@@ -29,14 +29,15 @@ const MyWorks = () => {
                     <div onMouseOver={() => setFirstWork(true)} onMouseLeave={() => setFirstWork(false)}>
                         {/* If firstWork === true (the mouse is on the element) -> show the component, otherwise do not show */}
                         {firstWork ? <Work wrapper='show-wrapper'
-                            link="https://map-d3js-lalita-klimchuk.netlify.app"
+                            // link="https://map-d3js-lalita-klimchuk.netlify.app"
                             firstText={t('worksFirstHeader')} 
                             secondText={t('worksFirstDescription')}
                             thirdText={t('worksFirstSkills')} fourthText={t('worksFirstTools')}/> : <></>}
                         <img className="my-work__main-image" alt='Visualization of map project' id="img-1" src={Map} />
                     </div>
                     
-                    <PortfolioIcons href="https://github.com/LolaKreek/Map-with-d3.js" showWebsite='https://map-d3js-lalita-klimchuk.netlify.app' />
+                    {/* <PortfolioIcons href="https://github.com/LolaKreek/Map-with-d3.js" showWebsite='https://map-d3js-lalita-klimchuk.netlify.app' /> */}
+                    <PortfolioIcons href="https://github.com/LolaKreek/Map-with-d3.js" />
                 </div>
 
                 <div className="my-works__work work-1">
