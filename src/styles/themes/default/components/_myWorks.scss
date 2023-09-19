@@ -43,6 +43,7 @@
         z-index: $zi-2;
         background-color: $c-white;
         position: relative;
+        margin: $m-10px;
 
         @include media-size(1260px){
             margin: 0 0 $m-2per 0;
