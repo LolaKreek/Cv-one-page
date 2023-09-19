@@ -39,6 +39,10 @@
                 padding: 0 0 $p-3per 0;
                 background-color: $c-white-07;
             }
+
+            &__final-thoughts{
+                margin: $m-10px 0 0 0;
+            }
             
             &__language-skills{
                 .language-skills{

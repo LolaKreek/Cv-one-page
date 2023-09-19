@@ -1,6 +1,6 @@
 import AboutMe from "../../components/AboutMe";
 // import BlogPosts from "../../components/BlogPosts";
-import ContactMe from "../../components/ContactMe";
+// import ContactMe from "../../components/ContactMe";
 import Description from "../../components/Description";
 import FinalPart from "../../components/FinalPart";
 import Menu from "../../components/Menu";
@@ -17,7 +17,7 @@ const Dashboard = () => {
             <MyWorks />
             <FinalPart />
             {/* <BlogPosts /> */}
-            <ContactMe />
+            {/* <ContactMe /> */}
         </div>
     )
 }
