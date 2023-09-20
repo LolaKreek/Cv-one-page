@@ -61,7 +61,7 @@ const MyWorks = () => {
                         <img className="my-work__main-image" alt='Visualization of Graduate project' id="img-3" src={UnderConstruction} />
                     </div>
 
-                    <PortfolioIcons href="https://github.com/LolaKreek/graduateWork" />
+                    <PortfolioIcons href="https://github.com/LolaKreek/menu" />
                 </div>
             </div>
         </div>
