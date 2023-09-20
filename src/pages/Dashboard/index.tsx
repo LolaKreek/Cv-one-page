@@ -17,7 +17,7 @@ const Dashboard = () => {
             <MyWorks />
             <FinalPart />
             {/* <BlogPosts /> */}
-            <ContactMe />
+            {/* <ContactMe /> */}
         </div>
     )
 }
