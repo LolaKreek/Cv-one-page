@@ -51,7 +51,6 @@
 
     "workExperience": "Work Experience",
     "workExperienceSushiBar": "Sushi Bar in Siedlce, waitress",
-    "workExperienceIwonex": "Printing House 'Iwonex', assistant",
     "workExperienceFirstParagraph": "I decided to add job experiences that are not related to my specialty to show that I am a person who can work long and hard :)",
     "workExperienceTester": "The course 'Internet Content Accessibility Tester'",
     "workExperienceSecondParagraph": "The next thing that happened to me was my first practice where my task was 'Make a website with a database on the subject of 'Project Tracking System'' (Used HTML, CSS, JS, jQuery, PHP and SQL).",
@@ -136,5 +135,12 @@
     "contactMeFormSubmitButton": "Send",
 
     "portfolioIconsCodeButton": "Code of this project",
-    "portfolioIconsOpenButton": "Open this project"
+    "portfolioIconsOpenButton": "Open this project",
+
+    "skillsToolTipHtml": "Highly skilled in HTML",
+    "skillToolTipCss": "The confident and capable coder",
+    "skillToolTipJs": "Confident in JavaScript",
+    "skillToolTipTs": "80% knowledgeable programmer XD",
+    "skillToolTipReact": "Aspiring to the heights ;)",
+    "skillToolTipScss": "Skillful in SCSS"
 }
