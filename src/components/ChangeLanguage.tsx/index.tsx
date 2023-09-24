@@ -64,6 +64,29 @@ const ChangeLanguage = () =>{
                         </g>
                     </svg>
                 </MenuItem>
+                <MenuItem value='ru'>
+                    <svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+                        <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier"> 
+                            <g clipPath="url(#clip0_503_2726)"> 
+                                <rect x="0.25" y="0.25" width="27.5" height="19.5" rx="1.75" fill="white" stroke="#F5F5F5" strokeWidth="0.5"></rect> 
+                                <mask id="mask0_503_2726" maskUnits="userSpaceOnUse" x="0" y="0" width="28" height="20"> 
+                                    <rect x="0.25" y="0.25" width="27.5" height="19.5" rx="1.75" fill="white" stroke="white" strokeWidth="0.5"></rect> 
+                                </mask> 
+                                <g mask="url(#mask0_503_2726)"> 
+                                    <path fillRule="evenodd" clipRule="evenodd" d="M0 13.3333H28V6.66667H0V13.3333Z" fill="#0C47B7"></path> 
+                                    <path fillRule="evenodd" clipRule="evenodd" d="M0 20H28V13.3333H0V20Z" fill="#E53B35"></path> 
+                                </g> 
+                            </g> 
+                            <defs> 
+                                <clipPath id="clip0_503_2726"> 
+                                    <rect width="28" height="20" rx="2" fill="white"></rect> 
+                                </clipPath> 
+                            </defs> 
+                        </g>
+                    </svg>
+                </MenuItem>
               </Select>
             </FormControl>
             )

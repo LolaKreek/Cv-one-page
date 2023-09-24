@@ -133,12 +133,8 @@ const Description = () => {
                 <div className="skills__work-experience">
                     <h2 className="second-header">{t('workExperience')}</h2>
                     <div className="description__secondary-school-container">
-                        <p className="secondary-school-container__years-text margin-zero">2017 - 2018</p>
+                        <p className="secondary-school-container__years-text margin-zero">2017 - 2020</p>
                         <p className="secondary-school-container__school-text margin-zero">{t('workExperienceSushiBar')}</p>
-                    </div>
-                    <div className="description__secondary-school-container">
-                        <p className="secondary-school-container__years-text margin-zero">2018 - 2019</p>
-                        <p className="secondary-school-container__school-text margin-zero">{t('workExperienceIwonex')}</p>
                     </div>
                     <p className="standard-color-and-font description-text">{t('workExperienceFirstParagraph')}</p>
                     <div className="description__secondary-school-container">
@@ -182,28 +178,28 @@ const Description = () => {
                     <p className="standard-color-and-font description-text">{t('skillsFirstParagraph')}</p>
 
                     <div className="skills__container-ability">
-                        {showSkills ? <Skills class='column-10 column column-animation' text='HTML 100%' tooltipTitle="Highly skilled in HTML" />
-                        : <Skills class='column-10 column' text='HTML 100%' tooltipTitle="Highly skilled in HTML" />}
+                        {showSkills ? <Skills class='column-10 column column-animation' text='HTML 100%' tooltipTitle={t('skillsToolTipHtml')} />
+                        : <Skills class='column-10 column' text='HTML 100%' tooltipTitle={t('skillsToolTipHtml')} />}
                     </div>
                     <div className="skills__container-ability">
-                        {showSkills ? <Skills class='column-10 column column-animation' text='CSS 100%' tooltipTitle="The confident and capable coder" />
-                        : <Skills class='column-10 column' text='CSS 100%' tooltipTitle="The confident and capable coder" />}
+                        {showSkills ? <Skills class='column-10 column column-animation' text='CSS 100%' tooltipTitle={t('skillToolTipCss')} />
+                        : <Skills class='column-10 column' text='CSS 100%' tooltipTitle={t('skillToolTipCss')} />}
                     </div>
                     <div className="skills__container-ability">
-                        {showSkills ? <Skills class='column-10 column column-animation' text='JS 100%' tooltipTitle="Confident in JavaScript" />
-                        : <Skills class='column-10 column' text='JS 100%' tooltipTitle="Confident in JavaScript" />}
+                        {showSkills ? <Skills class='column-10 column column-animation' text='JS 100%' tooltipTitle={t('skillToolTipJs')} />
+                        : <Skills class='column-10 column' text='JS 100%' tooltipTitle={t('skillToolTipJs')} />}
                     </div>
                     <div className="skills__container-ability">
-                        {showSkills ? <Skills class='column-8 column column-animation' text='TypeScript 80%' tooltipTitle="80% knowledgeable programmer XD" />
-                        : <Skills class='column-8 column' text='TypeScript 80%' tooltipTitle="80% knowledgeable programmer XD" />}
+                        {showSkills ? <Skills class='column-8 column column-animation' text='TypeScript 80%' tooltipTitle={t('skillToolTipTs')} />
+                        : <Skills class='column-8 column' text='TypeScript 80%' tooltipTitle={t('skillToolTipTs')} />}
                     </div>
                     <div className="skills__container-ability">
-                        {showSkills ? <Skills class='column-7 column column-animation' text='ReactJS 70%' tooltipTitle="Aspiring to the heights ;)" />
-                        : <Skills class='column-7 column' text='ReactJS 70%' tooltipTitle="Aspiring to the heights ;)" />}
+                        {showSkills ? <Skills class='column-7 column column-animation' text='ReactJS 70%' tooltipTitle={t('skillToolTipReact')} />
+                        : <Skills class='column-7 column' text='ReactJS 70%' tooltipTitle={t('skillToolTipReact')} />}
                     </div>
                     <div className="skills__container-ability">
-                        {showSkills ? <Skills class='column-9 column column-animation' text='Scss 90%' tooltipTitle="Skillful in SCSS" />
-                        : <Skills class='column-9 column' text='Scss 90%' tooltipTitle="Skillful in SCSS" />}
+                        {showSkills ? <Skills class='column-9 column column-animation' text='Scss 90%' tooltipTitle={t('skillToolTipScss')} />
+                        : <Skills class='column-9 column' text='Scss 90%' tooltipTitle={t('skillToolTipScss')} />}
                     </div>
                 </div>
                 <p className="standard-color-and-font description-text">{t('skillsSecondParagraph')}</p>
