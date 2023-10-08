@@ -1,7 +1,7 @@
 import { Box, Typography } from "@mui/material";
 import AutoStoriesIcon from '@mui/icons-material/AutoStories';
 import SchoolIcon from '@mui/icons-material/School';
-import HistoryEduIcon from '@mui/icons-material/HistoryEdu';
+import HistoryEduIcon from '@mui/icons-material/HistoryEdu'; 
 import BlindIcon from '@mui/icons-material/Blind';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import VideocamIcon from '@mui/icons-material/Videocam';
@@ -190,15 +190,15 @@ const Description = () => {
                         : <Skills class='column-10 column' text='JS 100%' tooltipTitle={t('skillToolTipJs')} />}
                     </div>
                     <div className="skills__container-ability">
-                        {showSkills ? <Skills class='column-8 column column-animation' text='TypeScript 80%' tooltipTitle={t('skillToolTipTs')} />
+                        {showSkills ? <Skills class='column-9 column column-animation' text='TypeScript 90%' tooltipTitle={t('skillToolTipTs')} />
                         : <Skills class='column-8 column' text='TypeScript 80%' tooltipTitle={t('skillToolTipTs')} />}
                     </div>
                     <div className="skills__container-ability">
-                        {showSkills ? <Skills class='column-7 column column-animation' text='ReactJS 70%' tooltipTitle={t('skillToolTipReact')} />
+                        {showSkills ? <Skills class='column-9 column column-animation' text='ReactJS 90%' tooltipTitle={t('skillToolTipReact')} />
                         : <Skills class='column-7 column' text='ReactJS 70%' tooltipTitle={t('skillToolTipReact')} />}
                     </div>
                     <div className="skills__container-ability">
-                        {showSkills ? <Skills class='column-9 column column-animation' text='Scss 90%' tooltipTitle={t('skillToolTipScss')} />
+                        {showSkills ? <Skills class='column-10 column column-animation' text='Scss 100%' tooltipTitle={t('skillToolTipScss')} />
                         : <Skills class='column-9 column' text='Scss 90%' tooltipTitle={t('skillToolTipScss')} />}
                     </div>
                 </div>
