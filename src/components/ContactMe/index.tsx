@@ -102,7 +102,7 @@ const ContactMe = () => {
                         
                         <div>
                             <p className="standard-color-and-font">lalitaklimchuk@gmail.com</p>
-                            <p className="standard-color-and-font">+48 123 345 567</p>
+                            <p className="standard-color-and-font">+48 722 169 993</p>
                         </div>
                     </div>
 
