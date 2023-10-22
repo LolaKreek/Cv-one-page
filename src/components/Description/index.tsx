@@ -56,6 +56,51 @@ const Description = () => {
                     <p className="standard-color-and-font description-text">{t('descriptionFourthParagraph')}</p>
                 </div>
 
+                <div className="description__education-container">
+                    <h2 className="second-header margin-top-4-per">{t('descriptionEducation')}</h2>
+
+                    <p className="standard-color-and-font description-text">{t('descriptionEducationFirstParagraph')}</p>
+                    <div className="description__secondary-school-container">
+                        <div className="secondary-school-container__icon">
+                            <img src={Practice} width={25}/>
+                        </div>
+                        <p className="secondary-school-container__years-text margin-zero">06/2022 - 10/2022</p>
+                        <p className="secondary-school-container__school-text margin-zero">{t('descriptionEducationPractice')}</p>
+                    </div>
+
+                    <p className="standard-color-and-font description-text">{t('descriptionEducationSecondParagraph')}</p>
+                    <div className="description__secondary-school-container">
+                        <div className="secondary-school-container__icon">
+                            <img src={ExchangeStudent} width={23}/>
+                        </div>
+                        <p className="secondary-school-container__years-text margin-zero">04/2022 - 08/2022</p>
+                        <p className="secondary-school-container__school-text margin-zero">{t('descriptionEducationGermany')}</p>
+                    </div>
+
+                    <p className="standard-color-and-font description-text">{t('descriptionEducationFourthParagraph')}</p>
+                    <div className="description__secondary-school-container">
+                        <div className="secondary-school-container__icon">
+                            <img src={FrontEnd} width={23}/>
+                        </div>
+                        <p className="secondary-school-container__years-text margin-zero">04/2021 - 10/2021</p>
+                        <p className="secondary-school-container__school-text margin-zero">{t('descriptionEducationReactCourse')}</p>
+                    </div> 
+
+                    <p className="standard-color-and-font description-text">{t('descriptionEducationFifthParagraph')}</p>
+                    <div className="description__secondary-school-container">
+                        <BlindIcon className="secondary-school-container__icon" />
+                        <p className="secondary-school-container__years-text margin-zero">03/2020 - 06/2020</p>
+                        <p className="secondary-school-container__school-text margin-zero">{t('descriptionEducationTesterCourse')}</p>
+                    </div>
+
+                    <p className="standard-color-and-font description-text">{t('descriptionEducationThirdParagraph')}</p>
+                    <div className="description__secondary-school-container">
+                        <SchoolIcon className="secondary-school-container__icon" />
+                        <p className="secondary-school-container__years-text margin-zero">2019 - now</p>
+                        <p className="secondary-school-container__school-text margin-zero">{t('descriptionEducationUniversity')}</p>
+                    </div>
+                </div>
+
                 <div>
                     <h2 className="second-header margin-top-4-per">{t('descriptionMyInterests')}</h2>
                     <p className="standard-color-and-font description-text">{t('descroptionListIntroduction')}</p>
@@ -78,54 +123,6 @@ const Description = () => {
                             <span className="list__span">{t('descriptionListPhotoVideo')}</span>
                         </Typography>
                     </Box>
-                </div>
-
-                <div className="description__education-container">
-                    <h2 className="second-header margin-top-4-per">{t('descriptionEducation')}</h2>
-                    <p className="standard-color-and-font description-text">{t('descriptionEducationFirstParagraph')}</p>
-                    <div className="description__secondary-school-container">
-                        <HistoryEduIcon className="secondary-school-container__icon" />
-                        <p className="secondary-school-container__years-text margin-zero">2006 - 2017</p>
-                        <p className="secondary-school-container__school-text margin-zero">{t('descriptionEducationSchool')}</p>
-                    </div>
-                    <p className="standard-color-and-font description-text">{t('descriptionEducationSecondParagraph')}</p>
-                    <div className="description__secondary-school-container">
-                        <SchoolIcon className="secondary-school-container__icon" />
-                        <p className="secondary-school-container__years-text margin-zero">2019 - now</p>
-                        <p className="secondary-school-container__school-text margin-zero">{t('descriptionEducationUniversity')}</p>
-                    </div>
-                    <p className="standard-color-and-font description-text">{t('descriptionEducationThirdParagraph')}</p>
-                    <div className="description__secondary-school-container">
-                        <BlindIcon className="secondary-school-container__icon" />
-                        <p className="secondary-school-container__years-text margin-zero">03/2020 - 06/2020</p>
-                        <p className="secondary-school-container__school-text margin-zero">{t('descriptionEducationTesterCourse')}</p>
-                    </div>
-                    <p className="standard-color-and-font description-text">{t('descriptionEducationFourthParagraph')}</p>
-                    <div className="description__secondary-school-container">
-                        <div className="secondary-school-container__icon">
-                            <img src={FrontEnd} width={23}/>
-                        </div>
-                        <p className="secondary-school-container__years-text margin-zero">04/2021 - 10/2021</p>
-                        <p className="secondary-school-container__school-text margin-zero">{t('descriptionEducationReactCourse')}</p>
-                    </div> 
-                    <p className="standard-color-and-font description-text">{t('descriptionEducationFifthParagraph')}</p>
-                    <p className="standard-color-and-font description-text">{t('descriptionEducationSixthParagraph')}</p>
-                    <div className="description__secondary-school-container">
-                        <div className="secondary-school-container__icon">
-                            <img src={ExchangeStudent} width={23}/>
-                        </div>
-                        <p className="secondary-school-container__years-text margin-zero">04/2022 - 08/2022</p>
-                        <p className="secondary-school-container__school-text margin-zero">{t('descriptionEducationGermany')}</p>
-                    </div>
-                    <p className="standard-color-and-font description-text">{t('descriptionEducationSeventhParagraph')}</p>
-                    <div className="description__secondary-school-container">
-                        <div className="secondary-school-container__icon">
-                            <img src={Practice} width={25}/>
-                        </div>
-                        <p className="secondary-school-container__years-text margin-zero">06/2022 - 10/2022</p>
-                        <p className="secondary-school-container__school-text margin-zero">{t('descriptionEducationPractice')}</p>
-                    </div>
-                    <p className="standard-color-and-font description-text">{t('descriptionEducationEighthParagraph')}</p>
                 </div>
             </div>
 
