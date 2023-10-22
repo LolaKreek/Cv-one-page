@@ -99,6 +99,8 @@ const Description = () => {
                         <p className="secondary-school-container__years-text margin-zero">2019 - now</p>
                         <p className="secondary-school-container__school-text margin-zero">{t('descriptionEducationUniversity')}</p>
                     </div>
+
+                    <p className="standard-color-and-font description-text">{t('descriptionEducationSixthParagraph')}</p>
                 </div>
 
                 <div>
@@ -129,45 +131,45 @@ const Description = () => {
             <div className="description__skills-wrapper">
                 <div className="skills__work-experience">
                     <h2 className="second-header">{t('workExperience')}</h2>
+
+                    <p id="skills" className="standard-color-and-font description-text">{t('workExperienceFirstParagraph')}</p>
+                    <p id="skills" className="standard-color-and-font description-text">{t('workExperienceSecondParagraph')}</p>
                     <div className="description__secondary-school-container">
-                        <p className="secondary-school-container__years-text margin-zero">2017 - 2020</p>
-                        <p className="secondary-school-container__school-text margin-zero">{t('workExperienceSushiBar')}</p>
+                        <p className="secondary-school-container__years-text margin-zero">10/2023 - now</p>
+                        <p className="secondary-school-container__school-text margin-zero">{t('workExperienceTidyBooks')}</p>
                     </div>
-                    <p className="standard-color-and-font description-text">{t('workExperienceFirstParagraph')}</p>
+
+                    <p id="skills" className="standard-color-and-font description-text">{t('workExperienceThirdParagraph')}</p>
                     <div className="description__secondary-school-container">
-                        <p className="secondary-school-container__years-text margin-zero">03/2020 - 06/2020</p>
-                        <p className="secondary-school-container__school-text margin-zero">{t('workExperienceTester')}</p>
+                        <p className="secondary-school-container__years-text margin-zero">09/2023 - now</p>
+                        <p className="secondary-school-container__school-text margin-zero">{t('workExperienceStrefaPortali')}</p>
                     </div>
-                    <p className="standard-color-and-font description-text">{t('workExperienceSecondParagraph')}</p>
-                    <div className="description__secondary-school-container">
-                        <p className="secondary-school-container__years-text margin-zero">07/2020 - 08/2020</p>
-                        <p className="secondary-school-container__school-text margin-zero">{t('workExperienceUniversityInternship')}</p>
-                    </div>
-                    <p className="standard-color-and-font description-text">{t('workExperienceThirdParagraph')}</p>
-                    <div className="description__secondary-school-container">
-                        <p className="secondary-school-container__years-text margin-zero">04/2021 - 10/2021</p>
-                        <p className="secondary-school-container__school-text margin-zero">{t('workExperienceReactCourse')}</p>
-                    </div>
-                    <p className="standard-color-and-font description-text">{t('workExperienceFourthParagraph')}</p>
-                    <div className="description__secondary-school-container">
-                        <p className="secondary-school-container__years-text margin-zero">07/2021 - 10/2021</p>
-                        <p className="secondary-school-container__school-text margin-zero">{t('workExperiencePrivatePractice')}</p>
-                    </div>
-                    <p className="standard-color-and-font description-text">{t('workExperienceFifthParagraph')}</p>
-                    <div className="description__secondary-school-container">
-                        <p className="secondary-school-container__years-text margin-zero">01/2019 - 03/2022</p>
-                        <p className="secondary-school-container__school-text margin-zero">{t('workExperienceRgis')}</p>
-                    </div>
-                    <p className="standard-color-and-font description-text">{t('workExperienceSixthParagraph')}</p>
-                    <div className="description__secondary-school-container">
-                        <p className="secondary-school-container__years-text margin-zero">06/2022 - 10/2022</p>
-                        <p className="secondary-school-container__school-text margin-zero">{t('workExperienceGermanyPractice')}</p>
-                    </div>
-                    <p id="skills" className="standard-color-and-font description-text">{t('workExperienceSeventhParagraph')}</p>
+
+                    <p id="skills" className="standard-color-and-font description-text">{t('workExperienceFourthParagraph')}</p>
                     <div className="description__secondary-school-container">
                         <p className="secondary-school-container__years-text margin-zero">03/2022 - 04/2023</p>
                         <p className="secondary-school-container__school-text margin-zero">{t('workExperienceBlunovation')}</p>
                     </div>
+
+                    <p className="standard-color-and-font description-text">{t('workExperienceFifthParagraph')}</p>
+                    <div className="description__secondary-school-container">
+                        <p className="secondary-school-container__years-text margin-zero">06/2022 - 10/2022</p>
+                        <p className="secondary-school-container__school-text margin-zero">{t('workExperienceGermanyPractice')}</p>
+                    </div>
+
+                    <p className="standard-color-and-font description-text">{t('workExperienceSeventhParagraph')}</p>
+                    <div className="description__secondary-school-container">
+                        <p className="secondary-school-container__years-text margin-zero">07/2021 - 10/2021</p>
+                        <p className="secondary-school-container__school-text margin-zero">{t('workExperiencePrivatePractice')}</p>
+                    </div>
+
+                    <p className="standard-color-and-font description-text">{t('workExperienceEighthParagraph')}</p>
+                    <div className="description__secondary-school-container">
+                        <p className="secondary-school-container__years-text margin-zero">07/2020 - 08/2020</p>
+                        <p className="secondary-school-container__school-text margin-zero">{t('workExperienceUniversityInternship')}</p>
+                    </div>
+
+                    <p className="standard-color-and-font description-text">{t('workExperienceSixthParagraph')}</p>
                 </div>
 
                 <div className="description__ability-wrapper" ref={skillsRef}>
