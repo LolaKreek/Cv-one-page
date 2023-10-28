@@ -37,6 +37,7 @@ const MyWorks = () => {
                     </div>
                     
                     <PortfolioIcons href="https://github.com/LolaKreek/Map-with-d3.js" showWebsite='https://map-d3js-lalita-klimchuk.netlify.app' />
+                    <p style={{textAlign: 'center'}}>https://map-d3js-lalita-klimchuk.netlify.app</p>
                 </div>
 
                 <div className="my-works__work work-1">
@@ -51,6 +52,7 @@ const MyWorks = () => {
                     </div>
 
                     <PortfolioIcons href="https://github.com/LolaKreek/GenshinForum" showWebsite="https://genshin-impact-lalita-klimchuk.netlify.app" />
+                    <p style={{textAlign: 'center'}}>https://genshin-impact-lalita-klimchuk.netlify.app</p>
                 </div>
 
                 <div className="my-works__work work-1">
