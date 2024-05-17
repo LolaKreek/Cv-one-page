@@ -84,9 +84,9 @@
     "worksSecondSkills": "Skills: ReactJS/JS/CSS/HTML",
     "worksSecondTools": "Tools: Google firebase/Styled Components",
     "worksThirdHeader": "Graduate work",
-    "worksThirdDescription": "Work is currently underway on this project. The project will be added to the portfolio when it is fully completed. But you can follow the development of this project on github :)",
-    "worksThirdSkills": "Skills: ReactJS/TypeScript/CSS/HTML and etc",
-    "worksThirdTools": "Tools: Mui/Redux toolkit/Formik docs/Vite.js and etc",
+    "worksThirdDescription": "The application streamlines student learning and enhances professor-student collaboration. By engaging with tests and study materials, students earn points to boost their rankings. This gamified approach fosters motivation and healthy competition.",
+    "worksThirdSkills": "Skills: ReactJS/TypeScript/CSS/HTML/JavaScript and etc",
+    "worksThirdTools": "Tools: Mui/Redux toolkit/Formik docs/Vite.js/Yup/Google Firebase/ and etc",
 
     "finalLanguageSkills": "Language skills",
     "finalLanguagePolish": "Polish",

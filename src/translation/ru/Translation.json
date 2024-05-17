@@ -85,9 +85,9 @@
     "worksSecondSkills": "Навыки: ReactJS/JS/CSS/HTML",
     "worksSecondTools": "Инструменты: Google firebase/Styled Components",
     "worksThirdHeader": "Дипломная работа",
-    "worksThirdDescription": "В настоящее время работа над этим проектом продолжается. Проект будет добавлен в портфолио после его полной реализации. Но вы можете следить за развитием этого проекта на github. :)",
-    "worksThirdSkills": "Навыки: ReactJS/TypeScript/CSS/HTML and etc",
-    "worksThirdTools": "Инструменты: Mui/Redux toolkit/Formik docs/Vite.js и тд",
+    "worksThirdDescription": "Приложение облегчает обучение и улучшает сотрудничество между профессорами и студентами. Студенты зарабатывают баллы за участие в тестах и материалах, что повышает их рейтинг. Геймификация повышает мотивацию и стимулирует здоровую конкуренцию.",
+    "worksThirdSkills": "Навыки: ReactJS/TypeScript/CSS/HTML/JavaScript and etc",
+    "worksThirdTools": "Инструменты: Mui/Redux toolkit/Formik docs/Vite.js/Yup/Google Firebase/ и тд",
 
     "finalLanguageSkills": "Языковые навыки",
     "finalLanguagePolish": "Польский",

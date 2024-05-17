@@ -84,9 +84,9 @@
     "worksSecondSkills": "Umiejętności: ReactJS/JS/CSS/HTML",
     "worksSecondTools": "Narzędzia: Google Firebase/Styled Components",
     "worksThirdHeader": "Praca dyplomowa",
-    "worksThirdDescription": "Obecnie trwają prace nad tym projektem. Projekt zostanie dodany do portfolio po jego całkowitym ukończeniu. Ale rozwój tego projektu możesz śledzić na githubie :)",
-    "worksThirdSkills": "Umiejętności: ReactJS/TypeScript/CSS/HTML itp",
-    "worksThirdTools": "Narzędzia: Zestaw narzędzi Mui/Redux/Formik docs/Vite.js itp",
+    "worksThirdDescription": "Aplikacja usprawnia naukę uczniów i usprawnia współpracę profesor-student. Angażując się w testy i materiały do nauki, studenty zdobywają punkty, które poprawiają ich rankingi. To podejście oparte na grywalizacji sprzyja motywacji i zdrowej rywalizacji.",
+    "worksThirdSkills": "Umiejętności: ReactJS/TypeScript/CSS/HTML/JavaScript itp",
+    "worksThirdTools": "Narzędzia: Zestaw narzędzi Mui/Redux toolkit/Formik docs/Vite.js/Yup/Google Firebase/ itp",
 
     "finalLanguageSkills": "Umiejętności językowe",
     "finalLanguagePolish": "Polski",
