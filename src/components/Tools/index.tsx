@@ -6,6 +6,7 @@ import D3 from '../../assets/d3.jpeg';
 import Bitbucket from '../../assets/bitbucket.png';
 import StyledComponents from '../../assets/styled-components.png';
 import AdobePhotoshop from "../../assets/adobe-photoshop.png";
+import Angular from "../../assets/angular.png";
 import Circles from "../Circles";
 import Circle_01 from "../../assets/circle_01.png";
 import Vue from "../../assets/vue_js.png";
@@ -32,6 +33,7 @@ const Tools = () => {
                     <ToolItem wrapper='icon-7 icon' href="https://styled-components.com" src={StyledComponents} firstText='Styled Components' secondText='6.0.5' />
                     <ToolItem wrapper='icon-8 icon' href="https://www.adobe.com/products/photoshop.html" src={AdobePhotoshop} firstText='Adobe Photoshop' secondText='24.7' />
                     <ToolItem wrapper='icon-9 icon' href="https://vuejs.org" src={Vue} firstText='Vue.js' secondText='2.7' />
+                    <ToolItem wrapper='icon-10 icon' href="https://angular.io" src={Angular} firstText='Angular' secondText='8 and 17' />
                 </div>
             </div>
         </div>

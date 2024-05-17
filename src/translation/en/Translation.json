@@ -48,9 +48,9 @@
     "descriptionEducationPractice": "Practice at the firm meetingmasters.de e.K. (Germany Trier)",
 
     "workExperience": "Work Experience",
-    "workExperienceFirstParagraph": "I am currently actively developing my programming knowledge and experience while working on multiple projects simultaneously, demonstrating my ability to manage a variety of tasks and effectively meet project deadlines.",
-    "workExperienceSecondParagraph": "I'm collaborating remotely with a team expanding a project that has been running successfully online for several years. Communication and coordination with team members is carried out in English.",
-    "workExperienceThirdParagraph": "Along with this, I am helping a Polish company develop a platform for a Polish university (University of Silesia in Katowice)",
+    "workExperienceFirstParagraph": "I am currently actively developing my programming knowledge working as a senior developer on a great team at a huge firm.",
+    "workExperienceSecondParagraph": "For some time I was engaged in remote collaboration with a team engaged in expanding a project that has been successfully operating in the online sphere for several years. Communication and coordination with team members was carried out in English.",
+    "workExperienceThirdParagraph": "Along with this, I was helping a Polish company develop a platform for a Polish university (University of Silesia in Katowice)",
     "workExperienceFourthParagraph": "Blunovation was where my career began. Here I acquired fundamental knowledge about working as a programmer, learned to take responsibility and complete tasks within a limited time.",
     "workExperienceFifthParagraph": "A very important step for me was practice in Germany. Thanks to it, I gained an understanding of the correct and effective organization of work in a team, and I also gained experience working in an international team in English.",
     "workExperienceSixthParagraph": "Of course, the success of any project always depends on a team effort, but I have been fortunate to be part of the dedicated teams that made these achievements possible.",
@@ -63,6 +63,7 @@
     "workExperienceBlunovation": "Blunovation Sp. z o.o (Poland), Front-end developer (remotely)",
     "workExperienceStrefaPortali": "Strefa Portali Sp. z o.o (Poland), Freelancer Front-end developer (on site)",
     "workExperienceTidyBooks": "Strack Limited (Cyprus), Freelancer React developer (remotely)",
+    "workExperienceVisa": "Visa Europe, Senior Software Engineer",
 
     "skills": "//Skills",
     "skillsFirstParagraph": "Below are the skills I possess, along with a brief description of my proficiency level in each:",
@@ -83,9 +84,9 @@
     "worksSecondSkills": "Skills: ReactJS/JS/CSS/HTML",
     "worksSecondTools": "Tools: Google firebase/Styled Components",
     "worksThirdHeader": "Graduate work",
-    "worksThirdDescription": "Work is currently underway on this project. The project will be added to the portfolio when it is fully completed. But you can follow the development of this project on github :)",
-    "worksThirdSkills": "Skills: ReactJS/TypeScript/CSS/HTML and etc",
-    "worksThirdTools": "Tools: Mui/Redux toolkit/Formik docs/Vite.js and etc",
+    "worksThirdDescription": "The application streamlines student learning and enhances professor-student collaboration. By engaging with tests and study materials, students earn points to boost their rankings. This gamified approach fosters motivation and healthy competition.",
+    "worksThirdSkills": "Skills: ReactJS/TypeScript/CSS/HTML/JavaScript and etc",
+    "worksThirdTools": "Tools: Mui/Redux toolkit/Formik docs/Vite.js/Yup/Google Firebase/ and etc",
 
     "finalLanguageSkills": "Language skills",
     "finalLanguagePolish": "Polish",

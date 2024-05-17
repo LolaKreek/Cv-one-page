@@ -97,7 +97,6 @@ const AboutMe = () => {
                     <p className="about-me-buttons-part__text">{t('aboutMeContactMe')}</p>
                     <p className="about-me-buttons-part__text">lalitaklimchuk@gmail.com</p>
                     <p className="about-me-buttons-part__text">+48 722 169 993</p>
-                    <p className="about-me-buttons-part__text">CV: https://lalita-klimchuk.netlify.app</p>
 
                     <div className="buttons-part-content__buttons-container">
                         <a className="menu-content__links" href="#contactMe"><GradientButton icon={<EngineeringIcon />} title={t('aboutMeButtonHireMe')} /></a>
