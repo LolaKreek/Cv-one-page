@@ -60,6 +60,12 @@ const Description = () => {
 
                     <p className="standard-color-and-font description-text">{t('descriptionEducationFirstParagraph')}</p>
                     <div className="description__secondary-school-container">
+                        <SchoolIcon className="secondary-school-container__icon" />
+                        <p className="secondary-school-container__years-text margin-zero">2019 - 2024</p>
+                        <p className="secondary-school-container__school-text margin-zero">{t('descriptionEducationUniversity')}</p>
+                    </div>
+
+                    <div className="description__secondary-school-container margin-top">
                         <div className="secondary-school-container__icon">
                             <img src={Practice} width={25}/>
                         </div>
@@ -90,13 +96,6 @@ const Description = () => {
                         <BlindIcon className="secondary-school-container__icon" />
                         <p className="secondary-school-container__years-text margin-zero">03/2020 - 06/2020</p>
                         <p className="secondary-school-container__school-text margin-zero">{t('descriptionEducationTesterCourse')}</p>
-                    </div>
-
-                    <p className="standard-color-and-font description-text">{t('descriptionEducationThirdParagraph')}</p>
-                    <div className="description__secondary-school-container">
-                        <SchoolIcon className="secondary-school-container__icon" />
-                        <p className="secondary-school-container__years-text margin-zero">2019 - now</p>
-                        <p className="secondary-school-container__school-text margin-zero">{t('descriptionEducationUniversity')}</p>
                     </div>
 
                     <p className="standard-color-and-font description-text">{t('descriptionEducationSixthParagraph')}</p>
@@ -132,15 +131,21 @@ const Description = () => {
                     <h2 className="second-header">{t('workExperience')}</h2>
 
                     <p id="skills" className="standard-color-and-font description-text">{t('workExperienceFirstParagraph')}</p>
+
+                    <div className="description__secondary-school-container">
+                        <p className="secondary-school-container__years-text margin-zero">02/2024 - now</p>
+                        <p className="secondary-school-container__school-text margin-zero">{t('workExperienceVisa')}</p>
+                    </div>
+                    
                     <p id="skills" className="standard-color-and-font description-text">{t('workExperienceSecondParagraph')}</p>
                     <div className="description__secondary-school-container">
-                        <p className="secondary-school-container__years-text margin-zero">10/2023 - now</p>
+                        <p className="secondary-school-container__years-text margin-zero">10/2023 - 03/2024</p>
                         <p className="secondary-school-container__school-text margin-zero">{t('workExperienceTidyBooks')}</p>
                     </div>
 
                     <p id="skills" className="standard-color-and-font description-text">{t('workExperienceThirdParagraph')}</p>
                     <div className="description__secondary-school-container">
-                        <p className="secondary-school-container__years-text margin-zero">09/2023 - now</p>
+                        <p className="secondary-school-container__years-text margin-zero">09/2023 - 10/2023</p>
                         <p className="secondary-school-container__school-text margin-zero">{t('workExperienceStrefaPortali')}</p>
                     </div>
 
@@ -198,6 +203,10 @@ const Description = () => {
                     <div className="skills__container-ability">
                         {showSkills ? <Skills class='column-10 column column-animation' text='Scss 100%' tooltipTitle={t('skillToolTipScss')} />
                         : <Skills class='column-9 column' text='Scss 90%' tooltipTitle={t('skillToolTipScss')} />}
+                    </div>
+                    <div className="skills__container-ability">
+                        {showSkills ? <Skills class='column-5 column column-animation' text='Angular 50%' tooltipTitle={t('skillToolTipScss')} />
+                        : <Skills class='column-5 column' text='Angular 50%' tooltipTitle={t('skillToolTipScss')} />}
                     </div>
                 </div>
                 <p className="standard-color-and-font description-text">{t('skillsSecondParagraph')}</p>
