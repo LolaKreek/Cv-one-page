@@ -63,8 +63,7 @@
     }
 
     &__linked-in-link,
-    &__git-hub-link,
-    &__instagram-link{
+    &__git-hub-link{
         @include flex();
         @include justifyContent(center);
         align-items: center;

@@ -102,7 +102,6 @@ const ContactMe = () => {
                         
                         <div>
                             <p className="standard-color-and-font">lalitaklimchuk@gmail.com</p>
-                            <p className="standard-color-and-font">+48 722 169 993</p>
                         </div>
                     </div>
 
@@ -115,7 +114,7 @@ const ContactMe = () => {
                             <p className="standard-color-and-font">{t('contactMeAuthor')}: Lalita Klimchuk</p>
                             <p className="standard-color-and-font">{t('contactMeUsername')}: @LolaKreek</p>
                             <p className="standard-color-and-font">{t('contactMedescription')}: Student</p>
-                            <p className="standard-color-and-font">{t('contactMeOccupation')}: Front-End Developer</p>
+                            <p className="standard-color-and-font">{t('contactMeOccupation')}: Senior Software Engineer</p>
                             <p className="standard-color-and-font">{t('contactMeRepositoryType')}: Open-source</p>
                             <p className="standard-color-and-font">{t('contactMeGitHub')}: https://github.com/LolaKreek</p>
                         </div>

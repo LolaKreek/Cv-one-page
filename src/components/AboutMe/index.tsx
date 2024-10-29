@@ -21,6 +21,7 @@ const AboutMe = () => {
     const imageArray = [MainFirstImage, MainSecondImage, MainThierdImage];
     //UseState contains the index of the current image
     const [currentImage, setCurrentImage] = useState(0);
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const mainImageRef = useRef<any>(null);
     const {t} = useTranslation();
 
@@ -96,7 +97,6 @@ const AboutMe = () => {
                     <h2 className="about-me-buttons-part__main-header">{t('aboutMeButtonsPartMainHeader')}</h2>
                     <p className="about-me-buttons-part__text">{t('aboutMeContactMe')}</p>
                     <p className="about-me-buttons-part__text">lalitaklimchuk@gmail.com</p>
-                    <p className="about-me-buttons-part__text">+48 722 169 993</p>
 
                     <div className="buttons-part-content__buttons-container">
                         <a className="menu-content__links" href="#contactMe"><GradientButton icon={<EngineeringIcon />} title={t('aboutMeButtonHireMe')} /></a>

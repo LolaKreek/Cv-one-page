@@ -1,7 +1,6 @@
 import { Box, Link, Tooltip, Typography } from "@mui/material";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import InstagramIcon from '@mui/icons-material/Instagram';
 import HorizontalRuleIcon from '@mui/icons-material/HorizontalRule';
 import ChangeLanguage from "../ChangeLanguage.tsx";
 import { useTranslation } from "react-i18next";
@@ -34,11 +33,6 @@ const Menu = () => {
                         <Tooltip title="GitHub">
                             <Link className="menu__git-hub-link" href="https://github.com/LolaKreek" target="_blank">
                                 <GitHubIcon />
-                            </Link>
-                        </Tooltip>
-                        <Tooltip title="Instagram">
-                            <Link className="menu__instagram-link" href="https://www.instagram.com/lolakreek/" target="_blank">
-                                <InstagramIcon />
                             </Link>
                         </Tooltip>
 
